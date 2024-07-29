@@ -1,5 +1,5 @@
 {
-    "$schema": "../../../evm.assetlist.schema.json",
+    "$schema": "../../assetlist.schema.json",
     "chain_name": "arbitrum",
     "erc20_tokens": [
         {
