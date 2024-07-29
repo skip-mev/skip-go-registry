@@ -1,0 +1,72 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "AssetList",
+    "type": "object",
+    "required": [
+        "chain_name",
+        "erc20_tokens"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(\\.\\./)+assetlist\\.schema\\.json$"
+        },
+        "chain_name": {
+            "type": "string",
+            "minLength": 1,
+            "examples": [
+                "polygon"
+            ]
+        },
+        "erc20_tokens": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "type": "object",
+                "title": "An ERC20 token",
+                "required": [
+                    "name",
+                    "decimals",
+                    "erc20_contract_address",
+                    "symbol",
+                    "logo_uri",
+                    "coingecko_id"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The name of the ERC20 token."
+                    },
+                    "decimals": {
+                        "type": "integer",
+                        "description": "The decimals value of the ERC20 token."
+                    },
+                    "erc20_contract_address": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "0x[a-zA-Z0-9]*$",
+                        "description": "The ERC20 contract address of the token."
+                    },
+                    "symbol": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The symbol of the ERC20 token."
+                    },
+                    "logo_uri": {
+                        "type": "string",
+                        "format": "uri-reference",
+                        "minLength": 1,
+                        "description": "The logo URI of the ERC20 token."
+                    },
+                    "coingecko_id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The coingecko ID of the ERC20 token."
+                    }
+                }
+            }
+        }
+    }
+}
