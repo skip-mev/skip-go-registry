@@ -1,5 +1,5 @@
 {
-    "$schema": "../../assetlist.schema.json",
+    "$schema": "../../../evm.assetlist.schema.json",
     "chain_name": "optimism",
     "erc20_tokens": [
         {

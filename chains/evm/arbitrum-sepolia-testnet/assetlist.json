@@ -1,5 +1,5 @@
 {
-    "$schema": "../../assetlist.schema.json",
+    "$schema": "../../../evm.assetlist.schema.json",
     "chain_name": "arbitrum-sepolia-testnet",
     "erc20_tokens": [
         {

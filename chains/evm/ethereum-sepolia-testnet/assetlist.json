@@ -1,11 +1,11 @@
 {
-    "$schema": "../../assetlist.schema.json",
-    "chain_name": "polygon-sepolia-testnet",
+    "$schema": "../../../evm.assetlist.schema.json",
+    "chain_name": "ethereum-sepolia-tesetnet",
     "erc20_tokens": [
         {
-            "name": "Polygon USDC",
+            "name": "Sepolia USDC",
             "decimals": 6,
-            "erc20_contract_address": "0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582",
+            "erc20_contract_address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"

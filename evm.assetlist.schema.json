@@ -10,7 +10,7 @@
         "$schema": {
             "type": "string",
             "minLength": 1,
-            "pattern": "^(\\.\\./)+assetlist\\.schema\\.json$"
+            "pattern": "^(\\.\\./)+evm.assetlist\\.schema\\.json$"
         },
         "chain_name": {
             "type": "string",
