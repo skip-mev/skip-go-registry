@@ -1,4 +1,5 @@
 {
+    "chain_name": "arbitrum",
     "erc20_tokens": [
         {
             "name": "Arbitrum USDC",

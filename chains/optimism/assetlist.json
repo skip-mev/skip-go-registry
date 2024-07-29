@@ -1,4 +1,5 @@
 {
+    "chain_name": "optimism",
     "erc20_tokens": [
         {
             "name": "Optimism USDC",

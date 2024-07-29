@@ -1,4 +1,5 @@
 {
+    "chain_name": "base",
     "erc20_tokens": [
         {
             "name": "Base USDC",

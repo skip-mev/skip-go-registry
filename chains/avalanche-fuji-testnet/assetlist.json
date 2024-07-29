@@ -1,9 +1,10 @@
 {
+    "chain_name": "avalanche-fuji-testnet",
     "erc20_tokens": [
         {
-            "name": "Optimism USDC",
+            "name": "Avalanche USDC",
             "decimals": 6,
-            "erc20_contract_address": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+            "erc20_contract_address": "0x5425890298aed601595a70ab815c96711a31bc65",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"
