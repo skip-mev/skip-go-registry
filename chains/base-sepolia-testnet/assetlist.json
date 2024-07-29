@@ -1,7 +1,7 @@
 {
     "$schema": "../../assetlist.schema.json",
     "chain_name": "base-sepolia-testnet",
-    "erc20_tokens": [
+    "assets": [
         {
             "name": "Base USDC",
             "decimals": 6,

@@ -1,7 +1,7 @@
 {
-    "$schema": "../../../evm.assetlist.schema.json",
+    "$schema": "../../assetlist.schema.json",
     "chain_name": "ethereum-sepolia-tesetnet",
-    "erc20_tokens": [
+    "assets": [
         {
             "name": "Sepolia USDC",
             "decimals": 6,

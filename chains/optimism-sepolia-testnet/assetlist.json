@@ -1,7 +1,7 @@
 {
-    "$schema": "../../../evm.assetlist.schema.json",
+    "$schema": "../../assetlist.schema.json",
     "chain_name": "optimism-sepolia-testnet",
-    "erc20_tokens": [
+    "assets": [
         {
             "name": "Optimism USDC",
             "decimals": 6,
