@@ -1,0 +1,24 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_name": "minimove",
+    "apis": {
+        "rpc": [
+            {
+                "address": "https://rpc-skip.minimove-1.initia.xyz",
+                "provider": "Initia Labs"
+            }
+        ],
+        "rest": [
+            {
+                "address": "https://lcd-skip.minimove-1.initia.xyz",
+                "provider": "Initia Labs"
+            }
+        ],
+        "grpc": [
+            {
+                "address": "34.124.136.240:9090",
+                "provider": "Initia Labs"
+            }
+        ]
+    }
+}
