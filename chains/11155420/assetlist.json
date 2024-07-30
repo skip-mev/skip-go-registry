@@ -1,0 +1,14 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "optimism-sepolia-testnet",
+    "assets": [
+        {
+            "name": "Optimism USDC",
+            "decimals": 6,
+            "erc20_contract_address": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+            "symbol": "USDC",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+            "coingecko_id": "usd-coin"
+        }
+    ]
+}

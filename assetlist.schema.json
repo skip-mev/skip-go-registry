@@ -1,0 +1,71 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "AssetList",
+    "type": "object",
+    "required": [
+        "chain_name",
+        "assets"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(\\.\\./)+assetlist\\.schema\\.json$"
+        },
+        "chain_name": {
+            "type": "string",
+            "minLength": 1,
+            "examples": [
+                "polygon"
+            ]
+        },
+        "assets": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "type": "object",
+                "description": "An asset on this chain.",
+                "required": [
+                    "name",
+                    "decimals",
+                    "symbol",
+                    "logo_uri",
+                    "coingecko_id"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The name of the asset."
+                    },
+                    "decimals": {
+                        "type": "integer",
+                        "description": "The decimals value of the asset."
+                    },
+                    "erc20_contract_address": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "0x[a-zA-Z0-9]*$",
+                        "description": "[Optional] The ERC20 contract address of the asset."
+                    },
+                    "symbol": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The symbol of the asset."
+                    },
+                    "logo_uri": {
+                        "type": "string",
+                        "format": "uri-reference",
+                        "minLength": 1,
+                        "description": "The logo URI of the asset."
+                    },
+                    "coingecko_id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The coingecko ID of the asset."
+                    }
+                }
+            }
+        }
+    }
+}
