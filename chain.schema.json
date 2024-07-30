@@ -3,6 +3,8 @@
     "title": "Chain",
     "type": "object",
     "required": [
+        "chain_id",
+        "is_testnet",
         "chain_name"
     ],
     "properties": {
@@ -10,6 +12,18 @@
             "type": "string",
             "minLength": 1,
             "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+        },
+        "chain_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]-+",
+            "examples": [
+                "cosmoshub-4"
+            ]
+        },
+        "is_testnet": {
+            "type": "boolean",
+            "default": false
         },
         "chain_name": {
             "type": "string",
@@ -37,7 +51,7 @@
                 "grpc": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/$defs/endpoint"
+                        "$ref": "#/$defs/grpc_endpoint"
                     }
                 }
             },
@@ -61,6 +75,38 @@
                 "archive": {
                     "type": "boolean",
                     "default": false
+                },
+                "backoff_delay": {
+                    "type": "integer",
+                    "description": "Delay in milliseconds between request retires."
+                }
+            },
+            "additionalProperties": false
+        },
+        "grpc_endpoint": {
+            "type": "object",
+            "required": [
+                "address"
+            ],
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "tls": {
+                    "type": "boolean",
+                    "default": false
+                },
+                "provider": {
+                    "type": "string"
+                },
+                "archive": {
+                    "type": "boolean",
+                    "default": false
+                },
+                "backoff_delay": {
+                    "type": "integer",
+                    "description": "Delay in milliseconds between request retires."
                 }
             },
             "additionalProperties": false
