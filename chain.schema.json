@@ -1,0 +1,69 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "Chain",
+    "type": "object",
+    "required": [
+        "chain_name"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+        },
+        "chain_name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]+",
+            "examples": [
+                "polygon"
+            ]
+        },
+        "apis": {
+            "type": "object",
+            "properties": {
+                "rpc": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/endpoint"
+                    }
+                },
+                "rest": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/endpoint"
+                    }
+                },
+                "grpc": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/endpoint"
+                    }
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "$defs": {
+        "endpoint": {
+            "type": "object",
+            "required": [
+                "address"
+            ],
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "provider": {
+                    "type": "string"
+                },
+                "archive": {
+                    "type": "boolean",
+                    "default": false
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}
