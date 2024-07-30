@@ -33,10 +33,14 @@
                     "coingecko_id"
                 ],
                 "properties": {
+                    "id": {
+                        "type": "string",
+                        "description": "Only required for native assets. A unique identifier for this asset. A native asset's ID should have the suffix -native. e.g. ethereum-native for ethereum."
+                    },
                     "name": {
                         "type": "string",
                         "minLength": 1,
-                        "description": "The name of the asset. Note that if this the native asset of the chain, the name should end with -native, e.g. {\"name\": \"ethereum-native\"}."
+                        "description": "The name of the asset."
                     },
                     "decimals": {
                         "type": "integer",
