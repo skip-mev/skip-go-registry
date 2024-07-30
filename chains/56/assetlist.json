@@ -3,6 +3,17 @@
     "chain_name": "binance",
     "assets": [
         {
+            "id": "binance-native",
+            "symbol": "BNB",
+            "name": "BNB",
+            "axelar_symbol": "WBNB",
+            "axelar_name": "wbnb-wei",
+            "axelar_denom": "wbnb-wei",
+            "decimals": 18,
+            "coingecko_id": "binancecoin",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg"
+        },
+        {
             "name": "Binance USD",
             "decimals": 18,
             "erc20_contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",

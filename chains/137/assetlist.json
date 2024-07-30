@@ -3,6 +3,17 @@
     "chain_name": "polygon",
     "assets": [
         {
+            "id": "polygon-native",
+            "symbol": "MATIC",
+            "name": "MATIC",
+            "axelar_symbol": "WMATIC",
+            "axelar_name": "wmatic-wei",
+            "axelar_denom": "wmatic-wei",
+            "decimals": 18,
+            "coingecko_id": "matic-network",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/polygon.svg"
+        },
+        {
             "name": "Polygon USDC",
             "decimals": 6,
             "erc20_contract_address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",

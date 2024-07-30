@@ -3,6 +3,14 @@
     "chain_name": "manta-pacific",
     "assets": [
         {
+            "id": "manta-pacific-native",
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "coingecko_id": "ethereum",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
+        },
+        {
             "name": "TIA.n",
             "decimals": 6,
             "erc20_contract_address": "0x6Fae4D9935E2fcb11fC79a64e917fb2BF14DaFaa",

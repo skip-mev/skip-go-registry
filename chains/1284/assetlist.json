@@ -1,0 +1,17 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "moonbeam",
+    "assets": [
+        {
+            "id": "moonbeam-native",
+            "symbol": "GLMR",
+            "name": "Moonbeam",
+            "axelar_symbol": "WGLMR",
+            "axelar_name": "wglmr-wei",
+            "axelar_denom": "wglmr-wei",
+            "decimals": 18,
+            "coingecko_id": "moonbeam",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
+        }
+    ]
+}

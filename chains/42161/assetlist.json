@@ -3,6 +3,14 @@
     "chain_name": "arbitrum",
     "assets": [
         {
+            "id": "arbitrum-native",
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "coingecko_id": "ethereum",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
+        },
+        {
             "name": "Arbitrum USDC",
             "decimals": 6,
             "erc20_contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
