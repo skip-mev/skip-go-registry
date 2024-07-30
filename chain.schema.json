@@ -85,36 +85,24 @@
                     "default": false,
                     "description": "If basic HTTP authentication (username + password) is required to access this endpoint."
                 }
-            },
-            "additionalProperties": false
+            }
         },
         "grpc_endpoint": {
-            "type": "object",
-            "required": [
-                "address"
-            ],
-            "properties": {
-                "address": {
-                    "type": "string",
-                    "format": "uri"
+            "allOf": [
+                {
+                    "$ref": "#/$defs/endpoint"
                 },
-                "tls": {
-                    "type": "boolean",
-                    "default": false
-                },
-                "provider": {
-                    "type": "string"
-                },
-                "archive": {
-                    "type": "boolean",
-                    "default": false
-                },
-                "backoff_delay": {
-                    "type": "integer",
-                    "description": "Delay in milliseconds between request retires."
+                {
+                    "type": "object",
+                    "properties": {
+                        "tls": {
+                            "type": "boolean",
+                            "description": "If TLS is required to access this GRPC endpoint.",
+                            "default": false
+                        }
+                    }
                 }
-            },
-            "additionalProperties": false
+            ]
         }
     }
 }
