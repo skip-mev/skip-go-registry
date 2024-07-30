@@ -1,0 +1,14 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "celo",
+    "assets": [
+        {
+            "id": "celo-native",
+            "symbol": "CELO",
+            "name": "CELO",
+            "decimals": 18,
+            "coingecko_id": "celo",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/celo/info/logo.png"
+        }
+    ]
+}

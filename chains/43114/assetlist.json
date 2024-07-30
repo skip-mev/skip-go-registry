@@ -1,0 +1,17 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "avalanche",
+    "assets": [
+        {
+            "id": "avalanche-native",
+            "symbol": "AVAX",
+            "name": "Avalanche",
+            "axelar_symbol": "WAVAX",
+            "axelar_name": "wavax-wei",
+            "axelar_denom": "wavax-wei",
+            "decimals": 18,
+            "coingecko_id": "avalanche-2",
+            "logo_uri": "https://axelarscan.io/logos/chains/avalanche.svg"
+        }
+    ]
+}

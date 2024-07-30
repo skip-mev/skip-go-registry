@@ -1,0 +1,17 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "fantom",
+    "assets": [
+        {
+            "id": "fantom-native",
+            "symbol": "FTM",
+            "name": "Fantom",
+            "axelar_symbol": "WFTM",
+            "axelar_name": "wftm-wei",
+            "axelar_denom": "wftm-wei",
+            "decimals": 18,
+            "coingecko_id": "fantom",
+            "logo_uri": "https://github.com/cosmos/chain-registry/raw/master/_non-cosmos/fantom/images/ftm.svg"
+        }
+    ]
+}

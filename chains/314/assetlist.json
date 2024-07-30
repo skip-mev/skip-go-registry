@@ -1,0 +1,17 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "filecoin",
+    "assets": [
+        {
+            "id": "filecoin-native",
+            "symbol": "FIL",
+            "name": "FIL",
+            "axelar_symbol": "WFIL",
+            "axelar_name": "wfil-wei",
+            "axelar_denom": "wfil-wei",
+            "decimals": 18,
+            "coingecko_id": "filecoin",
+            "logo_uri": "https://assets.coingecko.com/coins/images/12817/standard/filecoin.png?1696512609"
+        }
+    ]
+}

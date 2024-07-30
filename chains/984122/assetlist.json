@@ -1,0 +1,14 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "forma",
+    "assets": [
+        {
+            "id": "forma-native",
+            "symbol": "TIA",
+            "name": "TIA",
+            "decimals": 18,
+            "coingecko_id": "celestia",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png"
+        }
+    ]
+}
