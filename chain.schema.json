@@ -33,26 +33,22 @@
                 "polygon"
             ]
         },
+        "should_index": {
+            "type": "boolean",
+            "description": "If Skip should automatically start indexing this chain via the provided GRPC API once it is on the main branch.",
+            "default": false
+        },
         "apis": {
             "type": "object",
             "properties": {
                 "rpc": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/endpoint"
-                    }
+                    "$ref": "#/$defs/endpoint"
                 },
                 "rest": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/endpoint"
-                    }
+                    "$ref": "#/$defs/endpoint"
                 },
                 "grpc": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/grpc_endpoint"
-                    }
+                    "$ref": "#/$defs/grpc_endpoint"
                 }
             },
             "additionalProperties": false

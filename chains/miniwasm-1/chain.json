@@ -3,28 +3,23 @@
     "chain_id": "miniwasm-1",
     "is_testnet": true,
     "chain_name": "miniwasm",
+    "should_index": true,
     "apis": {
-        "rpc": [
-            {
-                "address": "https://rpc-skip.miniwasm-1.initia.xyz",
-                "provider": "Initia Labs",
-                "backoff_delay": 1000
-            }
-        ],
-        "rest": [
-            {
-                "address": "https://lcd-skip.miniwasm-1.initia.xyz",
-                "provider": "Initia Labs",
-                "backoff_delay": 1000
-            }
-        ],
-        "grpc": [
-            {
-                "address": "34.124.147.66:9090",
-                "provider": "Initia Labs",
-                "backoff_delay": 1000,
-                "tls": false
-            }
-        ]
+        "rpc": {
+            "address": "https://rpc-skip.miniwasm-1.initia.xyz",
+            "provider": "Initia Labs",
+            "backoff_delay": 1000
+        },
+        "rest": {
+            "address": "https://lcd-skip.miniwasm-1.initia.xyz",
+            "provider": "Initia Labs",
+            "backoff_delay": 1000
+        },
+        "grpc": {
+            "address": "34.124.147.66:9090",
+            "provider": "Initia Labs",
+            "backoff_delay": 1000,
+            "tls": false
+        }
     }
 }
