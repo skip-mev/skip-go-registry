@@ -5,20 +5,21 @@
     "required": [
         "chain_id",
         "is_testnet",
-        "chain_name"
+        "chain_name",
+        "chain_type"
     ],
     "properties": {
         "$schema": {
             "type": "string",
             "minLength": 1,
-            "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+            "pattern": "^(\\.\\./)+initia.chain\\.schema\\.json$"
         },
         "chain_id": {
             "type": "string",
             "minLength": 1,
             "pattern": "[a-z0-9]-+",
             "examples": [
-                "cosmoshub-4"
+                "initiation-1"
             ]
         },
         "is_testnet": {
@@ -30,29 +31,28 @@
             "minLength": 1,
             "pattern": "[a-z0-9]+",
             "examples": [
-                "polygon"
+                "minimove"
             ]
+        },
+        "chain_type": {
+            "const": "initia"
         },
         "apis": {
             "type": "object",
             "properties": {
-                "rpc": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/endpoint"
-                    }
+                "required": [
+                    "cosmos_sdk_grpc_endpoint",
+                    "tendermint_rpc_endpoint"
+                ],
+                "lcd_rest_endpoint": {
+                    "$ref": "#/$defs/endpoint",
+                    "description": "Only required for initia-1."
                 },
-                "rest": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/endpoint"
-                    }
+                "tendermint_rpc_endpoint": {
+                    "$ref": "#/$defs/endpoint"
                 },
-                "grpc": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/$defs/grpc_endpoint"
-                    }
+                "cosmos_sdk_grpc_endpoint": {
+                    "$ref": "#/$defs/grpc_endpoint"
                 }
             },
             "additionalProperties": false
