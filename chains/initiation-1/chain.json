@@ -1,21 +1,21 @@
 {
-    "$schema": "../../chain.schema.json",
-    "chain_id": "initia-1",
+    "$schema": "../../initia.chain.schema.json",
+    "chain_id": "initiation-1",
     "is_testnet": true,
     "chain_name": "initia",
     "should_index": true,
     "apis": {
-        "rpc": {
+        "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.initiation-1.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000
         },
-        "rest": {
+        "lcd_rest_endpoint": {
             "address": "https://lcd-skip.initiation-1.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000
         },
-        "grpc": {
+        "cosmos_sdk_grpc_endpoint": {
             "address": "35.240.231.235:9090",
             "provider": "Initia Labs",
             "backoff_delay": 1000,

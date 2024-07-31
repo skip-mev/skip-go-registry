@@ -18,7 +18,7 @@
             "minLength": 1,
             "pattern": "[a-z0-9]-+",
             "examples": [
-                "cosmoshub-4"
+                "initiation-1"
             ]
         },
         "is_testnet": {
@@ -30,24 +30,24 @@
             "minLength": 1,
             "pattern": "[a-z0-9]+",
             "examples": [
-                "polygon"
+                "minimove"
             ]
-        },
-        "should_index": {
-            "type": "boolean",
-            "description": "If Skip should automatically start indexing this chain via the provided GRPC API once it is on the main branch.",
-            "default": false
         },
         "apis": {
             "type": "object",
             "properties": {
-                "rpc": {
+                "required": [
+                    "cosmos_sdk_grpc_endpoint",
+                    "tendermint_rpc_endpoint"
+                ],
+                "lcd_rest_endpoint": {
+                    "$ref": "#/$defs/endpoint",
+                    "description": "Only required for initia-1."
+                },
+                "tendermint_rpc_endpoint": {
                     "$ref": "#/$defs/endpoint"
                 },
-                "rest": {
-                    "$ref": "#/$defs/endpoint"
-                },
-                "grpc": {
+                "cosmos_sdk_grpc_endpoint": {
                     "$ref": "#/$defs/grpc_endpoint"
                 }
             },

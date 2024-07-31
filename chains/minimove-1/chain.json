@@ -1,21 +1,16 @@
 {
-    "$schema": "../../chain.schema.json",
+    "$schema": "../../initia.chain.schema.json",
     "chain_id": "minimove-1",
     "is_testnet": true,
     "chain_name": "minimove",
     "should_index": true,
     "apis": {
-        "rpc": {
+        "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.minimove-1.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000
         },
-        "rest": {
-            "address": "https://lcd-skip.minimove-1.initia.xyz",
-            "provider": "Initia Labs",
-            "backoff_delay": 1000
-        },
-        "grpc": {
+        "cosmos_sdk_grpc_endpoint": {
             "address": "34.124.136.240:9090",
             "provider": "Initia Labs",
             "backoff_delay": 1000,

@@ -1,21 +1,16 @@
 {
-    "$schema": "../../chain.schema.json",
+    "$schema": "../../initia.chain.schema.json",
     "chain_id": "miniwasm-1",
     "is_testnet": true,
     "chain_name": "miniwasm",
     "should_index": true,
     "apis": {
-        "rpc": {
+        "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.miniwasm-1.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000
         },
-        "rest": {
-            "address": "https://lcd-skip.miniwasm-1.initia.xyz",
-            "provider": "Initia Labs",
-            "backoff_delay": 1000
-        },
-        "grpc": {
+        "cosmos_sdk_grpc_endpoint": {
             "address": "34.124.147.66:9090",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
