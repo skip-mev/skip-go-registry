@@ -1,0 +1,108 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "Chain",
+    "type": "object",
+    "required": [
+        "chain_id",
+        "is_testnet",
+        "chain_name"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+        },
+        "chain_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]-+",
+            "examples": [
+                "cosmoshub-4"
+            ]
+        },
+        "is_testnet": {
+            "type": "boolean",
+            "default": false
+        },
+        "chain_name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]+",
+            "examples": [
+                "polygon"
+            ]
+        },
+        "apis": {
+            "type": "object",
+            "properties": {
+                "rpc": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/endpoint"
+                    }
+                },
+                "rest": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/endpoint"
+                    }
+                },
+                "grpc": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/grpc_endpoint"
+                    }
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "$defs": {
+        "endpoint": {
+            "type": "object",
+            "required": [
+                "address"
+            ],
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "provider": {
+                    "type": "string"
+                },
+                "archive": {
+                    "type": "boolean",
+                    "default": false
+                },
+                "backoff_delay": {
+                    "type": "integer",
+                    "description": "Delay in milliseconds between request retires."
+                },
+                "basic_auth_required": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "If basic HTTP authentication (username + password) is required to access this endpoint."
+                }
+            }
+        },
+        "grpc_endpoint": {
+            "allOf": [
+                {
+                    "$ref": "#/$defs/endpoint"
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "tls": {
+                            "type": "boolean",
+                            "description": "If TLS is required to access this GRPC endpoint.",
+                            "default": false
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
