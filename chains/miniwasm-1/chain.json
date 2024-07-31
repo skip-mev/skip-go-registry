@@ -3,7 +3,7 @@
     "chain_id": "miniwasm-1",
     "is_testnet": true,
     "chain_name": "miniwasm",
-    "should_index": true,
+    "chain_type": "initia",
     "apis": {
         "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.miniwasm-1.initia.xyz",

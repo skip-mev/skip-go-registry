@@ -5,13 +5,14 @@
     "required": [
         "chain_id",
         "is_testnet",
-        "chain_name"
+        "chain_name",
+        "chain_type"
     ],
     "properties": {
         "$schema": {
             "type": "string",
             "minLength": 1,
-            "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+            "pattern": "^(\\.\\./)+initia.chain\\.schema\\.json$"
         },
         "chain_id": {
             "type": "string",
@@ -32,6 +33,9 @@
             "examples": [
                 "minimove"
             ]
+        },
+        "chain_type": {
+            "const": "initia"
         },
         "apis": {
             "type": "object",

@@ -3,7 +3,7 @@
     "chain_id": "initiation-1",
     "is_testnet": true,
     "chain_name": "initia",
-    "should_index": true,
+    "chain_type": "initia",
     "apis": {
         "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.initiation-1.initia.xyz",
