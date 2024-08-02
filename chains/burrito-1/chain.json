@@ -1,0 +1,22 @@
+{
+    "$schema": "../../initia.chain.schema.json",
+    "chain_id": "burrito-1",
+    "is_testnet": true,
+    "chain_name": "noon",
+    "chain_type": "initia",
+    "apis": {
+        "tendermint_rpc_endpoint": {
+            "address": "https://burrito-1-rpc.lunchlunch.xyz",
+            "backoff_delay": 1000
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://burrito-1-lcd.lunchlunch.xyz",
+            "backoff_delay": 1000
+        },
+        "cosmos_sdk_grpc_endpoint": {
+            "address": "23.20.67.10:9090",
+            "backoff_delay": 0,
+            "tls": false
+        }
+    }
+}

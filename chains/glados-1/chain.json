@@ -1,0 +1,23 @@
+{
+    "$schema": "../../initia.chain.schema.json",
+    "chain_id": "glados-1",
+    "is_testnet": true,
+    "chain_name": "milkyway",
+    "chain_type": "initia",
+    "apis": {
+        "tendermint_rpc_endpoint": {
+            "address": "https://rpc.testnet.milkyway.zone",
+            "backoff_delay": 1000,
+            "basic_auth_required": true
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://lcd.testnet.milkyway.zone",
+            "backoff_delay": 1000
+        },
+        "cosmos_sdk_grpc_endpoint": {
+            "address": "grpc-skip.testnet.milkyway.zone:443",
+            "backoff_delay": 0,
+            "tls": true
+        }
+    }
+}

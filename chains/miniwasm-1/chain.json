@@ -8,13 +8,20 @@
         "tendermint_rpc_endpoint": {
             "address": "https://rpc-skip.miniwasm-1.initia.xyz",
             "provider": "Initia Labs",
+            "backoff_delay": 1000,
+            "basic_auth_required": true
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://lcd-skip.miniwasm-1.initia.xyz",
+            "provider": "Initia Labs",
             "backoff_delay": 1000
         },
         "cosmos_sdk_grpc_endpoint": {
             "address": "34.124.147.66:9090",
             "provider": "Initia Labs",
-            "backoff_delay": 1000,
-            "tls": false
+            "backoff_delay": 0,
+            "tls": false,
+            "basic_auth_required": true
         }
     }
 }

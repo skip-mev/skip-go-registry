@@ -1,0 +1,22 @@
+{
+    "$schema": "../../initia.chain.schema.json",
+    "chain_id": "birdee-1",
+    "is_testnet": true,
+    "chain_name": "tucana",
+    "chain_type": "initia",
+    "apis": {
+        "tendermint_rpc_endpoint": {
+            "address": "https://maze-rpc-c9796789-107d-49ab-b6de-059724d2a91d.ue1-prod.newmetric.xyz",
+            "backoff_delay": 1000
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://maze-rest-c9796789-107d-49ab-b6de-059724d2a91d.ue1-prod.newmetric.xyz",
+            "backoff_delay": 1000
+        },
+        "cosmos_sdk_grpc_endpoint": {
+            "address": "34.228.6.88:31002",
+            "backoff_delay": 0,
+            "tls": true
+        }
+    }
+}
