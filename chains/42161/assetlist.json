@@ -23,7 +23,7 @@
             "decimals": 6,
             "erc20_contract_address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
             "symbol": "TIA.n",
-            "logo_uri": "https: //raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
             "coingecko_id": "bridged-tia-hyperlane"
         },
         {

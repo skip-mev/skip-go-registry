@@ -7,7 +7,7 @@
             "decimals": 6,
             "erc20_contract_address": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
             "symbol": "USDC",
-            "logo_uri": "https: //raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"
         }
     ]
