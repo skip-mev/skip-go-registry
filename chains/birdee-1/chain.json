@@ -14,7 +14,7 @@
             "backoff_delay": 1000
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "34.228.6.88:31002",
+            "address": "maze-grpc-c9796789-107d-49ab-b6de-059724d2a91d.ue1-prod.newmetric.xyz:9090",
             "backoff_delay": 0,
             "tls": true
         }
