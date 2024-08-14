@@ -84,6 +84,10 @@
                     "type": "boolean",
                     "default": false,
                     "description": "If basic HTTP authentication (username + password) is required to access this endpoint."
+                },
+                "index_for_skip": {
+                    "type": "number",
+                    "description": "The index for the basic auth salt generation."
                 }
             }
         },

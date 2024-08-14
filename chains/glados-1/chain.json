@@ -8,16 +8,19 @@
         "tendermint_rpc_endpoint": {
             "address": "https://rpc.testnet.milkyway.zone",
             "backoff_delay": 1000,
-            "basic_auth_required": true
+            "basic_auth_required": true,
+            "index_for_skip": 0
         },
         "lcd_rest_endpoint": {
             "address": "https://lcd.testnet.milkyway.zone",
-            "backoff_delay": 1000
+            "backoff_delay": 1000,
+            "index_for_skip": 0
         },
         "cosmos_sdk_grpc_endpoint": {
             "address": "grpc-skip.testnet.milkyway.zone:443",
             "backoff_delay": 0,
-            "tls": true
+            "tls": true,
+            "index_for_skip": 0
         }
     }
 }
