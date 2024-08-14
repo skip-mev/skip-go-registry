@@ -12,12 +12,14 @@
         },
         "lcd_rest_endpoint": {
             "address": "https://lcd-skip-temp.testnet.milkyway.zone",
-            "backoff_delay": 1000
+            "backoff_delay": 1000,
+            "basic_auth_required": true
         },
         "cosmos_sdk_grpc_endpoint": {
             "address": "grpc-skip-temp.testnet.milkyway.zone:443",
             "backoff_delay": 0,
-            "tls": true
+            "tls": true,
+            "basic_auth_required": true
         }
     }
 }
