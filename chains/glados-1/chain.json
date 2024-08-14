@@ -6,20 +6,22 @@
     "chain_type": "initia",
     "apis": {
         "tendermint_rpc_endpoint": {
-            "address": "https://rpc.testnet.milkyway.zone",
+            "address": "https://rpc-skip-temp.testnet.milkyway.zone",
             "backoff_delay": 1000,
             "basic_auth_required": true,
             "index_for_skip": 0
         },
         "lcd_rest_endpoint": {
-            "address": "https://lcd.testnet.milkyway.zone",
+            "address": "https://lcd-skip-temp.testnet.milkyway.zone",
             "backoff_delay": 1000,
+            "basic_auth_required": true,
             "index_for_skip": 0
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "grpc-skip.testnet.milkyway.zone:443",
+            "address": "grpc-skip-temp.testnet.milkyway.zone:443",
             "backoff_delay": 0,
             "tls": true,
+            "basic_auth_required": true,
             "index_for_skip": 0
         }
     }
