@@ -1,0 +1,17 @@
+{
+    "$schema": "../../groups.schema.json",
+    "groups": [
+        {
+            "asset_group_name": "USDC",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg"
+        },
+        {
+            "asset_group_name": "USDT",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg"
+        },
+        {
+            "asset_group_name": "ETH",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
+        }
+    ]
+}
