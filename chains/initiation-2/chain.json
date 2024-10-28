@@ -12,7 +12,7 @@
             "basic_auth_required": true
         },
         "lcd_rest_endpoint": {
-            "address": "https://rest-skip.initiation-1.initia.xyz",
+            "address": "https://rest-skip.initiation-2.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
             "basic_auth_required": true
