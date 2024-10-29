@@ -1,6 +1,6 @@
 {
     "$schema": "../../initia.chain.schema.json",
-    "chain_id": "glados-1",
+    "chain_id": "glados-2.1",
     "is_testnet": true,
     "chain_name": "milkyway",
     "chain_type": "initia",
