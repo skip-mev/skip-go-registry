@@ -83,7 +83,8 @@
                     },
                     "go_fast_enabled": {
                         "type": "boolean",
-                        "description": "[OPTIONAL] If this asset is fast transferable via Skip Go Fast. Defaults to false."
+                        "default": false,
+                        "description": "[OPTIONAL] If this asset is fast transferable via Skip Go Fast."
                     }
                 }
             }
