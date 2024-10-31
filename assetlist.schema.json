@@ -53,6 +53,11 @@
                         "pattern": "0x[a-zA-Z0-9]*$",
                         "description": "[OPTIONAL] The ERC20 contract address of the asset."
                     },
+                    "denom": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "[OPTIONAL] The denomination of the token. Either erc20_contract_address or denom should be defined."
+                    },
                     "symbol": {
                         "type": "string",
                         "minLength": 1,
