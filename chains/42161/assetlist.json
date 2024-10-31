@@ -16,7 +16,8 @@
             "erc20_contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
-            "coingecko_id": "usd-coin"
+            "coingecko_id": "usd-coin",
+            "go_fast_enabled": "true"
         },
         {
             "name": "TIA.n",
