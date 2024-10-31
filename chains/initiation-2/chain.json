@@ -18,7 +18,7 @@
             "basic_auth_required": true
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "skip-grpc.testnet.initia.xyz:443",
+            "address": "grpc-skip.testnet.initia.xyz:443",
             "provider": "Initia Labs",
             "backoff_delay": 0,
             "tls": false,
