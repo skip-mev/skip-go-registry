@@ -82,7 +82,7 @@
                         "description": "[OPTIONAL] The axelar name of the asset."
                     },
                     "go_fast_enabled": {
-                        "type": "string",
+                        "type": "boolean",
                         "description": "[OPTIONAL] If this asset is fast transferable via Skip Go Fast. Defaults to false."
                     }
                 }

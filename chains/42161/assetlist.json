@@ -17,7 +17,7 @@
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",
-            "go_fast_enabled": "true"
+            "go_fast_enabled": true
         },
         {
             "name": "TIA.n",
