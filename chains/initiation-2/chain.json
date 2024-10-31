@@ -21,7 +21,7 @@
             "address": "skip-grpc.testnet.initia.xyz:443",
             "provider": "Initia Labs",
             "backoff_delay": 0,
-            "tls": false,
+            "tls": true,
             "basic_auth_required": true
         }
     }
