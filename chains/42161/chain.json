@@ -1,0 +1,8 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "42161",
+    "is_testnet": false,
+    "chain_name": "arbitrum",
+    "chain_type": "evm",
+    "go_fast_enabled": true
+}
