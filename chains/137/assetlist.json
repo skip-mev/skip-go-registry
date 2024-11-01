@@ -17,6 +17,7 @@
             "name": "Polygon USDC",
             "decimals": 6,
             "erc20_contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+            "denom": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"
@@ -25,6 +26,7 @@
             "name": "Dai Stablecoin",
             "decimals": 18,
             "erc20_contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+            "denom": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
             "symbol": "DAI",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063/logo.png",
             "coingecko_id": "dai"
@@ -33,6 +35,7 @@
             "name": "Tether USD",
             "decimals": 6,
             "erc20_contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "denom": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
             "symbol": "USDT",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0xc2132D05D31c914a87C6611C10748AEb04B58e8F/logo.png",
             "coingecko_id": "tether"
@@ -41,6 +44,7 @@
             "name": "Wrapped Ether",
             "decimals": 18,
             "erc20_contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "denom": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
             "symbol": "WETH",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/logo.png",
             "coingecko_id": "weth"

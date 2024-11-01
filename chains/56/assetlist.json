@@ -17,6 +17,7 @@
             "name": "Binance USD",
             "decimals": 18,
             "erc20_contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "denom": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
             "symbol": "BUSD",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png",
             "coingecko_id": "busd"
@@ -25,6 +26,7 @@
             "name": "Binance ETH",
             "decimals": 18,
             "erc20_contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "denom": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
             "symbol": "ETH",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/logo.png",
             "coingecko_id": "ethereum"
@@ -33,6 +35,7 @@
             "name": "Polygon",
             "decimals": 18,
             "erc20_contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+            "denom": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
             "symbol": "MATIC",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD/logo.png",
             "coingecko_id": "matic-network"
@@ -41,6 +44,7 @@
             "name": "Binance USDC",
             "decimals": 18,
             "erc20_contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "denom": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
             "symbol": "USDC",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png",
             "coingecko_id": "usd-coin"
@@ -49,6 +53,7 @@
             "name": "Tether USD",
             "decimals": 18,
             "erc20_contract_address": "0x55d398326f99059fF775485246999027B3197955",
+            "denom": "0x55d398326f99059fF775485246999027B3197955",
             "symbol": "USDT",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
             "coingecko_id": "tether"
