@@ -46,6 +46,13 @@
         "go_fast_enabled": {
             "type": "boolean",
             "default": false
+        },
+        "go_fast_domain": {
+            "type": "string",
+            "examples": [
+                "42161",
+                "875"
+            ]
         }
     }
 }
