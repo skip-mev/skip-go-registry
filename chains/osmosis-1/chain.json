@@ -4,5 +4,6 @@
     "is_testnet": false,
     "chain_name": "osmosis",
     "chain_type": "cosmos",
-    "go_fast_enabled": true
+    "go_fast_enabled": true,
+    "go_fast_domain": "875"
 }
