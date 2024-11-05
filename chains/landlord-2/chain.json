@@ -1,0 +1,22 @@
+{
+    "$schema": "../../initia.chain.schema.json",
+    "chain_id": "landlord-2",
+    "is_testnet": true,
+    "chain_name": "civitia",
+    "chain_type": "initia",
+    "apis": {
+        "tendermint_rpc_endpoint": {
+            "address": "https://maze-rpc-sequencer-53ecf1d6-4fa1-4103-827f-a9430df97cef.ane1-prod-nocsm.newmetric.xyz",
+            "backoff_delay": 1000
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://maze-rest-sequencer-53ecf1d6-4fa1-4103-827f-a9430df97cef.ane1-prod-nocsm.newmetric.xyz",
+            "backoff_delay": 1000
+        },
+        "cosmos_sdk_grpc_endpoint": {
+            "address": "maze-grpc-sequencer-53ecf1d6-4fa1-4103-827f-a9430df97cef.ane1-prod-nocsm.newmetric.xyz:443",
+            "backoff_delay": 0,
+            "tls": true
+        }
+    }
+}
