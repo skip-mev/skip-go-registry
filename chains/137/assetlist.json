@@ -20,7 +20,8 @@
             "denom": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
-            "coingecko_id": "usd-coin"
+            "coingecko_id": "usd-coin",
+            "go_fast_enabled": true
         },
         {
             "name": "Dai Stablecoin",
