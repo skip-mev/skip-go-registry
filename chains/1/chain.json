@@ -1,0 +1,9 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "1",
+    "is_testnet": false,
+    "chain_name": "ethereum",
+    "chain_type": "evm",
+    "go_fast_enabled": true,
+    "go_fast_domain": "1"
+}
