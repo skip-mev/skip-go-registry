@@ -4,6 +4,6 @@
     "is_testnet": false,
     "chain_name": "ethereum",
     "chain_type": "evm",
-    "go_fast_enabled": true,
+    "go_fast_enabled": false,
     "go_fast_domain": "1"
 }
