@@ -6,6 +6,7 @@
             "name": "Base USDC",
             "decimals": 6,
             "erc20_contract_address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+            "denom": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"

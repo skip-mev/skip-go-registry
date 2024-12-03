@@ -12,6 +12,16 @@
             "decimals": 18,
             "coingecko_id": "ethereum",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
-        }
+        },
+        {
+            "name": "USDC",
+            "decimals": 6,
+            "erc20_contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+            "coingecko_id": "usd-coin",
+            "go_fast_enabled": true
+        }        
     ]
 }

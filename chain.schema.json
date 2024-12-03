@@ -1,0 +1,58 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "Chain",
+    "type": "object",
+    "required": [
+        "chain_id",
+        "is_testnet",
+        "chain_name",
+        "chain_type"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
+        },
+        "chain_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9-]+",
+            "examples": [
+                "42161",
+                "osmosis-1"
+            ]
+        },
+        "is_testnet": {
+            "type": "boolean",
+            "default": false
+        },
+        "chain_name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]+",
+            "examples": [
+                "minimove"
+            ]
+        },
+        "chain_type": {
+            "type": "string",
+            "minLength": "1",
+            "pattern": "[a-z]+",
+            "examples": [
+                "initia"
+            ]
+        },
+        "go_fast_enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "go_fast_domain": {
+            "type": "string",
+            "examples": [
+                "42161",
+                "875"
+            ]
+        }
+    }
+}
