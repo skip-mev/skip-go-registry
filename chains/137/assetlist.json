@@ -4,13 +4,13 @@
     "assets": [
         {
             "id": "polygon-native",
-            "symbol": "MATIC",
-            "name": "MATIC",
+            "symbol": "POL",
+            "name": "POL",
             "axelar_symbol": "WMATIC",
             "axelar_name": "wmatic-wei",
             "axelar_denom": "wmatic-wei",
             "decimals": 18,
-            "coingecko_id": "matic-network",
+            "coingecko_id": "polygon-ecosystem-token",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/polygon.svg"
         },
         {
