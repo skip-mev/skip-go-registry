@@ -6,7 +6,7 @@
       "id": "sei-native",
       "symbol": "SEI",
       "name": "Sei",
-      "decimals": 6,
+      "decimals": 18,
       "coingecko_id": "sei-network",
       "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
     },
