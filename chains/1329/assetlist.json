@@ -31,8 +31,8 @@
     {
       "name": "Tether USD",
       "decimals": 6,
-      "erc20_contract_address": "0x0dB9afb4C33be43a0a0e396Fd1383B4ea97aB10a",
-      "denom": "0x0dB9afb4C33be43a0a0e396Fd1383B4ea97aB10a",
+      "erc20_contract_address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "denom": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
       "symbol": "USDT",
       "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
       "coingecko_id": "tether"
