@@ -1,0 +1,41 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "sei",
+  "assets": [
+    {
+      "id": "sei-native",
+      "symbol": "SEI",
+      "name": "Sei",
+      "decimals": 18,
+      "coingecko_id": "sei-network",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+    },
+    {
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "erc20_contract_address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "denom": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "symbol": "WETH",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
+      "coingecko_id": "ethereum"
+    },
+    {
+      "name": "USDC",
+      "decimals": 6,
+      "erc20_contract_address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "denom": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "symbol": "USDC",
+      "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+      "coingecko_id": "usd-coin"
+    },
+    {
+      "name": "Tether USD",
+      "decimals": 6,
+      "erc20_contract_address": "0x0dB9afb4C33be43a0a0e396Fd1383B4ea97aB10a",
+      "denom": "0x0dB9afb4C33be43a0a0e396Fd1383B4ea97aB10a",
+      "symbol": "USDT",
+      "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
+      "coingecko_id": "tether"
+    }
+  ]
+}
