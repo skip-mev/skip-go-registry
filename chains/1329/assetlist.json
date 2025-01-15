@@ -3,7 +3,8 @@
   "chain_name": "sei",
   "assets": [
     {
-      "id": "sei-native",
+      "asset_type": "evm_native",
+      "evm_native_asset_name": "sei-native",
       "symbol": "SEI",
       "name": "Sei",
       "decimals": 18,
@@ -11,6 +12,7 @@
       "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
     },
     {
+      "asset_type": "erc20",
       "name": "Wrapped Ether",
       "decimals": 18,
       "erc20_contract_address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
@@ -20,6 +22,7 @@
       "coingecko_id": "ethereum"
     },
     {
+      "asset_type": "erc20",
       "name": "USDC",
       "decimals": 6,
       "erc20_contract_address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
@@ -29,6 +32,7 @@
       "coingecko_id": "usd-coin"
     },
     {
+      "asset_type": "erc20",
       "name": "Tether USD",
       "decimals": 6,
       "erc20_contract_address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",

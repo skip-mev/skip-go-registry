@@ -3,6 +3,7 @@
     "chain_name": "avalanche-fuji-testnet",
     "assets": [
         {
+            "asset_type": "erc20",
             "name": "Avalanche USDC",
             "decimals": 6,
             "erc20_contract_address": "0x5425890298aed601595a70ab815c96711a31bc65",

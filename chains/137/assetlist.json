@@ -3,7 +3,8 @@
     "chain_name": "polygon",
     "assets": [
         {
-            "id": "polygon-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "polygon-native",
             "symbol": "POL",
             "name": "POL",
             "axelar_symbol": "WMATIC",
@@ -14,6 +15,7 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/polygon.svg"
         },
         {
+            "asset_type": "erc20",
             "name": "Polygon USDC",
             "decimals": 6,
             "erc20_contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
@@ -24,6 +26,7 @@
             "go_fast_enabled": true
         },
         {
+            "asset_type": "erc20",
             "name": "Dai Stablecoin",
             "decimals": 18,
             "erc20_contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
@@ -33,6 +36,7 @@
             "coingecko_id": "dai"
         },
         {
+            "asset_type": "erc20",
             "name": "Tether USD",
             "decimals": 6,
             "erc20_contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -42,6 +46,7 @@
             "coingecko_id": "tether"
         },
         {
+            "asset_type": "erc20",
             "name": "Wrapped Ether",
             "decimals": 18,
             "erc20_contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",

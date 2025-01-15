@@ -3,7 +3,8 @@
     "chain_name": "arbitrum",
     "assets": [
         {
-            "id": "arbitrum-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "arbitrum-native",
             "symbol": "ETH",
             "name": "ETH",
             "decimals": 18,
@@ -11,6 +12,7 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
         },
         {
+            "asset_type": "erc20",
             "name": "Arbitrum USDC",
             "decimals": 6,
             "erc20_contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
@@ -21,6 +23,7 @@
             "go_fast_enabled": true
         },
         {
+            "asset_type": "erc20",
             "name": "TIA.n",
             "decimals": 6,
             "erc20_contract_address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
@@ -30,6 +33,7 @@
             "coingecko_id": "bridged-tia-hyperlane"
         },
         {
+            "asset_type": "erc20",
             "name": "Dai Stablecoin",
             "decimals": 18,
             "erc20_contract_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
@@ -39,6 +43,7 @@
             "coingecko_id": "dai"
         },
         {
+            "asset_type": "erc20",
             "name": "Bridged USDC",
             "decimals": 6,
             "erc20_contract_address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
@@ -48,6 +53,7 @@
             "coingecko_id": "bridged-usdc-arbitrum"
         },
         {
+            "asset_type": "erc20",
             "name": "Tether USD",
             "decimals": 6,
             "erc20_contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
@@ -57,6 +63,7 @@
             "coingecko_id": "tether"
         },
         {
+            "asset_type": "erc20",
             "name": "Wrapped Ether",
             "decimals": 18,
             "erc20_contract_address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",

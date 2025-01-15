@@ -3,7 +3,8 @@
     "chain_name": "moonbeam",
     "assets": [
         {
-            "id": "moonbeam-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "moonbeam-native",
             "symbol": "GLMR",
             "name": "Moonbeam",
             "axelar_symbol": "WGLMR",

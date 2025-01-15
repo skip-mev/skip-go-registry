@@ -3,7 +3,8 @@
     "chain_name": "manta-pacific",
     "assets": [
         {
-            "id": "manta-pacific-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "manta-pacific-native",
             "symbol": "ETH",
             "name": "ETH",
             "decimals": 18,
@@ -11,6 +12,7 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
         },
         {
+            "asset_type": "erc20",
             "name": "TIA.n",
             "decimals": 6,
             "erc20_contract_address": "0x6Fae4D9935E2fcb11fC79a64e917fb2BF14DaFaa",
