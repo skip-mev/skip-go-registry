@@ -1,0 +1,8 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_id": "1329",
+  "is_testnet": false,
+  "chain_name": "sei",
+  "pretty_name": "Sei - EVM",
+  "chain_type": "evm"
+}
