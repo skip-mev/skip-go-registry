@@ -3,7 +3,8 @@
     "chain_name": "forma-tesetnet",
     "assets": [
         {
-            "id": "forma-testnet-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "forma-testnet-native",
             "symbol": "TIA",
             "name": "TIA",
             "decimals": 18,

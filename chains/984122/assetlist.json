@@ -3,7 +3,8 @@
     "chain_name": "forma",
     "assets": [
         {
-            "id": "forma-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "forma-native",
             "symbol": "TIA",
             "name": "TIA",
             "decimals": 18,
