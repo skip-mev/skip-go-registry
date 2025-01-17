@@ -3,7 +3,6 @@
     "chain_name": "osmosis",
     "assets": [
         {
-            "asset_type": "cosmos", 
             "name": "Osmosis USDC",
             "decimals": 6,
             "symbol": "USDC",

@@ -3,8 +3,7 @@
     "chain_name": "linea",
     "assets": [
         {
-            "asset_type": "evm_native",
-            "evm_native_asset_name": "linea-native",
+            "id": "linea-native",
             "symbol": "ETH",
             "name": "ETH",
             "decimals": 18,

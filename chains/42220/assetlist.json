@@ -3,8 +3,7 @@
     "chain_name": "celo",
     "assets": [
         {
-            "asset_type": "evm_native",
-            "evm_native_asset_name": "celo-native",
+            "id": "celo-native",
             "symbol": "CELO",
             "name": "CELO",
             "decimals": 18,
