@@ -7,7 +7,6 @@
             "name": "Avalanche USDC",
             "decimals": 6,
             "erc20_contract_address": "0x5425890298aed601595a70ab815c96711a31bc65",
-            "denom": "0x5425890298aed601595a70ab815c96711a31bc65",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"
