@@ -3,8 +3,7 @@
     "chain_name": "filecoin",
     "assets": [
         {
-            "asset_type": "evm_native",
-            "evm_native_asset_name": "filecoin-native",
+            "id": "filecoin-native",
             "symbol": "FIL",
             "name": "FIL",
             "axelar_symbol": "WFIL",

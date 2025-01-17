@@ -3,8 +3,7 @@
     "chain_name": "fantom",
     "assets": [
         {
-            "asset_type": "evm_native",
-            "evm_native_asset_name": "fantom-native",
+            "id": "fantom-native",
             "symbol": "FTM",
             "name": "Fantom",
             "axelar_symbol": "WFTM",
