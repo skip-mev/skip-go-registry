@@ -1,22 +1,22 @@
 {
-    "$schema": "../../initia.chain.schema.json",
-    "chain_id": "zaar-testnet-1",
-    "is_testnet": true,
-    "chain_name": "zaar",
-    "chain_type": "initia",
-    "apis": {
-        "tendermint_rpc_endpoint": {
-            "address": "https://maze-rpc-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz",
-            "backoff_delay": 1000
-        },
-        "lcd_rest_endpoint": {
-            "address": "https://maze-rest-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz",
-            "backoff_delay": 1000
-        },
-        "cosmos_sdk_grpc_endpoint": {
-            "address": "maze-grpc-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz:443",
-            "backoff_delay": 0,
-            "tls": true
-        }
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "zaar-testnet-1",
+  "is_testnet": true,
+  "chain_name": "zaar",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://maze-rpc-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://maze-rest-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "maze-grpc-sequencer-fd70c395-4cfc-4624-ab8a-8e025af6a140.ane1-prod-nocsm.newmetric.xyz:443",
+      "backoff_delay": 0,
+      "tls": true
     }
+  }
 }

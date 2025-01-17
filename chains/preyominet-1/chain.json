@@ -1,22 +1,22 @@
 {
-    "$schema": "../../initia.chain.schema.json",
-    "chain_id": "preyominet-1",
-    "is_testnet": true,
-    "chain_name": "yominet",
-    "chain_type": "initia",
-    "apis": {
-        "tendermint_rpc_endpoint": {
-            "address": "https://rpc.preyominet.initia.tech",
-            "backoff_delay": 1000
-        },
-        "lcd_rest_endpoint": {
-            "address": "https://lcd.preyominet-1.initia.tech",
-            "backoff_delay": 1000
-        },
-        "cosmos_sdk_grpc_endpoint": {
-            "address": "maze-grpc-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz:443 ",
-            "backoff_delay": 0,
-            "tls": true
-        }
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "preyominet-1",
+  "is_testnet": true,
+  "chain_name": "yominet",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc.preyominet.initia.tech",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://lcd.preyominet-1.initia.tech",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "maze-grpc-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz:443 ",
+      "backoff_delay": 0,
+      "tls": true
     }
+  }
 }
