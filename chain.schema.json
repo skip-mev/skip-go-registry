@@ -35,6 +35,14 @@
                 "minimove"
             ]
         },
+        "pretty_name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9]+",
+            "examples": [
+                "Minimove"
+            ]
+        },
         "chain_type": {
             "type": "string",
             "minLength": "1",
