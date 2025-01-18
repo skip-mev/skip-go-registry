@@ -3,7 +3,8 @@
     "chain_name": "optimism",
     "assets": [
         {
-            "id": "optimism-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "optimism-native",
             "symbol": "ETH",
             "name": "ETH",
             "decimals": 18,
@@ -11,29 +12,29 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
         },
         {
+            "asset_type": "erc20",
             "name": "Optimism USDC",
             "decimals": 6,
             "erc20_contract_address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
-            "denom": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",
             "go_fast_enabled": true
         },
         {
+            "asset_type": "erc20",
             "name": "Bridged USDC",
             "decimals": 6,
             "erc20_contract_address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-            "denom": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
             "symbol": "USDC.e",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/optimism/assets/0x7F5c764cBc14f9669B88837ca1490cCa17c31607/logo.png",
             "coingecko_id": "bridged-usdc-optimism"
         },
         {
+            "asset_type": "erc20",
             "name": "Tether USD",
             "decimals": 6,
             "erc20_contract_address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
-            "denom": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
             "symbol": "USDT",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/optimism/assets/0x94b008aA00579c1307B0EF2c499aD98a8ce58e58/logo.png",
             "coingecko_id": "tether"

@@ -3,7 +3,8 @@
     "chain_name": "ethereum",
     "assets": [
         {
-            "id": "ethereum-native",
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "ethereum-native",
             "symbol": "ETH",
             "name": "Ethereum",
             "axelar_symbol": "WETH",
@@ -14,10 +15,10 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
         },
         {
+            "asset_type": "erc20",
             "name": "USDC",
             "decimals": 6,
             "erc20_contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-            "denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",

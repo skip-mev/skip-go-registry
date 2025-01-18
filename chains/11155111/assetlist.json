@@ -3,10 +3,10 @@
     "chain_name": "ethereum-sepolia-tesetnet",
     "assets": [
         {
+            "asset_type": "erc20",
             "name": "Sepolia USDC",
             "decimals": 6,
             "erc20_contract_address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-            "denom": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
             "symbol": "USDC",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin"
