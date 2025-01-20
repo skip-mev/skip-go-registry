@@ -6,15 +6,15 @@
   "chain_type": "initia",
   "apis": {
     "tendermint_rpc_endpoint": {
-      "address": "https://rpc.preyominet.initia.tech",
+      "address": "https://maze-rpc-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz",
       "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
-      "address": "https://lcd.preyominet-1.initia.tech",
+      "address": "https://maze-rest-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz",
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "maze-grpc-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz:443 ",
+      "address": "maze-grpc-s2-9ce4b2ff-e329-459d-8baa-ae49f95f33b2.public-think-factory.newmetric.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }
