@@ -1,0 +1,22 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "culinaris-2",
+  "is_testnet": true,
+  "chain_name": "culinaris",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://maze-rpc-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://maze-rest-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "maze-grpc-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
