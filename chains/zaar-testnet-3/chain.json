@@ -1,6 +1,6 @@
 {
   "$schema": "../../initia.chain.schema.json",
-  "chain_id": "zaar-testnet-1",
+  "chain_id": "zaar-testnet-3",
   "is_testnet": true,
   "chain_name": "zaar",
   "chain_type": "initia",
