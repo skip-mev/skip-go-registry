@@ -1,0 +1,22 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "zaar-testnet-3",
+  "is_testnet": true,
+  "chain_name": "zaar",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc-zaar-testnet-3.anvil.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest-zaar-testnet-3.anvil.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc-zaar-testnet-3.anvil.initia.xyz:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
