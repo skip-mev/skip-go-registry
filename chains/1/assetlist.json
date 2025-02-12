@@ -23,6 +23,11 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",
             "go_fast_enabled": true
-        }        
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x1121AcC14c63f3C872BFcA497d10926A6098AAc5",
+            "coingecko_id": "department-of-government-efficiency"
+        }
     ]
 }
