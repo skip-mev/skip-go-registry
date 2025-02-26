@@ -1,0 +1,25 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "rehearsal-minievm-1",
+  "is_testnet": true,
+  "chain_name": "initia",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc-rehearsal-minievm-1.anvil.asia-southeast.staging.initia.xyz",
+      "provider": "Initia Labs",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest-rehearsal-minievm-1.anvil.asia-southeast.staging.initia.xyz",
+      "provider": "Initia Labs",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc-rehearsal-minievm-1.anvil.asia-southeast.staging.initia.xyz:443",
+      "provider": "Initia Labs",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
