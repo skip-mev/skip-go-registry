@@ -1,0 +1,22 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "rave-test4",
+  "is_testnet": true,
+  "chain_name": "rave",
+  "chain_type": "initia",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc-test-initia.rave.trade",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest-test-initia.rave.trade",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc.initia-test.rave.trade:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
