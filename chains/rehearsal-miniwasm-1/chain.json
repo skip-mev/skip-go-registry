@@ -2,7 +2,7 @@
   "$schema": "../../initia.chain.schema.json",
   "chain_id": "rehearsal-miniwasm-1",
   "is_testnet": true,
-  "chain_name": "initia",
+  "chain_name": "miniwasm",
   "chain_type": "initia",
   "apis": {
     "tendermint_rpc_endpoint": {
