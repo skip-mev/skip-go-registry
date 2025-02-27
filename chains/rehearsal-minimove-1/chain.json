@@ -4,6 +4,8 @@
   "is_testnet": true,
   "chain_name": "minimove",
   "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "rehearsal-1",
   "apis": {
     "tendermint_rpc_endpoint": {
       "address": "https://rpc-rehearsal-minimove-1.anvil.asia-southeast.staging.initia.xyz",

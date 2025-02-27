@@ -4,6 +4,7 @@
   "is_testnet": true,
   "chain_name": "initia",
   "chain_type": "initia",
+  "is_initia_l1": true,
   "apis": {
     "tendermint_rpc_endpoint": {
       "address": "https://rpc-skip.rehearsal-1.initia.xyz",
