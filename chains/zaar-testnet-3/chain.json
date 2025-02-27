@@ -4,6 +4,8 @@
   "is_testnet": true,
   "chain_name": "zaar",
   "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "initiation-2",
   "apis": {
     "tendermint_rpc_endpoint": {
       "address": "https://rpc-zaar-testnet-3.anvil.initia.xyz",

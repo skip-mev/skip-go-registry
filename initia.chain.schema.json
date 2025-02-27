@@ -17,7 +17,7 @@
         "chain_id": {
             "type": "string",
             "minLength": 1,
-            "pattern": "[a-z0-9]-+",
+            "pattern": "[a-z0-9-]+",
             "examples": [
                 "initiation-1"
             ]
@@ -32,6 +32,19 @@
             "pattern": "[a-z0-9]+",
             "examples": [
                 "minimove"
+            ]
+        },
+        "is_initia_l1": {
+            "type": "boolean",
+            "default": false
+        },
+        "initia_l1_chain_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "[a-z0-9-]+",
+            "description": "The chain ID of the L1 chain. Required if the chain is an L2.",
+            "examples": [
+                "initiation-1"
             ]
         },
         "chain_type": {
@@ -58,6 +71,19 @@
             "additionalProperties": false
         }
     },
+    "anyOf": [
+        {
+            "properties": {
+                "is_initia_l1": { "const": true }
+            }
+        },
+        {
+            "properties": {
+                "is_initia_l1": { "const": false }
+            },
+            "required": ["initia_l1_chain_id"]
+        }
+    ],
     "$defs": {
         "endpoint": {
             "type": "object",
