@@ -16,7 +16,7 @@
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "grpc.initia-test.rave.trade:443",
+      "address": "grpc-echelon-testnet-1.anvil.asia-southeast.initia.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }
