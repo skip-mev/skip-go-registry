@@ -1,0 +1,24 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "infinityg-1",
+  "is_testnet": true,
+  "chain_name": "infinityg",
+  "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "initiation-2",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc-infinityg-1.anvil.asia-southeast.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest-infinityg-1.anvil.asia-southeast.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc-infinityg-1.anvil.asia-southeast.initia.xyz:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
