@@ -19,6 +19,14 @@
             "symbol": "ATOM",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/atom.svg",
             "coingecko_id": "cosmos"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ERKA",
+            "decimals": 6,
+            "erc20_contract_address": "0xc30edcad074f093882d80424962415cf61494258",
+            "symbol": "ERKA",
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
         }        
     ]
 }
