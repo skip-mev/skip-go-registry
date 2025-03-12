@@ -27,6 +27,14 @@
             "erc20_contract_address": "0xc30edcad074f093882d80424962415cf61494258",
             "symbol": "ERKA",
             "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "TNERC",
+            "decimals": 6,
+            "erc20_contract_address": "0xA4ff49eb6E2Ea77d7D8091f1501385078642603f",
+            "symbol": "TNERC",
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
         }        
     ]
 }
