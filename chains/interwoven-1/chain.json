@@ -1,0 +1,29 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "interwoven-1",
+  "is_testnet": false,
+  "chain_name": "initia",
+  "chain_type": "initia",
+  "is_initia_l1": true,
+  "apis": {
+      "tendermint_rpc_endpoint": {
+          "address": "https://rpc-skip.initia.xyz",
+          "provider": "Initia Labs",
+          "backoff_delay": 1000,
+          "basic_auth_required": true
+      },
+      "lcd_rest_endpoint": {
+          "address": "https://rest-skip.initia.xyz",
+          "provider": "Initia Labs",
+          "backoff_delay": 1000,
+          "basic_auth_required": true
+      },
+      "cosmos_sdk_grpc_endpoint": {
+          "address": "grpc-skip.initia.xyz:443",
+          "provider": "Initia Labs",
+          "backoff_delay": 0,
+          "tls": true,
+          "basic_auth_required": true
+      }
+  }
+}
