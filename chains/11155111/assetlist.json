@@ -39,7 +39,7 @@
         {
             "asset_type": "erc20",
             "name": "BABY",
-            "decimals": 18,
+            "decimals": 6,
             "erc20_contract_address": "0xA6c0DDc0e1F875df7CDeAa03B0C247AC30a4CAd0",
             "symbol": "BABY",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg"
