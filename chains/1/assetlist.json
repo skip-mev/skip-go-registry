@@ -28,6 +28,14 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x1121AcC14c63f3C872BFcA497d10926A6098AAc5",
             "coingecko_id": "department-of-government-efficiency"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6",
+            "name": "tINIT",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png",
+            "symbol": "tINIT",
+            "decimals": 18
         }
     ]
 }
