@@ -26,7 +26,8 @@
             "decimals": 6,
             "erc20_contract_address": "0xc30edcad074f093882d80424962415cf61494258",
             "symbol": "ERKA",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "usd-coin"
         },
         {
             "asset_type": "erc20",
@@ -34,7 +35,8 @@
             "decimals": 6,
             "erc20_contract_address": "0xA4ff49eb6E2Ea77d7D8091f1501385078642603f",
             "symbol": "TNERC",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "usd-coin"
         },
         {
             "asset_type": "erc20",
@@ -42,7 +44,8 @@
             "decimals": 6,
             "erc20_contract_address": "0x4CcbF18e12cdc5E26777cF50F2ebd9c32Ad7A2a0",
             "symbol": "BABY",
-            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg"
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg",
+            "coingecko_id": "usd-coin"
         },
         {
             "asset_type": "erc20",
@@ -50,7 +53,8 @@
             "decimals": 8,
             "erc20_contract_address": "0xc47e4b3124597FDF8DD07843D4a7052F2eE80C30",
             "symbol": "LBTC",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "lombard-staked-btc"
         },
         {
             "asset_type": "erc20",
@@ -58,7 +62,8 @@
             "decimals": 6,
             "erc20_contract_address": "0x8f2403F14D0Ca553273b7d55013E499194f9eC78",
             "symbol": "iLBTCv",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "lombard-staked-btc"
         }
     ]
 }
