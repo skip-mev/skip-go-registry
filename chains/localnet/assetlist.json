@@ -1,0 +1,15 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "localnet",
+    "assets": [
+        {
+            "asset_type": "cosmos", 
+            "name": "CLBTC",
+            "decimals": 8,
+            "symbol": "CLBTC",
+            "recommended_symbol": "CLBTC",
+            "denom": "uclbtc",
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+        }
+    ]
+}
