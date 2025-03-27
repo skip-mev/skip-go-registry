@@ -59,7 +59,7 @@
         {
             "asset_type": "erc20",
             "name": "iLBTCv",
-            "decimals": 6,
+            "decimals": 8,
             "erc20_contract_address": "0x8f2403F14D0Ca553273b7d55013E499194f9eC78",
             "symbol": "iLBTCv",
             "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
