@@ -4,10 +4,10 @@
     "assets": [
         {
             "asset_type": "cosmos", 
-            "name": "CLBTC",
+            "name": "LBTC",
             "decimals": 8,
-            "symbol": "CLBTC",
-            "recommended_symbol": "CLBTC",
+            "symbol": "LBTC",
+            "recommended_symbol": "LBTC",
             "denom": "uclbtc",
             "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
         }
