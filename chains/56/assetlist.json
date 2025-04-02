@@ -62,7 +62,8 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0xB590Cd3C15431637a4902CBf792ED81f2fe856b6",
-            "symbol": "axlOM"
+            "symbol": "axlOM",
+            "recommended_symbol": "axlOM"
         } 
     ]
 }
