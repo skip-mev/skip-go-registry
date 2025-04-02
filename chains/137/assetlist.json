@@ -50,6 +50,11 @@
             "symbol": "WETH",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/logo.png",
             "coingecko_id": "weth"
-        }
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x101faD70f1eeaE030f18C6a55593984090862697",
+            "symbol": "axlOM"
+        } 
     ]
 }

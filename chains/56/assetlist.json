@@ -58,6 +58,11 @@
             "symbol": "USDT",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
             "coingecko_id": "tether"
-        }
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xB590Cd3C15431637a4902CBf792ED81f2fe856b6",
+            "symbol": "axlOM"
+        } 
     ]
 }

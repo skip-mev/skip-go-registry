@@ -36,6 +36,11 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png",
             "symbol": "tINIT",
             "decimals": 18
-        }
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",
+            "symbol": "axlOM"
+        } 
     ]
 }
