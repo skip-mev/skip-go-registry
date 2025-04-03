@@ -8,15 +8,15 @@
   "initia_l1_chain_id": "initiation-2",
   "apis": {
     "tendermint_rpc_endpoint": {
-      "address": "https://maze-rpc-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz",
+      "address": "https://rpc.culinaris-2.initia.tech",
       "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
-      "address": "https://maze-rest-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz",
+      "address": "https://rest.culinaris-2.initia.tech",
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "maze-grpc-s2-b53886e8-ebca-41a5-8dd7-64884b25fb2c.public-think-factory.newmetric.xyz:443",
+      "address": "grpc.culinaris-2.initia.tech:443",
       "backoff_delay": 0,
       "tls": true
     }
