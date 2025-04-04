@@ -1,0 +1,27 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "glados-4",
+  "is_testnet": true,
+  "chain_name": "milkyway",
+  "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "initiation-2",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+        "address": "https://rpc-glados-4.anvil.asia-southeast.initia.xyz",
+        "backoff_delay": 1000,
+        "basic_auth_required": true
+    },
+    "lcd_rest_endpoint": {
+        "address": "https://rest-glados-4.anvil.asia-southeast.initia.xyz",
+        "backoff_delay": 1000,
+        "basic_auth_required": true
+    },
+    "cosmos_sdk_grpc_endpoint": {
+        "address": "grpc-glados-4.anvil.asia-southeast.initia.xyz:443",
+        "backoff_delay": 0,
+        "tls": true,
+        "basic_auth_required": true
+    }
+  }
+}
