@@ -42,6 +42,15 @@
             "erc20_contract_address": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",
             "symbol": "axlOM",
             "recommended_symbol": "axlOM"
-        } 
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ATOM",
+            "decimals": 6,
+            "erc20_contract_address": "0xbf6Bc6782f7EB580312CC09B976e9329f3e027B3",
+            "symbol": "ATOM",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/atom.svg",
+            "coingecko_id": "cosmos"
+        }
     ]
 }
