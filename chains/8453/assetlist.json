@@ -23,6 +23,15 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Coinbase Wrapped BTC",
+            "decimals": 8,
+            "erc20_contract_address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+            "symbol": "cbBTC",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/base/images/cbbtc.svg",
+            "coingecko_id": "coinbase-wrapped-btc"
+        },
+        {
+            "asset_type": "erc20",
             "erc20_contract_address": "0x67f0870BB897F5E1c369976b4A2962d527B9562c",
             "coingecko_id": "department-of-government-efficiency"
         }
