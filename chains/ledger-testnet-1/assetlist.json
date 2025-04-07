@@ -1,0 +1,15 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "lombardledgertestnet",
+    "assets": [
+        {
+            "asset_type": "cosmos", 
+            "name": "LBTC",
+            "decimals": 8,
+            "symbol": "LBTC",
+            "recommended_symbol": "LBTC",
+            "denom": "uclbtc",
+            "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg"
+        }
+    ]
+}

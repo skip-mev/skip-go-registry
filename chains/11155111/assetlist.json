@@ -15,7 +15,7 @@
             "asset_type": "erc20",
             "name": "ATOM",
             "decimals": 6,
-            "erc20_contract_address": "0x18dCF56a3221Bb421Aa2Ac9EFC16DBb782e233Bb",
+            "erc20_contract_address": "0xc12F6Ce3f6f605Ca054817290e58a20D91DeF445",
             "symbol": "ATOM",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/atom.svg",
             "coingecko_id": "cosmos"
@@ -51,18 +51,18 @@
             "asset_type": "erc20",
             "name": "LBTC",
             "decimals": 8,
-            "erc20_contract_address": "0xc47e4b3124597FDF8DD07843D4a7052F2eE80C30",
+            "erc20_contract_address": "0x107Fc7d90484534704dD2A9e24c7BD45DB4dD1B5",
             "symbol": "LBTC",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
             "coingecko_id": "lombard-staked-btc"
         },
         {
             "asset_type": "erc20",
             "name": "iLBTCv",
             "decimals": 8,
-            "erc20_contract_address": "0x8f2403F14D0Ca553273b7d55013E499194f9eC78",
+            "erc20_contract_address": "0x8B9247bF7C5fB15c358831494fcD343660D98b34",
             "symbol": "iLBTCv",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
             "coingecko_id": "lombard-staked-btc"
         }
     ]
