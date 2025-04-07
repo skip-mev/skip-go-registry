@@ -51,6 +51,24 @@
             "symbol": "ATOM",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/atom.svg",
             "coingecko_id": "cosmos"
-        }
+        },
+        {
+            "asset_type": "erc20",
+            "name": "LBTC",
+            "decimals": 8,
+            "erc20_contract_address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+            "symbol": "LBTC",
+            "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
+            "coingecko_id": "lombard-staked-btc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "iLBTCv",
+            "decimals": 8,
+            "erc20_contract_address": "0xBf45A5029d081333407Cc52a84BE5ed40e181C46",
+            "symbol": "iLBTCv",
+            "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
+            "coingecko_id": "lombard-staked-btc"
+        }        
     ]
 }
