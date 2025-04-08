@@ -9,7 +9,8 @@
       "symbol": "LBTC",
       "recommended_symbol": "LBTC",
       "denom": "uclbtc",
-      "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg"
+      "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
+      "coingecko_id": "lombard-staked-btc"
     }
   ]
 }
