@@ -141,6 +141,15 @@
             "symbol": "eBTC",
             "logo_uri": "https://assets.coingecko.com/coins/images/50411/standard/eBTC.png",
             "coingecko_id": "ether-fi-staked-btc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "GASP",
+            "decimals": 18,
+            "erc20_contract_address": "0x736ecc5237b31edec6f1ab9a396fae2416b1d96e",
+            "symbol": "GASP",
+            "logo_uri": "https://assets.coingecko.com/coins/images/54764/standard/gasp-token-logo_%281%29.png",
+            "coingecko_id": "gasp-2"
         }
     ]
 }
