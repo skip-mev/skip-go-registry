@@ -69,6 +69,78 @@
             "symbol": "iLBTCv",
             "logo_uri": "https://www.lombard.finance/brand-kit-assets/lbtc/LBTC.svg",
             "coingecko_id": "lombard-staked-btc"
-        }        
+        },
+        {
+            "asset_type": "erc20",
+            "name": "SolvBTC",
+            "decimals": 18,
+            "erc20_contract_address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+            "symbol": "SolvBTC",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/SolvBTC.png",
+            "coingecko_id": "solv-protocol-solvbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "xSolvBTC",
+            "decimals": 18,
+            "erc20_contract_address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+            "symbol": "xSolvBTC",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/xSolvBTC.png",
+            "coingecko_id": "solv-protocol-solvbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "pumpBTC",
+            "decimals": 8,
+            "erc20_contract_address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+            "symbol": "pumpBTC",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/pumpBTC.svg",
+            "coingecko_id": "pumpbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "uniBTC",
+            "decimals": 8,
+            "erc20_contract_address": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+            "symbol": "uniBTC",
+            "logo_uri": "https://assets.coingecko.com/coins/images/39599/standard/uniBTC_200px.png",
+            "coingecko_id": "universal-btc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Lorenzo stBTC",
+            "decimals": 18,
+            "erc20_contract_address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+            "symbol": "stBTC",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/stbtc.svg",
+            "coingecko_id": "lorenzo-stbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "mBTC",
+            "decimals": 8,
+            "erc20_contract_address": "0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f",
+            "symbol": "mBTC",
+            "logo_uri": "https://assets.coingecko.com/coins/images/50314/standard/mbtc_%281%29.png",
+            "coingecko_id": "babypie-wrapped-btc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Kinza Babylon Staked BTC",
+            "decimals": 18,
+            "erc20_contract_address": "0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383",
+            "symbol": "kBTC",
+            "logo_uri": "https://kinza.finance/_next/static/media/wkbbtc.060e940b.svg",
+            "coingecko_id": "kintsugi-btc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ether.fi BTC",
+            "decimals": 8,
+            "erc20_contract_address": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+            "symbol": "eBTC",
+            "logo_uri": "https://assets.coingecko.com/coins/images/50411/standard/eBTC.png",
+            "coingecko_id": "ether-fi-staked-btc"
+        }
     ]
 }
