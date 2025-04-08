@@ -4,12 +4,13 @@
     "assets": [
         {
             "asset_type": "cosmos",
-            "name": "USDT.kava",
+            "name": "USDT",
             "decimals": 6,
-            "symbol": "USDT.kava",
+            "symbol": "USDT",
             "denom": "ibc/F04D72CF9B5D9C849BB278B691CDFA2241813327430EC9CDC83F8F4CA4CDC2B0",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
-            "coingecko_id": "tether"
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT.kava"
         }
     ]
 }
