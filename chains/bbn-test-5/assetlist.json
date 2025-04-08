@@ -8,7 +8,7 @@
             "decimals": 6,
             "symbol": "BABY",
             "denom": "ubbn",
-            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/bbn-test-5/images/baby.svg",
             "coingecko_id": "usd-coin"
         }
     ]
