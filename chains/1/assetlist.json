@@ -150,6 +150,33 @@
             "symbol": "GASP",
             "logo_uri": "https://assets.coingecko.com/coins/images/54764/standard/gasp-token-logo_%281%29.png",
             "coingecko_id": "gasp-2"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "SEDA",
+            "decimals": 18,
+            "erc20_contract_address": "0x14862c03A0cACcC1aB328B062E64e31B2a1afcd7",
+            "symbol": "SEDA",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
+            "coingecko_id": "seda-2"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "NIL",
+            "decimals": 6,
+            "erc20_contract_address": "0x6b7de496080e26ee8567a60b7b823b7e28ebe224",
+            "symbol": "NIL",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png",
+            "coingecko_id": "nillion"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ORAI",
+            "decimals": 6,
+            "erc20_contract_address": "0x214BF9f07684459aCD56324e3D247b2e5e67D277",
+            "symbol": "ORAI",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
+            "coingecko_id": "oraichain-token"
         }
     ]
 }
