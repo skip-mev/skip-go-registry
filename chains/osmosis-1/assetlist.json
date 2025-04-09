@@ -14,9 +14,9 @@
         },
         {
             "asset_type": "cosmos",
-            "name": "WBTC.osmo",
+            "name": "WBTC",
             "decimals": 8,
-            "symbol": "WBTC.osmo",
+            "symbol": "WBTC",
             "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
             "coingecko_id": "wrapped-bitcoin",
