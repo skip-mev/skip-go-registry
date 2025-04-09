@@ -45,6 +45,12 @@
         },
         {
             "asset_type": "erc20",
+            "erc20_contract_address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
+            "symbol": "axlATOM",
+            "recommended_symbol": "axlATOM"
+        },
+        {
+            "asset_type": "erc20",
             "name": "ATOM",
             "decimals": 6,
             "erc20_contract_address": "0xbf6Bc6782f7EB580312CC09B976e9329f3e027B3",
