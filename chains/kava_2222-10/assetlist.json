@@ -6,7 +6,7 @@
             "asset_type": "cosmos",
             "name": "USDT",
             "decimals": 6,
-            "symbol": "USDT",
+            "symbol": "USDT.kava",
             "denom": "erc20/tether/usdt",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
