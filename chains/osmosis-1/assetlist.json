@@ -16,21 +16,21 @@
             "asset_type": "cosmos",
             "name": "WBTC",
             "decimals": 8,
-            "symbol": "WBTC.osmosis",
+            "symbol": "WBTC.osmo",
             "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
             "coingecko_id": "wrapped-bitcoin",
-            "recommended_symbol": "WBTC.osmosis"
+            "recommended_symbol": "WBTC.osmo"
         },
         {
             "asset_type": "cosmos",
             "name": "USDT",
             "decimals": 6,
-            "symbol": "USDT.osmosis",
+            "symbol": "allUSDT",
             "denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
-            "recommended_symbol": "USDT.osmosis"
+            "recommended_symbol": "allUSDT"
         }
     ]
 }
