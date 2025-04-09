@@ -1,7 +1,7 @@
 {
     "$schema": "../../chain.schema.json",
     "chain_id": "bbn-test-5",
-    "is_testnet": false,
+    "is_testnet": true,
     "chain_name": "Babylon Testnet",
     "chain_type": "cosmos",
     "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/bbn-test-5/images/babylon.svg"
