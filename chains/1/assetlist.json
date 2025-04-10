@@ -188,6 +188,24 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
             "coingecko_id": "pax-gold"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Lorenzo Wrapped Bitcoin",
+            "decimals": 8,
+            "erc20_contract_address": "0x6A9A65B84843F5fD4aC9a0471C4fc11AFfFBce4a",
+            "symbol": "enzoBTC",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/enzo_btc.svg",
+            "coingecko_id": "lorenzo-wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Savings USDS",
+            "decimals": 18,
+            "erc20_contract_address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+            "symbol": "sUSDS",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/sUSDS.svg",
+            "coingecko_id": "susds"
         }
     ]
 }
