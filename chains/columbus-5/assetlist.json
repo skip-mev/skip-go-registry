@@ -1,17 +1,7 @@
 {
     "$schema": "../../assetlist.schema.json",
-    "chain_name": "terra2",
+    "chain_name": "terra",
     "assets": [
-        {
-            "asset_type": "cosmos",
-            "name": "USDT",
-            "decimals": 6,
-            "symbol": "USDT.kava",
-            "denom": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
-            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
-            "coingecko_id": "tether",
-            "recommended_symbol": "USDT.kava"
-        },
         {
             "asset_type": "cosmos",
             "name": "WBTC",
