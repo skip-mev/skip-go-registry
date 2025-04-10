@@ -206,6 +206,15 @@
             "symbol": "sUSDS",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/sUSDS.svg",
             "coingecko_id": "susds"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "BABY",
+            "decimals": 6,
+            "erc20_contract_address": "0xd7a25d995Cf5e4e7D295CF1Dbd0310d2981C50Bb",
+            "symbol": "BABY",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg",
+            "coingecko_id": "babylon"
         }
     ]
 }
