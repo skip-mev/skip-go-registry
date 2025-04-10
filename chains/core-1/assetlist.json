@@ -1,0 +1,16 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "persistence",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "USDT",
+            "decimals": 6,
+            "symbol": "USDT.kava",
+            "denom": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT.kava"
+        }
+    ]
+}

@@ -21,6 +21,16 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
             "coingecko_id": "weth",
             "recommended_symbol": "WETH.sei"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "USDT",
+            "decimals": 6,
+            "symbol": "USDT.kava",
+            "denom": "ibc/6C00E4AA0CC7618370F81F7378638AE6C48EFF8C9203CE1C2357012B440EBDB7",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT.kava"
         }
     ]
 }
