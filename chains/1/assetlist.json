@@ -215,6 +215,12 @@
             "symbol": "BABY",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg",
             "coingecko_id": "babylon"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFEC6a341F9B7e30E30Ef5B990158FA539B6bb057",
+            "symbol": "axlBABY",
+            "recommended_symbol": "axlBABY"
         }
     ]
 }
