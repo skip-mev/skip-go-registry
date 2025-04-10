@@ -83,7 +83,7 @@
             "erc20_contract_address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
             "symbol": "SolvBTC",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/SolvBTC.png",
-            "coingecko_id": "solv-protocol-solvbtc"
+            "coingecko_id": "solv-btc"
         },
         {
             "asset_type": "erc20",
@@ -92,7 +92,7 @@
             "erc20_contract_address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
             "symbol": "xSolvBTC",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/xSolvBTC.png",
-            "coingecko_id": "solv-protocol-solvbtc"
+            "coingecko_id": "solv-protocol-solvbtc-bbn"
         },
         {
             "asset_type": "erc20",
