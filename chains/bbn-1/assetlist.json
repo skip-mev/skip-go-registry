@@ -1,0 +1,15 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "babylon",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "BABY",
+            "decimals": 6,
+            "symbol": "BABY",
+            "denom": "ubbn",
+            "logo_uri": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png",
+            "coingecko_id": "babylon"
+        }
+    ]
+}
