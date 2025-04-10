@@ -1,0 +1,8 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "bbn-1",
+    "is_testnet": false,
+    "chain_name": "Babylon",
+    "chain_type": "cosmos",
+    "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/bbn-1/images/baby.svg"
+}
