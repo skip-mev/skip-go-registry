@@ -3,6 +3,6 @@
   "chain_id": "1329",
   "is_testnet": false,
   "chain_name": "sei",
-  "pretty_name": "Sei - EVM",
+  "pretty_name": "Sei via EVM",
   "chain_type": "evm"
 }
