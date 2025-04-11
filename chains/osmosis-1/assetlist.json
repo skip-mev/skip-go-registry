@@ -31,6 +31,263 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
             "recommended_symbol": "allUSDT"
-        }
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "ARB",
+            "decimals": 12,
+            "symbol": "allARB",
+            "denom": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
+            "coingecko_id": "arbitrum",
+            "recommended_symbol": "allARB"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "DYDX",
+            "decimals": 12,
+            "symbol": "allDYDX",
+            "denom": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+            "coingecko_id": "dydx-chain",
+            "recommended_symbol": "allDYDX"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "AIOZ",
+            "decimals": 12,
+            "symbol": "allAIOZ",
+            "denom": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png",
+            "coingecko_id": "aioz-network",
+            "recommended_symbol": "allAIOZ"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "BCH",
+            "decimals": 8,
+            "symbol": "allBCH",
+            "denom": "factory/osmo1cranx3twqxfrgeqvgsu262gy54vafpc9xap6scye99v244zl970s7kw2sz/alloyed/allBCH",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoincash/images/bch.png",
+            "coingecko_id": "bitcoin-cash",
+            "recommended_symbol": "allBCH"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "LTC",
+            "decimals": 8,
+            "symbol": "allLTC",
+            "denom": "factory/osmo1csp8fk353hnq2tmulklecxpex43qmjvrkxjcsh4c3eqcw2vjcslq5jls9v/alloyed/allLTC",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/litecoin/images/ltc.png",
+            "coingecko_id": "litecoin",
+            "recommended_symbol": "allLTC"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "POL",
+            "decimals": 12,
+            "symbol": "allPOL",
+            "denom": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
+            "recommended_symbol": "allPOL"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "LINK",
+            "decimals": 12,
+            "symbol": "allLINK",
+            "denom": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+            "coingecko_id": "chainlink",
+            "recommended_symbol": "allLINK"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "PEPE",
+            "decimals": 12,
+            "symbol": "allPEPE",
+            "denom": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+            "coingecko_id": "pepe",
+            "recommended_symbol": "allPEPE"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "FIL",
+            "decimals": 12,
+            "symbol": "allFIL",
+            "denom": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/fil.png",
+            "coingecko_id": "filecoin",
+            "recommended_symbol": "allFIL"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "BTC",
+            "decimals": 8,
+            "symbol": "allBTC",
+            "denom": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+            "coingecko_id": "bitcoin",
+            "recommended_symbol": "allBTC"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "BNB",
+            "decimals": 12,
+            "symbol": "allBNB",
+            "denom": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.png",
+            "coingecko_id": "binancecoin",
+            "recommended_symbol": "allBNB"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "APT",
+            "decimals": 8,
+            "symbol": "allAPT",
+            "denom": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg",
+            "coingecko_id": "aptos",
+            "recommended_symbol": "allAPT"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "TRX",
+            "decimals": 6,
+            "symbol": "allTRX",
+            "denom": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png",
+            "coingecko_id": "tron",
+            "recommended_symbol": "allTRX"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "ETH",
+            "decimals": 18,
+            "symbol": "allETH",
+            "denom": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "coingecko_id": "ethereum",
+            "recommended_symbol": "allETH"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "DYM",
+            "decimals": 12,
+            "symbol": "allDYM",
+            "denom": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
+            "recommended_symbol": "allDYM"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "TON",
+            "decimals": 9,
+            "symbol": "allTON",
+            "denom": "factory/osmo12lnwf54yd30p6amzaged2atln8k0l32n7ncxf04ctg7u7ymnsy7qkqgsw4/alloyed/allTON",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.png",
+            "coingecko_id": "the-open-network",
+            "recommended_symbol": "allTON"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "DOGE",
+            "decimals": 8,
+            "symbol": "allDOGE",
+            "denom": "factory/osmo10pk4crey8fpdyqd62rsau0y02e3rk055w5u005ah6ly7k849k5tsf72x40/alloyed/allDOGE",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png",
+            "coingecko_id": "dogecoin",
+            "recommended_symbol": "allDOGE"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "SHIB",
+            "decimals": 12,
+            "symbol": "allSHIB",
+            "denom": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+            "coingecko_id": "shiba-inu",
+            "recommended_symbol": "allSHIB"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "FET",
+            "decimals": 12,
+            "symbol": "allFET",
+            "denom": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+            "coingecko_id": "fetch-ai",
+            "recommended_symbol": "allFET"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "SOL",
+            "decimals": 9,
+            "symbol": "allSOL",
+            "denom": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+            "coingecko_id": "solana",
+            "recommended_symbol": "allSOL"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "OP",
+            "decimals": 12,
+            "symbol": "allOP",
+            "denom": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.png",
+            "coingecko_id": "optimism",
+            "recommended_symbol": "allOP"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "SUI",
+            "decimals": 8,
+            "symbol": "allSUI",
+            "denom": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
+            "coingecko_id": "sui",
+            "recommended_symbol": "allSUI"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "DOT",
+            "decimals": 10,
+            "symbol": "allDOT",
+            "denom": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
+            "coingecko_id": "polkadot",
+            "recommended_symbol": "allDOT"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "XRP",
+            "decimals": 6,
+            "symbol": "allXRP",
+            "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+            "coingecko_id": "ripple",
+            "recommended_symbol": "allXRP"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "MOVE",
+            "decimals": 8,
+            "symbol": "allMOVE",
+            "denom": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png",
+            "recommended_symbol": "allMOVE"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "UNI",
+            "decimals": 12,
+            "symbol": "allUNI",
+            "denom": "factory/osmo1eqjda4pc6e09jtxzxggf6jl3jye2yn453ja58we5gxwzmf5ah28qvlnaz8/alloyed/allUNI",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uni.svg",
+            "coingecko_id": "uniswap",
+            "recommended_symbol": "allUNI"
+          }
     ]
 }
