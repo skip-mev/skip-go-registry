@@ -3,6 +3,6 @@
   "chain_id": "pacific-1",
   "is_testnet": false,
   "chain_name": "sei",
-  "pretty_name": "Sei - Cosmos",
+  "pretty_name": "Sei via Cosmos",
   "chain_type": "cosmos"
 }
