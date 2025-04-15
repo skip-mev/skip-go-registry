@@ -34,9 +34,10 @@
       "name": "Tether USD",
       "decimals": 6,
       "erc20_contract_address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
-      "symbol": "USDT",
+      "symbol": "USDT.kava",
       "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
-      "coingecko_id": "tether"
+      "coingecko_id": "tether",
+      "recommended_symbol": "USDT.kava"
     }
   ]
 }
