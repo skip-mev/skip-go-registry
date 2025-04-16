@@ -11,6 +11,16 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
             "recommended_symbol": "USDT.kava"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "z",
+            "decimals": 6,
+            "symbol": "z",
+            "denom": "ibc/72607FA54BC78D6948403155FB5D99EA4405C905060ECAA55E6F0CF5E5204D77",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "coingecko_id": "usd-coin",
+            "recommended_symbol": "z"
         }
     ]
 }
