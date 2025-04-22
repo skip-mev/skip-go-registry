@@ -239,6 +239,40 @@
             "symbol": "COREUM",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png",
             "coingecko_id": "coreum"
+        },
+        {
+            "asset_type": "erc20",
+            "decimals": 18,
+            "erc20_contract_address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+            "symbol": "sUSDe",
+            "coingecko_id": "ethena-staked-usde"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Tether Gold",
+            "decimals": 6,
+            "erc20_contract_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+            "symbol": "XAUt",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/XAUt.svg",
+            "coingecko_id": "tether-gold"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Compounding Open Dollar",
+            "decimals": 18,
+            "erc20_contract_address": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+            "symbol": "cUSDO",
+            "logo_uri": "https://assets.coingecko.com/coins/images/53751/standard/cUSDO_logo_white.png",
+            "coingecko_id": "compounding-open-dollar"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Savings crvUSD",
+            "decimals": 18,
+            "erc20_contract_address": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+            "symbol": "scrvUSD",
+            "logo_uri": "https://assets.coingecko.com/coins/images/51712/standard/scrvUSD200x200.png",
+            "coingecko_id": "savings-crvusd"
         }
     ]
 }
