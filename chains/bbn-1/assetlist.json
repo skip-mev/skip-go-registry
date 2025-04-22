@@ -10,6 +10,60 @@
             "denom": "ubbn",
             "logo_uri": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png",
             "coingecko_id": "babylon"
-        }
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst",
+            "symbol": "SolvBTC.union",
+            "name": "SolvBTC.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg",
+            "decimals": 18,
+            "recommended_symbol": "SolvBTC.union"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+            "symbol": "stBTC.union",
+            "name": "stBTC.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+            "decimals": 18,
+            "recommended_symbol": "stBTC.union"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+            "symbol": "uniBTC.union",
+            "name": "uniBTC.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg",
+            "decimals": 8,
+            "recommended_symbol": "uniBTC.union"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
+            "symbol": "LBTC.union",
+            "name": "LBTC.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg",
+            "decimals": 8,
+            "recommended_symbol": "LBTC.union"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd",
+            "symbol": "WETH.union",
+            "name": "WETH.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
+            "decimals": 18,
+            "recommended_symbol": "WETH.union"
+          },
+          {
+            "asset_type": "cosmos",
+            "denom": "cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+            "symbol": "pumpBTC.union",
+            "name": "pumpBTC.union",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg",
+            "decimals": 8,
+            "recommended_symbol": "pumpBTC.union"
+          }
     ]
 }
