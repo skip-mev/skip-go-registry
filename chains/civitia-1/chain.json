@@ -1,0 +1,24 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "civitia-1",
+  "is_testnet": false,
+  "chain_name": "civitia",
+  "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "interwoven-1",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc-civitia-1.anvil.asia-southeast.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest-civitia-1.anvil.asia-southeast.initia.xyz",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc-civitia-1.anvil.asia-southeast.initia.xyz:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
