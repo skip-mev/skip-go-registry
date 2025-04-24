@@ -22,6 +22,13 @@
             "symbol": "INIT.echelon",
             "denom": "ibc/EE8CC845631408C84289BA2CA423DAD0B43E22E07524248F20DCB93D04FF9839",
             "recommended_symbol": "INIT.echelon"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "INIT.intergaze",
+            "symbol": "INIT.intergaze",
+            "denom": "ibc/F0B8D6CA62D884AA1DAB0DC07190A40B55CF50FBDFBB37BE84036BBBCC283836",
+            "recommended_symbol": "INIT.intergaze"
         }
     ]
 }
