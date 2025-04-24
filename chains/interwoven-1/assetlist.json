@@ -29,6 +29,22 @@
             "symbol": "INIT.intergaze",
             "denom": "ibc/F0B8D6CA62D884AA1DAB0DC07190A40B55CF50FBDFBB37BE84036BBBCC283836",
             "recommended_symbol": "INIT.intergaze"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "move/edfcddacac79ab86737a1e9e65805066d8be286a37cb94f4884b892b0e39f954",
+            "symbol": "ETH",
+            "name": "ETH",
+            "recommended_symbol": "ETH",
+            "coingecko_id": "ethereum"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "move/bcf6c17467320f8aec451165823d73af3049f9c9dfbeaff98b92ec0165a58bf8",
+            "symbol": "WEETH",
+            "name": "WEETH",
+            "recommended_symbol": "WEETH",
+            "coingecko_id": "wrapped-eeth"
         }
     ]
 }
