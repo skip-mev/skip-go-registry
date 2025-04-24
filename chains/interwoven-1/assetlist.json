@@ -1,0 +1,27 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "initia",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "INIT.inertia",
+            "symbol": "INIT.inertia",
+            "denom": "ibc/53E41F296D6A329EAE0288400B9270506B02DFE52C0831BD549BA8BAE4560552",
+            "recommended_symbol": "INIT.inertia"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "INIT.civitia",
+            "symbol": "INIT.civitia",
+            "denom": "ibc/9055D784E46926951D1FF95AA41245B291FA9AAFFAE5C9D0D515877F647D5226",
+            "recommended_symbol": "INIT.civitia"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "INIT.echelon",
+            "symbol": "INIT.echelon",
+            "denom": "ibc/EE8CC845631408C84289BA2CA423DAD0B43E22E07524248F20DCB93D04FF9839",
+            "recommended_symbol": "INIT.echelon"
+        }
+    ]
+}
