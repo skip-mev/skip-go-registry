@@ -32,6 +32,13 @@
         },
         {
             "asset_type": "cosmos",
+            "name": "INIT.inertia",
+            "symbol": "INIT.inertia",
+            "denom": "ibc/AE001D9DB0EA8B0A892DEBF1E1FDC9E82C3F685E82B774009A21D5DA33C712C5",
+            "recommended_symbol": "INIT.inertia"
+        },
+        {
+            "asset_type": "cosmos",
             "denom": "move/edfcddacac79ab86737a1e9e65805066d8be286a37cb94f4884b892b0e39f954",
             "symbol": "ETH",
             "name": "ETH",
