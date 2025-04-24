@@ -1,0 +1,24 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "inertiation-12",
+  "is_testnet": true,
+  "chain_name": "inertia",
+  "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "initiation-2",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc.inertiation-12.inrt.fi",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest.inertiation-12.inrt.fi",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc.inertiation-12.inrt.fi:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
