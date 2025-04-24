@@ -1,6 +1,6 @@
 {
   "$schema": "../../initia.chain.schema.json",
-  "chain_id": "ingnetwork-1-1",
+  "chain_id": "ingnetwork-1",
   "is_testnet": false,
   "chain_name": "ingnetwork",
   "chain_type": "initia",
