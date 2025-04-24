@@ -29,6 +29,14 @@
             "symbol": "INIT.intergaze",
             "denom": "ibc/F0B8D6CA62D884AA1DAB0DC07190A40B55CF50FBDFBB37BE84036BBBCC283836",
             "recommended_symbol": "INIT.intergaze"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "move/edfcddacac79ab86737a1e9e65805066d8be286a37cb94f4884b892b0e39f954",
+            "symbol": "ETH",
+            "name": "ETH",
+            "recommended_symbol": "ETH",
+            "coingecko_id": "ethereum"
         }
     ]
 }
