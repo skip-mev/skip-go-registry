@@ -1,0 +1,24 @@
+{
+  "$schema": "../../initia.chain.schema.json",
+  "chain_id": "intergaze-1",
+  "is_testnet": false,
+  "chain_name": "intergaze",
+  "chain_type": "initia",
+  "is_initia_l1": false,
+  "initia_l1_chain_id": "interwoven-1",
+  "apis": {
+    "tendermint_rpc_endpoint": {
+      "address": "https://rpc.intergaze-apis.com/",
+      "backoff_delay": 1000
+    },
+    "lcd_rest_endpoint": {
+      "address": "https://rest.intergaze-apis.com/",
+      "backoff_delay": 1000
+    },
+    "cosmos_sdk_grpc_endpoint": {
+      "address": "grpc-skip.intergaze-apis.com:443",
+      "backoff_delay": 0,
+      "tls": true
+    }
+  }
+}
