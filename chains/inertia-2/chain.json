@@ -1,6 +1,6 @@
 {
   "$schema": "../../initia.chain.schema.json",
-  "chain_id": "inertia-1",
+  "chain_id": "inertia-2",
   "is_testnet": false,
   "chain_name": "inertia",
   "chain_type": "initia",
