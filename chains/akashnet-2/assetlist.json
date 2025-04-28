@@ -1,0 +1,16 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "akash",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "z",
+            "decimals": 6,
+            "symbol": "z",
+            "denom": "ibc/862599344CD7B04E84EFE8990C0867AEE733F0A9174D96A3DD2EB7F13CC776A4",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "coingecko_id": "usd-coin",
+            "recommended_symbol": "z"
+        }
+    ]
+}
