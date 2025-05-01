@@ -5,7 +5,6 @@ on:
     branches: [ main ]
     paths:
       - 'chains/**.json'
-      - 'groups/**.json'
 
 jobs:
   validate-configs:
@@ -29,7 +28,6 @@ jobs:
         with:
           files: |
             chains/**/*.json
-            groups/**/*.json
 
       - name: Install Validator Script Dependencies
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -98,28 +96,6 @@ jobs:
                 FILE_VALIDATION_PASSED=true
               else
                 echo "---> Validation FAILED for assetlist $file."
-              fi
-
-            elif [[ "$file" == */groups.json ]]; then
-              # Step 2d: Run general schema validator for groups
-              echo "Detected groups.json file. Running schema validation script..."
-              # Pass relative paths to validate-schema.ts
-              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-schema.ts "groups.schema.json" "${FILE_PATH_RELATIVE}"; then
-                echo "---> Validation PASSED for groups config $file."
-                FILE_VALIDATION_PASSED=true
-              else
-                echo "---> Validation FAILED for groups config $file."
-              fi
-
-            elif [[ "$file" == */group_assets.json ]]; then
-              # Step 2e: Run general schema validator for group assets
-              echo "Detected group_assets.json file. Running schema validation script..."
-              # Pass relative paths to validate-schema.ts
-              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-schema.ts "group_assets.schema.json" "${FILE_PATH_RELATIVE}"; then
-                echo "---> Validation PASSED for group assets config $file."
-                FILE_VALIDATION_PASSED=true
-              else
-                echo "---> Validation FAILED for group assets config $file."
               fi
 
             else

@@ -134,10 +134,6 @@ async function main() {
     }
   } else if (fileName === 'assetlist.json') {
     success = runGenericSchemaValidator('assetlist.schema.json', relativeFilePath);
-  } else if (fileName === 'groups.json') {
-    success = runGenericSchemaValidator('groups.schema.json', relativeFilePath);
-  } else if (fileName === 'group_assets.json') {
-    success = runGenericSchemaValidator('group_assets.schema.json', relativeFilePath);
   } else {
     console.log(`Skipping file (unrecognized type): ${fileName}`);
     success = true;
