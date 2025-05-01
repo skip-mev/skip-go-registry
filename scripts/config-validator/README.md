@@ -17,10 +17,10 @@ The main workflow is defined in `.github/workflows/config_validation.yml`.
     *   If the file is named `chain.json`:
         *   It reads the `.chain_type` field using `jq`.
         *   If `chain_type` is `initia`, it runs `src/validate-initia.ts`.
-        *   Otherwise, it runs `src/validate-general.ts`.
-    *   If the file is named `assetlist.json`, it runs `src/validate-assetlist.ts`.
-    *   If the file is named `groups.json`, it runs `src/validate-groups.ts`.
-    *   If the file is named `group_assets.json`, it runs `src/validate-group-assets.ts`.
+        *   Otherwise, it runs `src/validate-schema.ts chain.schema.json <data-file-path>`.
+    *   If the file is named `assetlist.json`, it runs `src/validate-schema.ts assetlist.schema.json <data-file-path>`.
+    *   If the file is named `groups.json`, it runs `src/validate-schema.ts groups.schema.json <data-file-path>`.
+    *   If the file is named `group_assets.json`, it runs `src/validate-schema.ts group_assets.schema.json <data-file-path>`.
     *   Other `.json` files are skipped.
 5.  **Report Status:** If any validation script fails (exits with a non-zero status code), the workflow step fails.
 
@@ -29,12 +29,9 @@ The main workflow is defined in `.github/workflows/config_validation.yml`.
 *   **`src/validate-initia.ts`**: Validates Initia `chain.json` files against `../../initia.chain.schema.json`. Also performs functional checks:
     *   Compares config against the official Initia registry.
     *   Checks RPC, gRPC, and LCD endpoint connectivity and basic queries.
-*   **`src/validate-general.ts`**: Validates non-Initia `chain.json` files against `../../chain.schema.json`.
-*   **`src/validate-assetlist.ts`**: Validates `assetlist.json` files against `../../assetlist.schema.json`.
-*   **`src/validate-groups.ts`**: Validates `groups.json` files against `../../groups.schema.json`.
-*   **`src/validate-group-assets.ts`**: Validates `group_assets.json` files against `../../group_assets.schema.json`.
+*   **`src/validate-schema.ts`**: Generic script to validate a JSON data file against a specified JSON schema file. Takes schema path and data path as arguments. Used for non-Initia chains, assetlists, groups, and group assets.
 
-All validation scripts use the `jsonschema` library for schema validation.
+Both scripts use the `jsonschema` library for schema validation.
 
 ## Adding New Chains/Groups
 
@@ -57,4 +54,4 @@ To test validation locally before committing or creating a PR, you can use the w
     ```
     Replace `<path/to/your/file.json>` with the actual path to the `chain.json`, `assetlist.json`, `groups.json`, or `group_assets.json` file you want to test.
 
-    The script will automatically detect the file type, determine if a chain is Initia, and run the appropriate detailed validation script (`validate-initia.ts`, `validate-general.ts`, etc.). 
+    The script will automatically detect the file type, determine if a chain is Initia, and run the appropriate validation script (`validate-initia.ts` or `validate-schema.ts` with the correct arguments). 
