@@ -114,7 +114,7 @@ jobs:
           if [[ "$VALIDATION_FAILED" == true ]]; then
             echo "One or more configuration validations failed."
             exit 1
-          else
-            echo "All configuration validations passed."
-          fi 
-          fi 
+          fi
+          # If we reach here, no validation failed
+          echo "All configuration validations passed."
+          exit 0 
