@@ -28,10 +28,6 @@ jobs:
         with:
           files: chains/**/*.json
 
-      - name: Install JSON Schema Validator (ajv-cli)
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: npm install -g ajv-cli@latest # Explicitly install latest version
-
       - name: Install Validator Script Dependencies
         if: steps.changed-files.outputs.any_changed == 'true' # Only install if JSONs changed
         working-directory: ./scripts/config-validator
