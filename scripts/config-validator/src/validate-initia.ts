@@ -45,56 +45,44 @@ const PAGINATION_LIMIT = 10000; // Default pagination limit
 const INITIA_REGISTRY_BASE_URL = 'https://raw.githubusercontent.com/initia-labs/initia-registry/main/';
 
 // --- Initia Config Schema ---
-// IMPORTANT: Replace this placeholder with the actual Initia JSON schema for accurate validation.
-const INITIA_CONFIG_SCHEMA: Schema = {
-  type: 'object',
-  properties: {
-    chain_id: { type: 'string' },
-    chain_name: { type: 'string' },
-    apis: {
-      type: 'object',
-      properties: {
-        cosmos_sdk_grpc_endpoint: {
-          type: 'object',
-          properties: {
-            address: { type: 'string' },
-            tls: { type: 'boolean' }
-          },
-          required: ['address']
-        },
-        tendermint_rpc_endpoint: {
-          type: 'object',
-          properties: {
-            address: { type: 'string' }
-          },
-          required: ['address']
-        },
-        lcd_rest_endpoint: {
-          type: 'object',
-          properties: {
-            address: { type: 'string' }
-          },
-          required: ['address']
-        }
-        // Add other required API endpoints for Initia
-      },
-      required: ['cosmos_sdk_grpc_endpoint'] // Example: Assuming gRPC is mandatory
-    }
-    // Add other required fields for Initia config
-  },
-  required: ['chain_id', 'chain_name', 'apis']
-}; // FIXME: Replace with the actual Initia JSON schema
+// We will load the actual schema from the file system.
 
 // --- Validation Functions ---
 
 function validateSchema(config: any): ValidationResult {
+  let schema: Schema;
+  try {
+    // Construct path relative to the current script file (__dirname)
+    const schemaPath = path.resolve(__dirname, '../../initia.chain.schema.json');
+    const schemaContent = fs.readFileSync(schemaPath, 'utf-8');
+    schema = JSON.parse(schemaContent);
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    return {
+        test: 'Schema Validation',
+        status: 'error',
+        message: `Failed to load or parse initia.chain.schema.json: ${errorMessage}`
+    };
+  }
+
   const ajv = new Ajv();
-  const validate = ajv.compile(INITIA_CONFIG_SCHEMA);
+  let validate;
+  try {
+    validate = ajv.compile(schema);
+  } catch (error) {
+     const errorMessage = error instanceof Error ? error.message : String(error);
+     return {
+        test: 'Schema Validation',
+        status: 'error',
+        message: `Failed to compile schema: ${errorMessage}`
+     };
+  }
+
   const valid = validate(config);
   return {
     test: 'Schema Validation',
     status: valid ? 'ok' : 'error',
-    message: valid ? 'Schema is valid.' : 'Schema is invalid.',
+    message: valid ? 'Schema is valid according to initia.chain.schema.json.' : 'Schema is invalid according to initia.chain.schema.json.',
     details: valid ? null : validate.errors
   };
 }
