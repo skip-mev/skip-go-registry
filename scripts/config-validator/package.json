@@ -1,0 +1,24 @@
+{
+  "name": "initia-config-validator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CI tool for validating Initia chain configuration files.",
+  "main": "dist/validate-initia.js",
+  "scripts": {
+    "build": "tsc",
+    "validate": "node dist/validate-initia.js",
+    "start": "ts-node src/validate-initia.ts"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.8",
+    "@grpc/proto-loader": "^0.7.13",
+    "axios": "^1.6.8",
+    "jsonschema": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/jsonschema": "^0.0.5",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
