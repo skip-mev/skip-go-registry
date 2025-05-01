@@ -1,25 +1,25 @@
-import { Validator } from 'jsonschema';
+import { Validator } from 'jsonschema'; // Use jsonschema
 import * as fs from 'fs';
 import * as path from 'path';
 
-// Simple script to validate a chain config against the general chain.schema.json
+// Simple script to validate an assetlist against the assetlist.schema.json
 
-function validateGeneralConfig(configPath: string): { status: 'ok' | 'error', message: string, details?: any } {
-  let schema: any;
+function validateAssetListConfig(configPath: string): { status: 'ok' | 'error', message: string, details?: any } {
+  let schema: any; // Use any type for now
   const validator = new Validator();
 
   try {
     // Construct path relative to the current script file (__dirname), up three levels to project root
-    const schemaPath = path.resolve(__dirname, '../../../chain.schema.json');
+    const schemaPath = path.resolve(__dirname, '../../../assetlist.schema.json');
     const schemaContent = fs.readFileSync(schemaPath, 'utf-8');
     schema = JSON.parse(schemaContent);
     // Pre-add schema
-    validator.addSchema(schema, '/chain.schema.json'); 
+    validator.addSchema(schema, '/assetlist.schema.json');
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error);
     return {
       status: 'error',
-      message: `Failed to load or parse chain.schema.json: ${errorMessage}`
+      message: `Failed to load or parse assetlist.schema.json: ${errorMessage}`
     };
   }
 
@@ -31,7 +31,7 @@ function validateGeneralConfig(configPath: string): { status: 'ok' | 'error', me
     const errorMessage = error instanceof Error ? error.message : String(error);
     return {
       status: 'error',
-      message: `Failed to load or parse config file ${configPath}: ${errorMessage}`
+      message: `Failed to load or parse assetlist file ${configPath}: ${errorMessage}`
     };
   }
 
@@ -41,14 +41,14 @@ function validateGeneralConfig(configPath: string): { status: 'ok' | 'error', me
   if (validationResult.valid) {
      return {
         status: 'ok',
-        message: 'Schema is valid according to chain.schema.json.',
+        message: 'Assetlist is valid according to assetlist.schema.json.',
         details: null
     };
   } else {
      const errors = validationResult.errors.map((err: any) => `${err.property}: ${err.message}`).join('; ');
      return {
         status: 'error',
-        message: `Schema is invalid according to chain.schema.json: ${errors}`,
+        message: `Assetlist is invalid according to assetlist.schema.json: ${errors}`,
         details: validationResult.errors
     };
   }
@@ -58,14 +58,14 @@ function validateGeneralConfig(configPath: string): { status: 'ok' | 'error', me
 (async () => {
   const args = process.argv.slice(2);
   if (args.length !== 1) {
-    console.error('Usage: ts-node src/validate-general.ts <path/to/chain-config.json>');
+    console.error('Usage: ts-node src/validate-assetlist.ts <path/to/assetlist.json>');
     process.exit(1);
   }
 
   const configPath = args[0];
-  console.log(`Validating general chain config: ${configPath}...`);
+  console.log(`Validating assetlist: ${configPath}...`);
 
-  const result = validateGeneralConfig(configPath);
+  const result = validateAssetListConfig(configPath);
 
   console.log(`Result: ${result.status === 'ok' ? '[✓]' : '[✗]'} ${result.message}`);
   if (result.status === 'error' && result.details) {

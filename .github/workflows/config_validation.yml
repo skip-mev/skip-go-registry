@@ -48,37 +48,62 @@ jobs:
         run: |
           echo "Changed JSON files in chains/: ${{ steps.changed-files.outputs.all_changed_files }}"
           VALIDATION_FAILED=false
+          # Ensure jq is installed
+          sudo apt-get update && sudo apt-get install -y jq || echo "jq already installed or install failed (proceeding)"
+
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "Processing $file..."
             FILE_VALIDATION_PASSED=false
+            FILE_PATH="$GITHUB_WORKSPACE/$file"
 
-            # Check if the file structure looks like a chain config
-            if [[ "$file" == chains/*/*.json ]]; then # Basic check for chains/ANYTHING/some.json
+            # Check file type and dispatch to appropriate validator
+            if [[ "$file" == */chain.json ]]; then
+              echo "Detected chain.json file."
+              # Step 1: Check chain_type using jq
+              chain_type=$(jq -e -r .chain_type "${FILE_PATH}" 2>/dev/null)
+              jq_exit_code=$?
 
-              # Step 1: Attempt Initia validation script (which now includes schema check)
-              echo "Attempting Initia validation script (incl. schema) for $file..."
-              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-initia.ts "$GITHUB_WORKSPACE/$file"; then
-                echo "---> Validation PASSED for Initia chain $file (Script Succeeded)."
-                FILE_VALIDATION_PASSED=true
-              else
-                echo "Initia script failed or did not identify $file as an Initia chain."
-                echo "Attempting fallback: Validating $file against general schema using validate-general.ts..."
-                # Step 2: If Initia script fails, try general schema validation as fallback using custom script
-                if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-general.ts "$GITHUB_WORKSPACE/$file"; then
-                  echo "---> Validation PASSED for non-Initia chain $file (General Schema OK)."
+              if [[ $jq_exit_code -eq 0 && "$chain_type" == "initia" ]]; then
+                # Step 2a: If type is initia, run initia validator
+                echo "Detected chain_type=initia. Running Initia validation script..."
+                if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-initia.ts "${FILE_PATH}"; then
+                  echo "---> Validation PASSED for Initia chain $file."
                   FILE_VALIDATION_PASSED=true
                 else
-                  echo "---> Validation FAILED for non-Initia chain $file (General Schema Failed)."
-                  # FILE_VALIDATION_PASSED remains false
+                  echo "---> Validation FAILED for Initia chain $file."
+                fi
+              else
+                # Step 2b: If type is not initia (or jq failed), run general chain validator
+                if [[ $jq_exit_code -ne 0 ]]; then
+                    echo "Warning: Could not read .chain_type from $file (jq exit code: $jq_exit_code). Assuming non-Initia chain."
+                else
+                    echo "Detected chain_type=$chain_type (or empty). Running general chain validation..."
+                fi
+                if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-general.ts "${FILE_PATH}"; then
+                  echo "---> Validation PASSED for non-Initia chain $file."
+                  FILE_VALIDATION_PASSED=true
+                else
+                  echo "---> Validation FAILED for non-Initia chain $file."
                 fi
               fi
+
+            elif [[ "$file" == */assetlist.json ]]; then
+              echo "Detected assetlist.json file. Running assetlist validation script..."
+              # Step 2c: If file is assetlist.json, run assetlist validator
+              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-assetlist.ts "${FILE_PATH}"; then
+                echo "---> Validation PASSED for assetlist $file."
+                FILE_VALIDATION_PASSED=true
+              else
+                echo "---> Validation FAILED for assetlist $file."
+              fi
+
             else
-              echo "Skipping file (does not match chains/*/*.json pattern): $file"
-              # Consider if skipped files should cause failure? Currently they don't.
+              echo "Skipping file (does not match */chain.json or */assetlist.json): $file"
+              FILE_VALIDATION_PASSED=true # Mark skipped files as passed for overall check
             fi
 
-            if [[ "$FILE_VALIDATION_PASSED" == false && "$file" == chains/*/*.json ]]; then
-                # Only set global failure if a chain file actually failed validation
+            if [[ "$FILE_VALIDATION_PASSED" == false ]]; then
+                echo "Setting workflow failure flag for $file"
                 VALIDATION_FAILED=true
             fi
 
@@ -91,4 +116,5 @@ jobs:
             exit 1
           else
             echo "All configuration validations passed."
+          fi 
           fi 

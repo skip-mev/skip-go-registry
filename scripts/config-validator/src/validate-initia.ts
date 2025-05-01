@@ -1,4 +1,4 @@
-import Ajv, { Schema } from 'ajv';
+import { Validator } from 'jsonschema';
 import axios from 'axios';
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
@@ -50,41 +50,45 @@ const INITIA_REGISTRY_BASE_URL = 'https://raw.githubusercontent.com/initia-labs/
 // --- Validation Functions ---
 
 function validateSchema(config: any): ValidationResult {
-  let schema: Schema;
+  let schema: any;
+  const validator = new Validator();
   try {
-    // Construct path relative to the current script file (__dirname)
     const schemaPath = path.resolve(__dirname, '../../../initia.chain.schema.json');
     const schemaContent = fs.readFileSync(schemaPath, 'utf-8');
     schema = JSON.parse(schemaContent);
+    // Pre-add the schema itself to the validator, which can help resolve $refs if needed
+    // and potentially helps with draft version detection.
+    validator.addSchema(schema, '/initia.chain.schema.json'); 
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error);
     return {
         test: 'Schema Validation',
-        status: 'error',
+        status: 'error', // Revert to error
         message: `Failed to load or parse initia.chain.schema.json: ${errorMessage}`
     };
   }
 
-  const ajv = new Ajv();
-  let validate;
-  try {
-    validate = ajv.compile(schema);
-  } catch (error) {
-     const errorMessage = error instanceof Error ? error.message : String(error);
-     return {
-        test: 'Schema Validation',
-        status: 'error',
-        message: `Failed to compile schema: ${errorMessage}`
-     };
-  }
+  // Perform validation
+  const validationResult = validator.validate(config, schema);
 
-  const valid = validate(config);
-  return {
-    test: 'Schema Validation',
-    status: valid ? 'ok' : 'error',
-    message: valid ? 'Schema is valid according to initia.chain.schema.json.' : 'Schema is invalid according to initia.chain.schema.json.',
-    details: valid ? null : validate.errors
-  };
+  // Check results
+  if (validationResult.valid) {
+    return {
+        test: 'Schema Validation',
+        status: 'ok',
+        message: 'Schema is valid according to initia.chain.schema.json.',
+        details: null
+    };
+  } else {
+    // Construct error message from validation errors
+    const errors = validationResult.errors.map((err: any) => `${err.property}: ${err.message}`).join('; ');
+    return {
+        test: 'Schema Validation',
+        status: 'error', // Revert to error
+        message: `Schema is invalid according to initia.chain.schema.json: ${errors}`,
+        details: validationResult.errors
+    };
+  }
 }
 
 // Registry Check (Uses Initia logic)
@@ -477,14 +481,10 @@ async function validateInitiaConfig(configPath: string): Promise<ValidationResul
 
   console.log('--- Validation Results ---');
   let hasError = false;
-  let hasWarning = false; // Track warnings separately
-  results.forEach(result => {
+  results.forEach(result => { // Simplified error checking loop
     let prefix = '[?]';
     if (result.status === 'ok') prefix = '[✓]';
-    if (result.status === 'warning') {
-        prefix = '[!]'; // Use ! for warnings
-        hasWarning = true;
-    }
+    if (result.status === 'warning') prefix = '[!] ' // Keep warning symbol
     if (result.status === 'error') {
         prefix = '[✗]';
         hasError = true;
@@ -492,6 +492,7 @@ async function validateInitiaConfig(configPath: string): Promise<ValidationResul
     if (result.status === 'skipped') prefix = '[-]';
 
     console.log(`${prefix} ${result.test}${result.endpoint ? ' (' + result.endpoint + ')' : ''}: ${result.message}`);
+    // Only show details for actual errors
     if (result.status === 'error' && result.details) {
       console.log('   Details:', JSON.stringify(result.details, null, 2));
     }
@@ -501,10 +502,8 @@ async function validateInitiaConfig(configPath: string): Promise<ValidationResul
   if (hasError) {
     console.error('Validation Failed! See errors above.');
     process.exit(1);
-  } else if (hasWarning) {
-      console.warn('Validation Successful, but with warnings.'); // Indicate warnings
-      process.exit(0); // Exit successfully despite warnings
   } else {
+    // No need to check for warnings explicitly for exit code if errors take priority
     console.log('Validation Successful!');
     process.exit(0);
   }
