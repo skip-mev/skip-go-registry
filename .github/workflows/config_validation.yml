@@ -30,7 +30,7 @@ jobs:
 
       - name: Install JSON Schema Validator (ajv-cli)
         if: steps.changed-files.outputs.any_changed == 'true'
-        run: npm install -g ajv-cli # Global install might not be cached by default setup, but usually fast
+        run: npm install -g ajv-cli@latest # Explicitly install latest version
 
       - name: Install Validator Script Dependencies
         if: steps.changed-files.outputs.any_changed == 'true' # Only install if JSONs changed
@@ -50,61 +50,36 @@ jobs:
           VALIDATION_FAILED=false
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "Processing $file..."
-            IS_INITIA=false
-            INITIA_CHECKS_PASSED=false
-            GENERAL_SCHEMA_PASSED=false
+            FILE_VALIDATION_PASSED=false
 
             # Check if the file structure looks like a chain config
             if [[ "$file" == chains/*/*.json ]]; then # Basic check for chains/ANYTHING/some.json
 
-              # Step 1: Attempt Initia-specific validation script first
-              echo "Attempting Initia-specific validation script for $file..."
+              # Step 1: Attempt Initia validation script (which now includes schema check)
+              echo "Attempting Initia validation script (incl. schema) for $file..."
               if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-initia.ts "$GITHUB_WORKSPACE/$file"; then
-                echo "Initia script succeeded for $file. Treating as Initia chain."
-                IS_INITIA=true
-
-                # Step 2 (Initia): Validate against Initia schema
-                echo "Validating $file against Initia schema ($GITHUB_WORKSPACE/initia.chain.schema.json)..."
-                if ajv validate -s $GITHUB_WORKSPACE/initia.chain.schema.json -d "$GITHUB_WORKSPACE/$file"; then
-                  echo "Initia schema validation passed for $file."
-                  INITIA_CHECKS_PASSED=true
-                else
-                  echo "Initia schema validation FAILED for $file."
-                  # Failure handled below
-                fi
+                echo "---> Validation PASSED for Initia chain $file (Script Succeeded)."
+                FILE_VALIDATION_PASSED=true
               else
                 echo "Initia script failed or did not identify $file as an Initia chain."
-                IS_INITIA=false
-              fi
-
-              # Step 2 (Non-Initia): If not handled as Initia, try general schema
-              if [[ "$IS_INITIA" == false ]]; then
-                echo "Validating $file against general schema ($GITHUB_WORKSPACE/chain.schema.json)..."
+                echo "Attempting fallback: Validating $file against general schema ($GITHUB_WORKSPACE/chain.schema.json)..."
+                # Step 2: If Initia script fails, try general schema validation as fallback
                 if ajv validate -s $GITHUB_WORKSPACE/chain.schema.json -d "$GITHUB_WORKSPACE/$file"; then
-                  echo "General schema validation passed for $file."
-                  GENERAL_SCHEMA_PASSED=true
+                  echo "---> Validation PASSED for non-Initia chain $file (General Schema OK)."
+                  FILE_VALIDATION_PASSED=true
                 else
-                  echo "General schema validation FAILED for $file."
-                  # Failure handled below
+                  echo "---> Validation FAILED for non-Initia chain $file (General Schema Failed)."
+                  # FILE_VALIDATION_PASSED remains false
                 fi
               fi
-
-              # Step 3: Determine overall success/failure for this file
-              if [[ "$IS_INITIA" == true && "$INITIA_CHECKS_PASSED" == false ]]; then
-                echo "---> Validation FAILED for Initia chain $file (Script passed, Schema failed OR Script failed)"
-                VALIDATION_FAILED=true
-              elif [[ "$IS_INITIA" == false && "$GENERAL_SCHEMA_PASSED" == false ]]; then
-                # This covers cases where Initia script failed AND general schema failed
-                echo "---> Validation FAILED for non-Initia chain $file (General Schema failed)"
-                VALIDATION_FAILED=true
-              elif [[ "$IS_INITIA" == false && "$GENERAL_SCHEMA_PASSED" == true ]]; then
-                echo "---> Validation PASSED for non-Initia chain $file."
-              elif [[ "$IS_INITIA" == true && "$INITIA_CHECKS_PASSED" == true ]]; then
-                echo "---> Validation PASSED for Initia chain $file."
-              fi
-
             else
               echo "Skipping file (does not match chains/*/*.json pattern): $file"
+              # Consider if skipped files should cause failure? Currently they don't.
+            fi
+
+            if [[ "$FILE_VALIDATION_PASSED" == false && "$file" == chains/*/*.json ]]; then
+                # Only set global failure if a chain file actually failed validation
+                VALIDATION_FAILED=true
             fi
 
             echo # Add a newline for readability between files
