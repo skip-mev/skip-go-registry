@@ -21,11 +21,9 @@ interface InitiaConfig {
   initia_l1_chain_id?: string;
   apis: {
     cosmos_sdk_grpc_endpoint?: Endpoint;
-    tendermint_rpc_endpoint?: Endpoint; // Assuming RPC might still be relevant
-    lcd_rest_endpoint?: Endpoint; // Assuming LCD might still be relevant
-    // ... any other Initia-specific endpoints
+    tendermint_rpc_endpoint?: Endpoint;
+    lcd_rest_endpoint?: Endpoint;
   };
-  // ... other Initia-specific fields
 }
 
 interface ValidationResult {
@@ -39,7 +37,7 @@ interface ValidationResult {
 // --- Constants ---
 
 const PROTO_DIR = path.join(__dirname, 'protos');
-const PAGINATION_LIMIT = 10000; // Default pagination limit
+const PAGINATION_LIMIT = 10000;
 
 // Base URL for Initia registry
 const INITIA_REGISTRY_BASE_URL = 'https://raw.githubusercontent.com/initia-labs/initia-registry/main/';
