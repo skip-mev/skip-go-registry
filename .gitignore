@@ -1,0 +1,5 @@
+# Node.js
+node_modules/
+
+# Specific validator dependencies
+scripts/config-validator/node_modules/ 
