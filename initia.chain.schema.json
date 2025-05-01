@@ -53,10 +53,6 @@
         "apis": {
             "type": "object",
             "properties": {
-                "required": [
-                    "cosmos_sdk_grpc_endpoint",
-                    "tendermint_rpc_endpoint"
-                ],
                 "lcd_rest_endpoint": {
                     "$ref": "#/$defs/endpoint",
                     "description": "Only required for initia-1."
@@ -68,6 +64,10 @@
                     "$ref": "#/$defs/grpc_endpoint"
                 }
             },
+            "required": [
+                "cosmos_sdk_grpc_endpoint",
+                "tendermint_rpc_endpoint"
+            ],
             "additionalProperties": false
         }
     },

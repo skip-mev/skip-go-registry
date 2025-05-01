@@ -10,14 +10,15 @@
     "start": "ts-node src/validate-initia.ts"
   },
   "dependencies": {
-    "ajv": "^8.12.0",
-    "axios": "^1.6.8",
     "@grpc/grpc-js": "^1.10.8",
-    "@grpc/proto-loader": "^0.7.13"
+    "@grpc/proto-loader": "^0.7.13",
+    "axios": "^1.6.8",
+    "jsonschema": "^1.4.1"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
+    "@types/jsonschema": "^0.0.5",
     "@types/node": "^20.12.12",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
-} 
+}
