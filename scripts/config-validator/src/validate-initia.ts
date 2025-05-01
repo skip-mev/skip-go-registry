@@ -53,7 +53,7 @@ function validateSchema(config: any): ValidationResult {
   let schema: Schema;
   try {
     // Construct path relative to the current script file (__dirname)
-    const schemaPath = path.resolve(__dirname, '../../initia.chain.schema.json');
+    const schemaPath = path.resolve(__dirname, '../../../initia.chain.schema.json');
     const schemaContent = fs.readFileSync(schemaPath, 'utf-8');
     schema = JSON.parse(schemaContent);
   } catch (error) {
