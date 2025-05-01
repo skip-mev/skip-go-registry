@@ -8,15 +8,15 @@
   "initia_l1_chain_id": "interwoven-1",
   "apis": {
     "tendermint_rpc_endpoint": {
-      "address": "https://rpc-bfb-1.anvil.asia-southeast.initia.xyz",
+      "address": "https://rpc-bfb-1.anvil.europe-west.initia.xyz",
       "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
-      "address": "https://rest-bfb-1.anvil.asia-southeast.initia.xyz",
+      "address": "https://rest-bfb-1.anvil.europe-west.initia.xyz",
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "grpc-bfb-1.anvil.asia-southeast.initia.xyz:443",
+      "address": "grpc-bfb-1.anvil.europe-west.initia.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }
