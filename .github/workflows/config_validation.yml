@@ -1,0 +1,83 @@
+name: Chain Config Validation
+
+on:
+  pull_request:
+    branches: [ main ] # Or your default branch
+    paths:
+      - 'chains/**.json' # Only run if JSON files in chains/ change
+
+jobs:
+  validate-configs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Need full history for changed-files
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Or your preferred Node.js version
+          cache: 'npm' # Enable caching for npm, uses package-lock.json
+          cache-dependency-path: scripts/config-validator/package-lock.json # Specify lock file path
+
+      - name: Get changed JSON files in chains/
+        id: changed-files
+        uses: tj-actions/changed-files@v41 # Use a specific version
+        with:
+          files: chains/**/*.json
+
+      - name: Install JSON Schema Validator (ajv-cli)
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: npm install -g ajv-cli # Global install might not be cached by default setup, but usually fast
+
+      - name: Install Validator Script Dependencies
+        if: steps.changed-files.outputs.any_changed == 'true' # Only install if JSONs changed
+        working-directory: ./scripts/config-validator
+        run: npm install
+
+      # Add build step if necessary, e.g., npm run build
+      # - name: Build Validator Script
+      #   if: steps.changed-files.outputs.any_changed == 'true'
+      #   working-directory: ./scripts/config-validator
+      #   run: npm run build # Assuming you have a build script in package.json
+
+      - name: Validate Changed Files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Changed JSON files in chains/: ${{ steps.changed-files.outputs.all_changed_files }}"
+          VALIDATION_FAILED=false
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Processing $file..."
+            if [[ "$file" == chains/initia/* ]]; then
+              echo "Detected Initia chain config: $file"
+              # Validate schema
+              ajv validate -s $GITHUB_WORKSPACE/initia.chain.schema.json -d "$GITHUB_WORKSPACE/$file" --valid || VALIDATION_FAILED=true
+              # Run Initia specific tests
+              echo "Running Initia specific validation script..."
+              # Use ts-node if no build step, or node ./dist/validate-initia.js if built
+              npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-initia.ts "$GITHUB_WORKSPACE/$file" || VALIDATION_FAILED=true # Pass file path as argument
+            elif [[ "$file" == chains/* ]]; then
+              echo "Detected non-Initia chain config: $file"
+              # Validate schema
+              ajv validate -s $GITHUB_WORKSPACE/chain.schema.json -d "$GITHUB_WORKSPACE/$file" --valid || VALIDATION_FAILED=true
+            else
+              echo "Skipping file (not in expected chains structure): $file"
+            fi
+
+            # Check if validation failed in this iteration
+            if [[ "$VALIDATION_FAILED" == true ]]; then
+               echo "Validation failed for $file"
+               # Optionally break here if you want to stop on first failure
+               # break
+            fi
+          done
+
+          # Final check
+          if [[ "$VALIDATION_FAILED" == true ]]; then
+            echo "One or more configuration validations failed."
+            exit 1
+          else
+            echo "All configuration validations passed."
+          fi 
