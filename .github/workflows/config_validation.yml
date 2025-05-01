@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'chains/**.json'
+      - 'groups/**.json'
 
 jobs:
   validate-configs:
@@ -22,11 +23,13 @@ jobs:
           cache: 'npm'
           cache-dependency-path: scripts/config-validator/package-lock.json
 
-      - name: Get changed JSON files in chains/
+      - name: Get changed JSON files
         id: changed-files
         uses: tj-actions/changed-files@v41
         with:
-          files: chains/**/*.json
+          files: |
+            chains/**/*.json
+            groups/**/*.json
 
       - name: Install Validator Script Dependencies
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -93,8 +96,28 @@ jobs:
                 echo "---> Validation FAILED for assetlist $file."
               fi
 
+            elif [[ "$file" == */groups.json ]]; then
+              # Step 2d: Run groups validator
+              echo "Detected groups.json file. Running groups validation script..."
+              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-groups.ts "${FILE_PATH}"; then
+                echo "---> Validation PASSED for groups config $file."
+                FILE_VALIDATION_PASSED=true
+              else
+                echo "---> Validation FAILED for groups config $file."
+              fi
+
+            elif [[ "$file" == */group_assets.json ]]; then
+              # Step 2e: Run group assets validator
+              echo "Detected group_assets.json file. Running group assets validation script..."
+              if npx ts-node $GITHUB_WORKSPACE/scripts/config-validator/src/validate-group-assets.ts "${FILE_PATH}"; then
+                echo "---> Validation PASSED for group assets config $file."
+                FILE_VALIDATION_PASSED=true
+              else
+                echo "---> Validation FAILED for group assets config $file."
+              fi
+
             else
-              echo "Skipping file (does not match */chain.json or */assetlist.json): $file"
+              echo "Skipping file (unrecognized type): $file"
               FILE_VALIDATION_PASSED=true # Mark skipped files as passed for overall check
             fi
 
