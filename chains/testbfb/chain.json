@@ -1,22 +1,22 @@
 {
   "$schema": "../../initia.chain.schema.json",
-  "chain_id": "culinaris-2",
+  "chain_id": "testbfb-3",
   "is_testnet": true,
-  "chain_name": "culinaris",
+  "chain_name": "testbfb",
   "chain_type": "initia",
   "is_initia_l1": false,
   "initia_l1_chain_id": "initiation-2",
   "apis": {
     "tendermint_rpc_endpoint": {
-      "address": "https://rpc.culinaris-2.initia.tech",
+      "address": "https://rpc-testbfb-3.anvil.europe-west.initia.xyz",
       "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
-      "address": "https://rest.culinaris-2.initia.tech",
+      "address": "https://rest-testbfb-3.anvil.europe-west.initia.xyz",
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "grpc.culinaris-2.initia.tech:443",
+      "address": "grpc-testbfb-3.anvil.europe-west.initia.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }
