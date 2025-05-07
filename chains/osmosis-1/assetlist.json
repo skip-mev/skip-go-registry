@@ -309,6 +309,13 @@
             "symbol": "WETH.terra",
             "denom": "ibc/970A0AF27E9A18798C589F6A90F00E90393DCF951AC5637E88206B45123DDC40",
             "recommended_symbol": "WETH.terra"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "WBTC.wh",
+            "symbol": "WBTC.wh",
+            "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
+            "recommended_symbol": "WBTC.wh"
           }
     ]
 }
