@@ -318,6 +318,15 @@
             "symbol": "mTBILL",
             "logo_uri": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png",
             "coingecko_id": "midas-mtbill"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "XPLA",
+            "decimals": 18,
+            "erc20_contract_address": "0xFe6c4BB6C51cE6960AA432817b20402ED6146d13",
+            "symbol": "XPLA",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
+            "coingecko_id": "xpla"
         }
     ]
 }
