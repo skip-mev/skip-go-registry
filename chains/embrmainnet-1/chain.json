@@ -2,7 +2,7 @@
   "$schema": "../../initia.chain.schema.json",
   "chain_id": "embrmainnet-1",
   "is_testnet": false,
-  "chain_name": "moo",
+  "chain_name": "embr",
   "chain_type": "initia",
   "is_initia_l1": false,
   "initia_l1_chain_id": "interwoven-1",
