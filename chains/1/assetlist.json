@@ -279,7 +279,7 @@
             "name": "Midas BTC Yield Token",
             "decimals": 18,
             "erc20_contract_address": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
-            "symbol": "mBTC",
+            "symbol": "mBTC.midas",
             "logo_uri": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png",
             "coingecko_id": "midas-btc-yield-token"
         },
@@ -288,7 +288,7 @@
             "name": "Midas mEDGE",
             "decimals": 18,
             "erc20_contract_address": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
-            "symbol": "mEDGE",
+            "symbol": "mEDGE.midas",
             "logo_uri": "https://assets.coingecko.com/coins/images/54591/standard/medge_logo.png",
             "coingecko_id": "midas-medge"
         },
@@ -297,7 +297,7 @@
             "name": "Midas MEV",
             "decimals": 18,
             "erc20_contract_address": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
-            "symbol": "mMEV",
+            "symbol": "mMEV.midas",
             "logo_uri": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png",
             "coingecko_id": "midas-mmev"
         },
@@ -306,7 +306,7 @@
             "name": "Midas Basis Trading Token",
             "decimals": 18,
             "erc20_contract_address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
-            "symbol": "mBASIS",
+            "symbol": "mBASIS.midas",
             "logo_uri": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png",
             "coingecko_id": "midas-basis-trading-token"
         },
@@ -315,7 +315,7 @@
             "name": "Midas US Treasury Bill Token",
             "decimals": 18,
             "erc20_contract_address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
-            "symbol": "mTBILL",
+            "symbol": "mTBILL.midas",
             "logo_uri": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png",
             "coingecko_id": "midas-mtbill"
         },
