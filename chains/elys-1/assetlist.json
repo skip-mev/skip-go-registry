@@ -1,0 +1,16 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "elys",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
+            "symbol": "ETH",
+            "name": "Ether",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+            "decimals": 18,
+            "coingecko_id": "weth",
+            "recommended_symbol": "ETH"
+        }
+    ]
+} 
