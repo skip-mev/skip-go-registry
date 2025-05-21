@@ -317,13 +317,6 @@
             "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
             "recommended_symbol": "WBTC.wh"
           },
-          {
-            "asset_type": "cosmos",
-            "name": "WMATIC",
-            "symbol": "WMATIC",
-            "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-            "recommended_symbol": "WMATIC.axl"
-        },
         {
             "asset_type": "cosmos",
             "name": "WAVAX",
