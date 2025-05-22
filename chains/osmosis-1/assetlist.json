@@ -316,6 +316,69 @@
             "symbol": "WBTC.wh",
             "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
             "recommended_symbol": "WBTC.wh"
-          }
+          },
+        {
+            "asset_type": "cosmos",
+            "name": "WAVAX",
+            "symbol": "WAVAX",
+            "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
+            "recommended_symbol": "WAVAX.axl"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "WFTM",
+            "symbol": "WFTM",
+            "denom": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
+            "recommended_symbol": "WFTM.axl"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "WGLMR",
+            "symbol": "WGLMR",
+            "denom": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
+            "recommended_symbol": "WGLMR.axl"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "WBNB",
+            "symbol": "WBNB",
+            "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+            "recommended_symbol": "WBNB.axl"
+        },
+        {
+          "asset_type": "cosmos",
+          "name": "cbBTC.base.axl",
+          "symbol": "cbBTC.base.axl",
+          "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
+          "recommended_symbol": "cbBTC.base.axl"
+        },
+        {
+          "asset_type": "cosmos",
+          "name": "USDT.axl",
+          "symbol": "USDT.axl",
+          "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+          "recommended_symbol": "USDT.axl"
+        },
+        {
+          "asset_type": "cosmos",
+          "name": "WBTC.axl",
+          "symbol": "WBTC.axl",
+          "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+          "recommended_symbol": "WBTC.axl"
+        },
+        {
+          "asset_type": "cosmos",
+          "name": "wstETH.axl",
+          "symbol": "wstETH.axl",
+          "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
+          "recommended_symbol": "wstETH.axl"
+        },
+        {
+          "asset_type": "cosmos",
+          "name": "DOT.axl",
+          "symbol": "DOT.axl",
+          "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+          "recommended_symbol": "DOT.axl"
+        }
     ]
 }
