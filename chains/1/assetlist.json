@@ -16,6 +16,16 @@
         },
         {
             "asset_type": "erc20",
+            "name": "weETH",
+            "decimals": 18,
+            "erc20_contract_address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+            "symbol": "weETH",
+            "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/28568.png",
+            "coingecko_id": "wrapped-eeth",
+            "recommended_symbol": "weETH"
+        },
+        {
+            "asset_type": "erc20",
             "name": "USDC",
             "decimals": 6,
             "erc20_contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
