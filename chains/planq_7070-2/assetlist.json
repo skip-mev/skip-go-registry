@@ -1,0 +1,13 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "planq",
+    "assets": [
+        {
+            "asset_type": "erc20",
+            "name": "aUSD",
+            "erc20_contract_address": "0xA2871B267a7d888F830251F6B4D9d3DFf184995a",
+            "symbol": "aUSD.planq",
+            "recommended_symbol": "aUSD.planq"
+        }
+    ]
+} 
