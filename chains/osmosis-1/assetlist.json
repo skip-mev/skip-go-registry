@@ -379,6 +379,13 @@
           "symbol": "DOT.axl",
           "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
           "recommended_symbol": "DOT.axl"
-        }
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "TON.orai",
+            "symbol": "TON.orai",
+            "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+            "recommended_symbol": "TON.orai"
+          }
     ]
 }
