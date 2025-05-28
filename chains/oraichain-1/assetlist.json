@@ -1,0 +1,13 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "oraichain",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
+            "symbol": "TON.orai",
+            "name": "TON",
+            "recommended_symbol": "TON.orai"
+        }
+    ]
+} 
