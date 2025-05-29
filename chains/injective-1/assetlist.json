@@ -11,6 +11,13 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
             "recommended_symbol": "USDT.kava"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:inj1p3nrwgm9u3dtln6rwdvrsmjt5fwlhhhq3ugckd",
+            "symbol": "aUSD.aeroscraper",
+            "name": "Aeroscraper aUSD",
+            "recommended_symbol": "aUSD.aeroscraper"
         }
     ]
 }
