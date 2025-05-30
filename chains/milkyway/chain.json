@@ -1,0 +1,7 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_id": "milkyway",
+  "is_testnet": false,
+  "chain_name": "milkyway",
+  "chain_type": "cosmos"
+}
