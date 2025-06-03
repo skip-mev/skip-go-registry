@@ -337,6 +337,15 @@
             "symbol": "XPLA",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
             "coingecko_id": "xpla"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Fire Bitcoin",
+            "decimals": 8,
+            "erc20_contract_address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+            "symbol": "FBTC",
+            "logo_uri": "https://assets.coingecko.com/coins/images/39182/standard/fbtc.png",
+            "coingecko_id": "ignition-fbtc"
         }
     ]
 }
