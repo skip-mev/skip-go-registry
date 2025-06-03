@@ -8,6 +8,13 @@
             "symbol": "WETH.axl",
             "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
             "recommended_symbol": "WETH.axl"
+          },
+          {
+            "asset_type": "cosmos",
+            "name": "ETH",
+            "symbol": "ETH",
+            "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
+            "recommended_symbol": "ETH"
           }
     ]
 }
