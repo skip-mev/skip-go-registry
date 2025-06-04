@@ -28,7 +28,7 @@
             "erc20_contract_address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
             "symbol": "USDC.e",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/optimism/assets/0x7F5c764cBc14f9669B88837ca1490cCa17c31607/logo.png",
-            "coingecko_id": "bridged-usdc-optimism"
+            "coingecko_id": "bridged-usd-coin-optimism"
         },
         {
             "asset_type": "erc20",
