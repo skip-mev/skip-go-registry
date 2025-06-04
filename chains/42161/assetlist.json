@@ -65,6 +65,12 @@
             "symbol": "WETH",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/arbitrum/assets/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1/logo.png",
             "coingecko_id": "weth"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x35E6A59F786d9266c7961eA28c7b768B33959cbB",
+            "symbol": "PEPE.e",
+            "recommended_symbol": "PEPE.e"
         }
     ]
 }
