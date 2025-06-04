@@ -3,3 +3,5 @@ node_modules/
 
 # Specific validator dependencies
 scripts/config-validator/node_modules/ 
+CLAUDE.md
+.claude/settings.local.json
