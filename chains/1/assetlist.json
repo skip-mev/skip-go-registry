@@ -346,6 +346,12 @@
             "symbol": "FBTC",
             "logo_uri": "https://assets.coingecko.com/coins/images/39182/standard/fbtc.png",
             "coingecko_id": "ignition-fbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x5e354e4f52D14FF07662CF0493d0d588d38a44A6",
+            "symbol": "KUJI.axl",
+            "recommended_symbol": "KUJI.axl"
         }
     ]
 }
