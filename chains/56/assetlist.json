@@ -37,9 +37,10 @@
             "name": "Polygon",
             "decimals": 18,
             "erc20_contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
-            "symbol": "MATIC",
+            "symbol": "POL",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xCC42724C6683B7E57334c4E856f4c9965ED682bD/logo.png",
-            "coingecko_id": "matic-network"
+            "coingecko_id": "matic-network",
+            "recommended_symbol": "POL"
         },
         {
             "asset_type": "erc20",
