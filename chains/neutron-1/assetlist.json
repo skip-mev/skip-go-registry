@@ -4,6 +4,16 @@
     "assets": [
           {
             "asset_type": "cosmos",
+            "name": "Neutron",
+            "symbol": "NTRN",
+            "denom": "untrn",
+            "decimals": 6,
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+            "coingecko_id": "neutron-3",
+            "recommended_symbol": "NTRN"
+          },
+          {
+            "asset_type": "cosmos",
             "name": "WETH.axl",
             "symbol": "WETH.axl",
             "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
