@@ -349,6 +349,12 @@
         },
         {
             "asset_type": "erc20",
+            "erc20_contract_address": "0x5e354e4f52D14FF07662CF0493d0d588d38a44A6",
+            "symbol": "KUJI.axl",
+            "recommended_symbol": "KUJI.axl"
+        },
+        {
+            "asset_type": "erc20",
             "name": "Polygon",
             "decimals": 18,
             "erc20_contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
