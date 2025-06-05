@@ -38,6 +38,15 @@
             "symbol": "USDT",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/optimism/assets/0x94b008aA00579c1307B0EF2c499aD98a8ce58e58/logo.png",
             "coingecko_id": "tether"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "erc20_contract_address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "coingecko_id": "weth",
+            "recommended_symbol": "WETH"
         }
     ]
 }
