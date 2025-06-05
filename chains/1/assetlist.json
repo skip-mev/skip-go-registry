@@ -346,6 +346,15 @@
             "symbol": "FBTC",
             "logo_uri": "https://assets.coingecko.com/coins/images/39182/standard/fbtc.png",
             "coingecko_id": "ignition-fbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Polygon",
+            "decimals": 18,
+            "erc20_contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+            "symbol": "POL",
+            "coingecko_id": "matic-network",
+            "recommended_symbol": "POL"
         }
     ]
 }

@@ -65,6 +65,15 @@
             "symbol": "WETH",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/arbitrum/assets/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1/logo.png",
             "coingecko_id": "weth"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Polygon",
+            "decimals": 18,
+            "erc20_contract_address": "0x561877b6b3DD7651313794e5F2894B2F18bE0766",
+            "symbol": "POL",
+            "coingecko_id": "matic-network",
+            "recommended_symbol": "POL"
         }
     ]
 }
