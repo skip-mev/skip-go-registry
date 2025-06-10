@@ -1,18 +1,68 @@
 {
-    "$schema": "../../assetlist.schema.json",
-    "chain_name": "fantom",
-    "assets": [
-        {
-            "asset_type": "evm_native",
-            "evm_native_asset_name": "fantom-native",
-            "symbol": "FTM",
-            "name": "Fantom",
-            "axelar_symbol": "WFTM",
-            "axelar_name": "wftm-wei",
-            "axelar_denom": "wftm-wei",
-            "decimals": 18,
-            "coingecko_id": "fantom",
-            "logo_uri": "https://github.com/cosmos/chain-registry/raw/master/_non-cosmos/fantom/images/ftm.svg"
-        }
-    ]
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "fantom",
+  "assets": [
+    {
+      "asset_type": "evm_native",
+      "evm_native_asset_name": "fantom-native",
+      "symbol": "FTM",
+      "name": "Fantom",
+      "axelar_symbol": "WFTM",
+      "axelar_name": "wftm-wei",
+      "axelar_denom": "wftm-wei",
+      "decimals": 18,
+      "coingecko_id": "fantom",
+      "logo_uri": "https://github.com/cosmos/chain-registry/raw/master/_non-cosmos/fantom/images/ftm.svg"
+    },
+    {
+      "asset_type": "erc20",
+      "coingecko_id": "tether",
+      "erc20_contract_address": "0xcc1b99dDAc1a33c201a742A1851662E87BC7f22C",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/825.png",
+      "recommended_symbol": "USDT"
+    },
+    {
+      "asset_type": "erc20",
+      "coingecko_id": "usd-coin",
+      "erc20_contract_address": "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/3408.png",
+      "recommended_symbol": "USDC"
+    },
+    {
+      "asset_type": "erc20",
+      "coingecko_id": "curve-dao-token",
+      "erc20_contract_address": "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01",
+      "name": "CRV",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/6538.png",
+      "recommended_symbol": "CRV"
+    },
+    {
+      "asset_type": "erc20",
+      "coingecko_id": "weth",
+      "erc20_contract_address": "0x695921034f0387eAc4e11620EE91b1b15A6A09fE",
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/2396.png",
+      "recommended_symbol": "WETH"
+    },
+    {
+      "asset_type": "erc20",
+      "coingecko_id": "dai",
+      "erc20_contract_address": "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f",
+      "name": "DAI",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/4943.png",
+      "recommended_symbol": "DAI"
+    }
+  ]
 }
