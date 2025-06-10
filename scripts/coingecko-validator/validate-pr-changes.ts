@@ -5,8 +5,8 @@
  * This script validates CoinGecko IDs added to the Skip Go Registry by:
  * 
  * 🔍 DISCOVERY PHASE:
- * - Scans git diff to find modified assetlist.json files
- * - Extracts all ERC20 assets that have coingecko_id fields
+ * - Scans git diff against main branch to find modified assetlist.json files
+ * - Extracts all ERC20 assets that have coingecko_id fields (across entire branch)
  * - Reports total count of assets to validate
  * 
  * 📊 DATA FETCHING:
@@ -97,16 +97,39 @@ async function getCoinGeckoList(): Promise<Array<{id: string, symbol: string, na
 }
 
 /**
- * Get modified assetlist.json files from git
+ * Get modified assetlist.json files from git (compare against main branch)
  */
 function getModifiedAssetLists(): string[] {
   try {
-    // Get list of modified files
-    const gitOutput = execSync('git diff --name-only HEAD~1', { encoding: 'utf8' });
+    // First try to get the main branch reference
+    let baseBranch = 'main';
+    try {
+      execSync('git show-ref --verify --quiet refs/heads/main');
+    } catch {
+      try {
+        execSync('git show-ref --verify --quiet refs/remotes/origin/main');
+        baseBranch = 'origin/main';
+      } catch {
+        console.log('⚠️  Cannot find main branch, falling back to HEAD~1');
+        baseBranch = 'HEAD~1';
+      }
+    }
+    
+    console.log(`🔍 Comparing against ${baseBranch}...`);
+    
+    // Get list of modified files compared to main branch
+    const gitOutput = execSync(`git diff --name-only ${baseBranch}`, { encoding: 'utf8' });
     const files = gitOutput.split('\n').filter(f => f.trim());
     
     // Filter for assetlist.json files
-    return files.filter(f => f.endsWith('assetlist.json') && f.includes('chains/'));
+    const assetListFiles = files.filter(f => f.endsWith('assetlist.json') && f.includes('chains/'));
+    
+    console.log(`📁 Found ${assetListFiles.length} modified assetlist.json files since ${baseBranch}`);
+    if (assetListFiles.length > 0) {
+      console.log('   Modified chains:', assetListFiles.map(f => f.split('/')[1]).join(', '));
+    }
+    
+    return assetListFiles;
   } catch (error) {
     console.error('Error getting modified files:', error);
     return [];
@@ -114,9 +137,9 @@ function getModifiedAssetLists(): string[] {
 }
 
 /**
- * Extract added assets with CoinGecko IDs from current file state
+ * Extract added assets with CoinGecko IDs by comparing branch changes to main
  */
-function getAddedAssetsFromDiff(filePath: string): Array<{chain_id: string, asset: Asset}> {
+function getAddedAssetsFromDiff(filePath: string, baseBranch: string = 'main'): Array<{chain_id: string, asset: Asset}> {
   const addedAssets: Array<{chain_id: string, asset: Asset}> = [];
   
   try {
@@ -125,25 +148,49 @@ function getAddedAssetsFromDiff(filePath: string): Array<{chain_id: string, asse
     if (!chainMatch) return [];
     const chainId = chainMatch[1];
     
+    // Get the base version of the file from main branch
+    let baseAssets: Asset[] = [];
+    try {
+      const baseContent = execSync(`git show ${baseBranch}:${filePath}`, { encoding: 'utf8' });
+      const baseAssetList = JSON.parse(baseContent);
+      baseAssets = baseAssetList.assets || [];
+    } catch (error) {
+      // File might not exist in main branch (new chain)
+      console.log(`   📝 New file: ${filePath} (not in ${baseBranch})`);
+    }
+    
     // Read the current file to see what's been added
-    const fullPath = path.join(__dirname, '..', '..', filePath); // Go up two directories from scripts/coingecko-validator
+    const fullPath = path.join(__dirname, '..', '..', filePath);
     if (!fs.existsSync(fullPath)) return [];
     
     const fileContent = fs.readFileSync(fullPath, 'utf8');
-    const assetList = JSON.parse(fileContent);
+    const currentAssetList = JSON.parse(fileContent);
+    const currentAssets: Asset[] = currentAssetList.assets || [];
     
-    if (!assetList.assets || !Array.isArray(assetList.assets)) return [];
-    
-    // Find assets that have CoinGecko IDs and were likely just added
-    // We'll check all ERC20 assets with CoinGecko IDs since this is a bulk update
-    for (const asset of assetList.assets) {
-      if (asset.asset_type === 'erc20' && asset.coingecko_id) {
-        addedAssets.push({ chain_id: chainId, asset });
+    // Find assets that are new or have new CoinGecko IDs
+    for (const currentAsset of currentAssets) {
+      if (currentAsset.asset_type === 'erc20' && currentAsset.coingecko_id) {
+        // Check if this asset exists in base branch
+        const baseAsset = baseAssets.find(base => {
+          // Match by contract address if available, otherwise by symbol
+          if (currentAsset.erc20_contract_address && base.erc20_contract_address) {
+            return base.erc20_contract_address.toLowerCase() === currentAsset.erc20_contract_address.toLowerCase();
+          }
+          if (currentAsset.symbol && base.symbol) {
+            return base.symbol === currentAsset.symbol && base.asset_type === currentAsset.asset_type;
+          }
+          return false;
+        });
+        
+        // Asset is new or CoinGecko ID was added/changed
+        if (!baseAsset || !baseAsset.coingecko_id || baseAsset.coingecko_id !== currentAsset.coingecko_id) {
+          addedAssets.push({ chain_id: chainId, asset: currentAsset });
+        }
       }
     }
     
   } catch (error) {
-    console.error(`Error reading ${filePath}:`, error);
+    console.error(`Error analyzing ${filePath}:`, error);
   }
   
   return addedAssets;
@@ -300,27 +347,45 @@ async function validateCoinGeckoId(
  * Main validation function
  */
 async function validatePRChanges() {
-  console.log('🔍 Validating CoinGecko IDs in PR changes...\n');
+  console.log('🔍 Validating CoinGecko IDs in branch changes...\n');
   
   // Get modified assetlist files
   const modifiedFiles = getModifiedAssetLists();
   
   if (modifiedFiles.length === 0) {
-    console.log('No assetlist.json files were modified');
+    console.log('No assetlist.json files were modified in this branch');
     return;
   }
   
-  console.log(`Found ${modifiedFiles.length} modified assetlist.json files\n`);
+  console.log(''); // Extra line for readability
+  
+  // Determine base branch for comparison
+  let baseBranch = 'main';
+  try {
+    execSync('git show-ref --verify --quiet refs/heads/main');
+  } catch {
+    try {
+      execSync('git show-ref --verify --quiet refs/remotes/origin/main');
+      baseBranch = 'origin/main';
+    } catch {
+      baseBranch = 'HEAD~1';
+    }
+  }
   
   // Extract all added assets
   const allAddedAssets: Array<{chain_id: string, asset: Asset}> = [];
   
+  console.log('🔍 Analyzing changes in each chain...');
   for (const file of modifiedFiles) {
-    const addedAssets = getAddedAssetsFromDiff(file);
+    const addedAssets = getAddedAssetsFromDiff(file, baseBranch);
+    if (addedAssets.length > 0) {
+      const chainId = file.split('/')[1];
+      console.log(`   Chain ${chainId}: ${addedAssets.length} assets with new/updated CoinGecko IDs`);
+    }
     allAddedAssets.push(...addedAssets);
   }
   
-  console.log(`Found ${allAddedAssets.length} assets with CoinGecko IDs to validate\n`);
+  console.log(`\n📊 Total: ${allAddedAssets.length} assets with CoinGecko IDs to validate\n`);
   
   if (allAddedAssets.length === 0) {
     console.log('No assets with CoinGecko IDs were added');
