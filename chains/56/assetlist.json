@@ -21,7 +21,7 @@
       "erc20_contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "symbol": "BUSD",
       "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png",
-      "coingecko_id": "busd"
+      "coingecko_id": "binance-usd"
     },
     {
       "asset_type": "erc20",

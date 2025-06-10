@@ -46,7 +46,7 @@
       "erc20_contract_address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
       "symbol": "USDC.e",
       "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/arbitrum/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/logo.png",
-      "coingecko_id": "bridged-usdc-arbitrum"
+      "coingecko_id": "usd-coin-ethereum-bridged"
     },
     {
       "asset_type": "erc20",

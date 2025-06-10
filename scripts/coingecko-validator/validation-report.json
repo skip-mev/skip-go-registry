@@ -1,0 +1,3363 @@
+{
+  "timestamp": "2025-06-10T22:37:37.424Z",
+  "summary": {
+    "total": 280,
+    "valid": 269,
+    "invalid": 11,
+    "errors": 0
+  },
+  "results": [
+    {
+      "chain_id": "1",
+      "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "symbol": "weETH",
+      "coingecko_id": "wrapped-eeth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped eETH",
+        "symbol": "weeth"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x1121AcC14c63f3C872BFcA497d10926A6098AAc5",
+      "symbol": "",
+      "coingecko_id": "department-of-government-efficiency",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Department Of Government Efficiency",
+        "symbol": "doge"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xbf6Bc6782f7EB580312CC09B976e9329f3e027B3",
+      "symbol": "ATOM",
+      "coingecko_id": "cosmos",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Cosmos Hub",
+        "symbol": "atom"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x8236a87084f8B84306f72007F36F2618A5634494",
+      "symbol": "LBTC",
+      "coingecko_id": "lombard-staked-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lombard Staked BTC",
+        "symbol": "lbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xBf45A5029d081333407Cc52a84BE5ed40e181C46",
+      "symbol": "iLBTCv",
+      "coingecko_id": "lombard-staked-btc",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"lbtc\", asset has \"iLBTCv\"",
+      "coingecko_data": {
+        "name": "Lombard Staked BTC",
+        "symbol": "lbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+      "symbol": "SolvBTC",
+      "coingecko_id": "solv-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solv Protocol BTC",
+        "symbol": "solvbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+      "symbol": "xSolvBTC",
+      "coingecko_id": "solv-protocol-solvbtc-bbn",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solv Protocol Staked BTC",
+        "symbol": "xsolvbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+      "symbol": "pumpBTC",
+      "coingecko_id": "pumpbtc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "pumpBTC",
+        "symbol": "pumpbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+      "symbol": "uniBTC",
+      "coingecko_id": "universal-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Universal BTC",
+        "symbol": "unibtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+      "symbol": "stBTC",
+      "coingecko_id": "lorenzo-stbtc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lorenzo stBTC",
+        "symbol": "stbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xbDf245957992bfBC62B07e344128a1EEc7b7eE3f",
+      "symbol": "mBTC",
+      "coingecko_id": "babypie-wrapped-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Babypie Wrapped BTC",
+        "symbol": "mbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383",
+      "symbol": "kBTC",
+      "coingecko_id": "kintsugi-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Kintsugi BTC",
+        "symbol": "kbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+      "symbol": "eBTC",
+      "coingecko_id": "ether-fi-staked-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ether.fi Staked BTC",
+        "symbol": "ebtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x736ecc5237b31edec6f1ab9a396fae2416b1d96e",
+      "symbol": "GASP",
+      "coingecko_id": "gasp-2",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "GASP",
+        "symbol": "gasp"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x14862c03A0cACcC1aB328B062E64e31B2a1afcd7",
+      "symbol": "SEDA",
+      "coingecko_id": "seda-2",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "SEDA",
+        "symbol": "seda"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x6b7de496080e26ee8567a60b7b823b7e28ebe224",
+      "symbol": "NIL",
+      "coingecko_id": "nillion",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Nillion",
+        "symbol": "nil"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x214BF9f07684459aCD56324e3D247b2e5e67D277",
+      "symbol": "ORAI",
+      "coingecko_id": "oraichain-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Oraichain",
+        "symbol": "orai"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+      "symbol": "",
+      "coingecko_id": "pax-gold",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "PAX Gold",
+        "symbol": "paxg"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x6A9A65B84843F5fD4aC9a0471C4fc11AFfFBce4a",
+      "symbol": "enzoBTC",
+      "coingecko_id": "lorenzo-wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lorenzo Wrapped Bitcoin",
+        "symbol": "enzobtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "symbol": "sUSDS",
+      "coingecko_id": "susds",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "sUSDS",
+        "symbol": "susds"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xd7a25d995Cf5e4e7D295CF1Dbd0310d2981C50Bb",
+      "symbol": "BABY",
+      "coingecko_id": "babylon",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Babylon",
+        "symbol": "baby"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xA3548f0a67741C45E4Bab9CF180C04034ee61f57",
+      "symbol": "DVPN",
+      "coingecko_id": "sentinel",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"p2p\", asset has \"DVPN\"",
+      "coingecko_data": {
+        "name": "Sentinel",
+        "symbol": "p2p"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x176B2c8bAD684dA318fC7F417EEFd97D9a705a7D",
+      "symbol": "COREUM",
+      "coingecko_id": "coreum",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Coreum",
+        "symbol": "coreum"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "symbol": "sUSDe",
+      "coingecko_id": "ethena-staked-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena Staked USDe",
+        "symbol": "susde"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+      "symbol": "XAUt",
+      "coingecko_id": "tether-gold",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether Gold",
+        "symbol": "xaut"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+      "symbol": "cUSDO",
+      "coingecko_id": "compounding-open-dollar",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compounding OpenDollar",
+        "symbol": "cusdo"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+      "symbol": "scrvUSD",
+      "coingecko_id": "savings-crvusd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Savings crvUSD",
+        "symbol": "scrvusd"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
+      "symbol": "mBTC.midas",
+      "coingecko_id": "midas-btc-yield-token",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"mbtc\", asset has \"mBTC.midas\"",
+      "coingecko_data": {
+        "name": "Midas mBTC",
+        "symbol": "mbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
+      "symbol": "mEDGE.midas",
+      "coingecko_id": "midas-medge",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"medge\", asset has \"mEDGE.midas\"",
+      "coingecko_data": {
+        "name": "Midas mEDGE",
+        "symbol": "medge"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
+      "symbol": "mMEV.midas",
+      "coingecko_id": "midas-mmev",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"mmev\", asset has \"mMEV.midas\"",
+      "coingecko_data": {
+        "name": "Midas mMEV",
+        "symbol": "mmev"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+      "symbol": "mBASIS.midas",
+      "coingecko_id": "midas-basis-trading-token",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"mbasis\", asset has \"mBASIS.midas\"",
+      "coingecko_data": {
+        "name": "Midas mBASIS",
+        "symbol": "mbasis"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+      "symbol": "mTBILL.midas",
+      "coingecko_id": "midas-mtbill",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"mtbill\", asset has \"mTBILL.midas\"",
+      "coingecko_data": {
+        "name": "Midas mTBILL",
+        "symbol": "mtbill"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xFe6c4BB6C51cE6960AA432817b20402ED6146d13",
+      "symbol": "XPLA",
+      "coingecko_id": "xpla",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "XPLA",
+        "symbol": "xpla"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+      "symbol": "FBTC",
+      "coingecko_id": "ignition-fbtc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Function ƒBTC",
+        "symbol": "fbtc"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+      "symbol": "CHZ",
+      "coingecko_id": "chiliz",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chiliz",
+        "symbol": "chz"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+      "symbol": "CRO",
+      "coingecko_id": "crypto-com-chain",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Cronos",
+        "symbol": "cro"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
+      "symbol": "SLP",
+      "coingecko_id": "smooth-love-potion",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Smooth Love Potion",
+        "symbol": "slp"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
+      "symbol": "SOL",
+      "coingecko_id": "solana",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solana",
+        "symbol": "sol"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+      "symbol": "MATIC",
+      "coingecko_id": "matic-network",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Polygon",
+        "symbol": "matic"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+      "symbol": "BADGER",
+      "coingecko_id": "badger-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Badger",
+        "symbol": "badger"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+      "symbol": "RSR",
+      "coingecko_id": "reserve-rights-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Reserve Rights",
+        "symbol": "rsr"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
+      "symbol": "MNT",
+      "coingecko_id": "mantle",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Mantle",
+        "symbol": "mnt"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena USDe",
+        "symbol": "usde"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898",
+      "symbol": "CAKE",
+      "coingecko_id": "pancakeswap-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "PancakeSwap",
+        "symbol": "cake"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Sandbox",
+        "symbol": "sand"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+      "symbol": "AXS",
+      "coingecko_id": "axie-infinity",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Axie Infinity",
+        "symbol": "axs"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+      "symbol": "FTM",
+      "coingecko_id": "fantom",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Fantom",
+        "symbol": "ftm"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+      "symbol": "CVX",
+      "coingecko_id": "convex-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Convex Finance",
+        "symbol": "cvx"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x111111111117dC0aa78b770fA6A738034120C302",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+      "symbol": "DPI",
+      "coingecko_id": "defipulse-index",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "DeFi Pulse Index",
+        "symbol": "dpi"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "symbol": "LUSD",
+      "coingecko_id": "liquity-usd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Liquity USD",
+        "symbol": "lusd"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+      "symbol": "METIS",
+      "coingecko_id": "metis-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Metis",
+        "symbol": "metis"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+      "symbol": "ARB",
+      "coingecko_id": "arbitrum",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Arbitrum",
+        "symbol": "arb"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "symbol": "ENS",
+      "coingecko_id": "ethereum-name-service",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethereum Name Service",
+        "symbol": "ens"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+      "symbol": "TRIBE",
+      "coingecko_id": "tribe-2",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tribe",
+        "symbol": "tribe"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+      "symbol": "GRT",
+      "coingecko_id": "the-graph",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Graph",
+        "symbol": "grt"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+      "symbol": "GALA",
+      "coingecko_id": "gala",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "GALA",
+        "symbol": "gala"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+      "symbol": "ALCX",
+      "coingecko_id": "alchemix",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Alchemix",
+        "symbol": "alcx"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
+      "symbol": "IMX",
+      "coingecko_id": "immutable-x",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Immutable",
+        "symbol": "imx"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+      "symbol": "ENJ",
+      "coingecko_id": "enjincoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Enjin Coin",
+        "symbol": "enj"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xfA5047c9c78B8877af97BDcb85Db743fD7313d4a",
+      "symbol": "ROOK",
+      "coingecko_id": "rook",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Rook",
+        "symbol": "rook"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x090185f2135308BaD17527004364eBcC2D37e5F6",
+      "symbol": "SPELL",
+      "coingecko_id": "spell-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Spell",
+        "symbol": "spell"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "symbol": "LDO",
+      "coingecko_id": "lido-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lido DAO",
+        "symbol": "ldo"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+      "symbol": "MANA",
+      "coingecko_id": "decentraland",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Decentraland",
+        "symbol": "mana"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
+      "symbol": "ALPHA",
+      "coingecko_id": "alpha-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stella",
+        "symbol": "alpha"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x0954906da0Bf32d5479e25f46056d22f08464cab",
+      "symbol": "INDEX",
+      "coingecko_id": "index-cooperative",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Index Cooperative",
+        "symbol": "index"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+      "symbol": "USDC.e",
+      "coingecko_id": "bridged-usd-coin-optimism",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Standard Bridged USDC.e (Optimism)",
+        "symbol": "usdc.e"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x4200000000000000000000000000000000000006",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921",
+      "symbol": "BAL",
+      "coingecko_id": "balancer",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Balancer",
+        "symbol": "bal"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xab7bAdEF82E9Fe11f6f33f87BC9bC2AA27F2fCB5",
+      "symbol": "MKR",
+      "coingecko_id": "maker",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Maker",
+        "symbol": "mkr"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xAd42D013ac31486B73b6b059e748172994736426",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xC1c167CC44f7923cd0062c4370Df962f9DDB16f5",
+      "symbol": "PEPE",
+      "coingecko_id": "pepe",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Pepe",
+        "symbol": "pepe"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+      "symbol": "LINK",
+      "coingecko_id": "chainlink",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chainlink",
+        "symbol": "link"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x65559aA14915a70190438eF90104769e5E890A00",
+      "symbol": "ENS",
+      "coingecko_id": "ethereum-name-service",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethereum Name Service",
+        "symbol": "ens"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
+      "symbol": "LUSD",
+      "coingecko_id": "liquity-usd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Liquity USD",
+        "symbol": "lusd"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena USDe",
+        "symbol": "usde"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x3eaEb77b03dBc0F6321AE1b72b2E9aDb0F60112B",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x76FB31fb4af56892A25e32cFC43De717950c9278",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x6fd9d7AD17242c41f7131d257212c54A0e816691",
+      "symbol": "UNI",
+      "coingecko_id": "uniswap",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Uniswap",
+        "symbol": "uni"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xba1Cf949c382A32a09A17B2AdF3587fc7fA664f1",
+      "symbol": "SOL",
+      "coingecko_id": "solana",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solana",
+        "symbol": "sol"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x9560e827aF36c94D2Ac33a39bCE1Fe78631088Db",
+      "symbol": "VELO",
+      "coingecko_id": "velodrome-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Velodrome Finance",
+        "symbol": "velo"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+      "symbol": "LDO",
+      "coingecko_id": "lido-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lido DAO",
+        "symbol": "ldo"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "symbol": "WETH",
+      "coingecko_id": "ethereum",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"eth\", asset has \"WETH\"",
+      "coingecko_data": {
+        "name": "Ethereum",
+        "symbol": "eth"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+      "symbol": "USDT.kava",
+      "coingecko_id": "tether",
+      "status": "invalid",
+      "message": "Symbol mismatch: CoinGecko has \"usdt\", asset has \"USDT.kava\"",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x9151434b16b9763660705744891fA906F660EcC5",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x3AE490db48d74B1bC626400135d4616377D0109f",
+      "symbol": "ALPHA",
+      "coingecko_id": "alpha-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stella",
+        "symbol": "alpha"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xcdB3C70CD25FD15307D84C4F9D37d5C043B33Fb2",
+      "symbol": "SPELL",
+      "coingecko_id": "spell-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Spell",
+        "symbol": "spell"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Sandbox",
+        "symbol": "sand"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x23001f892c0C82b79303EDC9B9033cD190BB21c7",
+      "symbol": "LUSD",
+      "coingecko_id": "liquity-usd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Liquity USD",
+        "symbol": "lusd"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec",
+      "symbol": "SHIB",
+      "coingecko_id": "shiba-inu",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Shiba Inu",
+        "symbol": "shib"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
+      "symbol": "ENJ",
+      "coingecko_id": "enjincoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Enjin Coin",
+        "symbol": "enj"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x6f7C932e7684666C9fd1d44527765433e01fF61d",
+      "symbol": "MKR",
+      "coingecko_id": "maker",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Maker",
+        "symbol": "mkr"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+      "symbol": "BAL",
+      "coingecko_id": "balancer",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Balancer",
+        "symbol": "bal"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x8676815789211E799a6DC86d02748ADF9cF86836",
+      "symbol": "TRIBE",
+      "coingecko_id": "tribe-2",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tribe",
+        "symbol": "tribe"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x1FcbE5937B0cc2adf69772D228fA4205aCF4D9b2",
+      "symbol": "BADGER",
+      "coingecko_id": "badger-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Badger",
+        "symbol": "badger"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056",
+      "symbol": "CHZ",
+      "coingecko_id": "chiliz",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chiliz",
+        "symbol": "chz"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+      "symbol": "UNI",
+      "coingecko_id": "uniswap",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Uniswap",
+        "symbol": "uni"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
+      "symbol": "CRO",
+      "coingecko_id": "crypto-com-chain",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Cronos",
+        "symbol": "cro"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xF92501c8213da1D6C74A76372CCc720Dc8818407",
+      "symbol": "ROOK",
+      "coingecko_id": "rook",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Rook",
+        "symbol": "rook"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xC9c1c1c20B3658F8787CC2FD702267791f224Ce1",
+      "symbol": "FTM",
+      "coingecko_id": "fantom",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Fantom",
+        "symbol": "ftm"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xbD7A5Cf51d22930B8B3Df6d834F9BCEf90EE7c4f",
+      "symbol": "ENS",
+      "coingecko_id": "ethereum-name-service",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethereum Name Service",
+        "symbol": "ens"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+      "symbol": "MANA",
+      "coingecko_id": "decentraland",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Decentraland",
+        "symbol": "mana"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x95c300e7740D2A88a44124B424bFC1cB2F9c3b89",
+      "symbol": "ALCX",
+      "coingecko_id": "alchemix",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Alchemix",
+        "symbol": "alcx"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x1B9D40715E757Bdb9bdEC3215B898E46d8a3b71a",
+      "symbol": "METIS",
+      "coingecko_id": "metis-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Metis",
+        "symbol": "metis"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x61BDD9C7d4dF4Bf47A4508c0c8245505F2Af5b7b",
+      "symbol": "AXS",
+      "coingecko_id": "axie-infinity",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Axie Infinity",
+        "symbol": "axs"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x183070C90B34A63292cC908Ce1b263Cb56D49A7F",
+      "symbol": "IMX",
+      "coingecko_id": "immutable-x",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Immutable",
+        "symbol": "imx"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x104592a158490a9228070E0A8e5343B499e125D0",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xfBd8A3b908e764dBcD51e27992464B4432A1132b",
+      "symbol": "INDEX",
+      "coingecko_id": "index-cooperative",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Index Cooperative",
+        "symbol": "index"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+      "symbol": "DPI",
+      "coingecko_id": "defipulse-index",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "DeFi Pulse Index",
+        "symbol": "dpi"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x263534a4Fe3cb249dF46810718B7B612a30ebbff",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+      "symbol": "GRT",
+      "coingecko_id": "the-graph",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Graph",
+        "symbol": "grt"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "symbol": "LINK",
+      "coingecko_id": "chainlink",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chainlink",
+        "symbol": "link"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+      "symbol": "LDO",
+      "coingecko_id": "lido-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lido DAO",
+        "symbol": "ldo"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x0C7304fBAf2A320a1c50c46FE03752722F729946",
+      "symbol": "SLP",
+      "coingecko_id": "smooth-love-potion",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Smooth Love Potion",
+        "symbol": "slp"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x4257EA7637c355F81616050CbB6a9b709fd72683",
+      "symbol": "CVX",
+      "coingecko_id": "convex-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Convex Finance",
+        "symbol": "cvx"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "250",
+      "asset": "0xcc1b99dDAc1a33c201a742A1851662E87BC7f22C",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "250",
+      "asset": "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "250",
+      "asset": "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "250",
+      "asset": "0x695921034f0387eAc4e11620EE91b1b15A6A09fE",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "250",
+      "asset": "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
+      "symbol": "TIA.n",
+      "coingecko_id": "bridged-tia-hyperlane",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Bridged TIA (Hyperlane)",
+        "symbol": "tia.n"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "symbol": "USDC.e",
+      "coingecko_id": "bridged-usdc-arbitrum",
+      "status": "invalid",
+      "message": "CoinGecko ID not found in coins list"
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xCdc343ebf71e38F003eD6c80171F5B8D7cF58860",
+      "symbol": "CAKE",
+      "coingecko_id": "pancakeswap-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "PancakeSwap",
+        "symbol": "cake"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x354A6dA3fcde098F8389cad84b0182725c6C91dE",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
+      "symbol": "LUSD",
+      "coingecko_id": "liquity-usd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Liquity USD",
+        "symbol": "lusd"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+      "symbol": "LINK",
+      "coingecko_id": "chainlink",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chainlink",
+        "symbol": "link"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879",
+      "symbol": "MKR",
+      "coingecko_id": "maker",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Maker",
+        "symbol": "mkr"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xCa5Ca9083702c56b481D1eec86F1776FDbd2e594",
+      "symbol": "RSR",
+      "coingecko_id": "reserve-rights-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Reserve Rights",
+        "symbol": "rsr"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena USDe",
+        "symbol": "usde"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x7F728F3595db17B0B359f4FC47aE80FAd2e33769",
+      "symbol": "METIS",
+      "coingecko_id": "metis-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Metis",
+        "symbol": "metis"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
+      "symbol": "BADGER",
+      "coingecko_id": "badger-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Badger",
+        "symbol": "badger"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x4667cf53C4eDF659E402B733BEA42B18B68dd74c",
+      "symbol": "DPI",
+      "coingecko_id": "defipulse-index",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "DeFi Pulse Index",
+        "symbol": "dpi"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x9c1a1C7bA9c2602123FD7EF3eb41a769edf6C53A",
+      "symbol": "MNT",
+      "coingecko_id": "mantle",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Mantle",
+        "symbol": "mnt"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x7468a5d8E02245B00E8C0217fCE021C70Bc51305",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x7fa9549791EFc9030e1Ed3F25D18014163806758",
+      "symbol": "ENJ",
+      "coingecko_id": "enjincoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Enjin Coin",
+        "symbol": "enj"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x82e3A8F066a6989666b031d916c43672085b1582",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xBfAE6fecD8124ba33cbB2180aAb0Fe4c03914A5A",
+      "symbol": "TRIBE",
+      "coingecko_id": "tribe-2",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tribe",
+        "symbol": "tribe"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x5033833c9fe8B9d3E09EEd2f73d2aaF7E3872fd1",
+      "symbol": "SHIB",
+      "coingecko_id": "shiba-inu",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Shiba Inu",
+        "symbol": "shib"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
+      "symbol": "Cake",
+      "coingecko_id": "pancakeswap-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "PancakeSwap",
+        "symbol": "cake"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
+      "symbol": "UNI",
+      "coingecko_id": "uniswap",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Uniswap",
+        "symbol": "uni"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8",
+      "symbol": "BAL",
+      "coingecko_id": "balancer",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Balancer",
+        "symbol": "bal"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x3cFD99593a7F035F717142095a3898e3Fca7783e",
+      "symbol": "IMX",
+      "coingecko_id": "immutable-x",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Immutable",
+        "symbol": "imx"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28",
+      "symbol": "ENS",
+      "coingecko_id": "ethereum-name-service",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethereum Name Service",
+        "symbol": "ens"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "symbol": "PEPE",
+      "coingecko_id": "pepe",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Pepe",
+        "symbol": "pepe"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x8ea3156f834A0dfC78F1A5304fAC2CdA676F354C",
+      "symbol": "CRO",
+      "coingecko_id": "crypto-com-chain",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Cronos",
+        "symbol": "cro"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+      "symbol": "LDO",
+      "coingecko_id": "lido-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Lido DAO",
+        "symbol": "ldo"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x442d24578A564EF628A65e6a7E3e7be2a165E231",
+      "symbol": "MANA",
+      "coingecko_id": "decentraland",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Decentraland",
+        "symbol": "mana"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x753D224bCf9AAFaCD81558c32341416df61D3DAC",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xd42785D323e608B9E99fa542bd8b1000D4c2Df37",
+      "symbol": "FTM",
+      "coingecko_id": "fantom",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Fantom",
+        "symbol": "ftm"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x561877b6b3DD7651313794e5F2894B2F18bE0766",
+      "symbol": "MATIC",
+      "coingecko_id": "matic-network",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Polygon",
+        "symbol": "matic"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
+      "symbol": "GRT",
+      "coingecko_id": "the-graph",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Graph",
+        "symbol": "grt"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x6314C31A7a1652cE482cffe247E9CB7c3f4BB9aF",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x2A676eeAd159c4C8e8593471c6d666F02827FF8C",
+      "symbol": "GALA",
+      "coingecko_id": "gala",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "GALA",
+        "symbol": "gala"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xa9004A5421372E1D83fB1f85b0fc986c912f91f3",
+      "symbol": "WBNB",
+      "coingecko_id": "wbnb",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped BNB",
+        "symbol": "wbnb"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xdf8F0c63D9335A0AbD89F9F752d293A98EA977d8",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xC9CBf102c73fb77Ec14f8B4C8bd88e050a6b2646",
+      "symbol": "ALPHA",
+      "coingecko_id": "alpha-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stella",
+        "symbol": "alpha"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xd1318eb19DBF2647743c720ed35174efd64e3DAC",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Sandbox",
+        "symbol": "sand"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "symbol": "OP",
+      "coingecko_id": "optimism",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Optimism",
+        "symbol": "op"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xb74Da9FE2F96B9E0a5f4A3cf0b92dd2bEC617124",
+      "symbol": "SOL",
+      "coingecko_id": "solana",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solana",
+        "symbol": "sol"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xaAFcFD42c9954C6689ef1901e03db742520829c5",
+      "symbol": "CVX",
+      "coingecko_id": "convex-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Convex Finance",
+        "symbol": "cvx"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF",
+      "symbol": "SPELL",
+      "coingecko_id": "spell-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Spell",
+        "symbol": "spell"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xcBA56Cd8216FCBBF3fA6DF6137F3147cBcA37D60",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xe88998Fb579266628aF6a03e3821d5983e5D0089",
+      "symbol": "AXS",
+      "coingecko_id": "axie-infinity",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Axie Infinity",
+        "symbol": "axs"
+      }
+    },
+    {
+      "chain_id": "42220",
+      "asset": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "42220",
+      "asset": "0x2DEf4285787d58a2f811AF24755A8150622f4361",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "42220",
+      "asset": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xa9004A5421372E1D83fB1f85b0fc986c912f91f3",
+      "symbol": "WBNB",
+      "coingecko_id": "wbnb",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped BNB",
+        "symbol": "wbnb"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x2147EFFF675e4A4eE1C2f918d181cDBd7a8E208f",
+      "symbol": "ALPHA",
+      "coingecko_id": "alpha-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stella",
+        "symbol": "alpha"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xd501281565bf7789224523144Fe5D98e8B28f267",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
+      "symbol": "BAL",
+      "coingecko_id": "balancer",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Balancer",
+        "symbol": "bal"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
+      "symbol": "MKR",
+      "coingecko_id": "maker",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Maker",
+        "symbol": "mkr"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xCE1bFFBD5374Dac86a2893119683F4911a2F7814",
+      "symbol": "SPELL",
+      "coingecko_id": "spell-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Spell",
+        "symbol": "spell"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+      "symbol": "WETH",
+      "coingecko_id": "weth",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "WETH",
+        "symbol": "weth"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "symbol": "OP",
+      "coingecko_id": "optimism",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Optimism",
+        "symbol": "op"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xFE6B19286885a4F7F55AdAD09C3Cd1f906D2478F",
+      "symbol": "SOL",
+      "coingecko_id": "solana",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solana",
+        "symbol": "sol"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
+      "symbol": "GRT",
+      "coingecko_id": "the-graph",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Graph",
+        "symbol": "grt"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0xceCB301c2e2A04dD631428C386DD21db70716F8a",
+      "symbol": "METIS",
+      "coingecko_id": "metis-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Metis",
+        "symbol": "metis"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x5947BB275c521040051D82396192181b413227A3",
+      "symbol": "LINK",
+      "coingecko_id": "chainlink",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chainlink",
+        "symbol": "link"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "coingecko_id": "busd",
+      "status": "invalid",
+      "message": "CoinGecko ID not found in coins list"
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "coingecko_id": "ethereum",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethereum",
+        "symbol": "eth"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+      "symbol": "MATIC",
+      "coingecko_id": "matic-network",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Polygon",
+        "symbol": "matic"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
+      "symbol": "METIS",
+      "coingecko_id": "metis-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Metis",
+        "symbol": "metis"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x4e7f408be2d4E9D60F49A64B89Bb619c84C7c6F5",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e",
+      "symbol": "SOL",
+      "coingecko_id": "solana",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Solana",
+        "symbol": "sol"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "symbol": "LINK",
+      "coingecko_id": "chainlink",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Chainlink",
+        "symbol": "link"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+      "symbol": "FTM",
+      "coingecko_id": "fantom",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Fantom",
+        "symbol": "ftm"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x111111111117dC0aa78b770fA6A738034120C302",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+      "symbol": "AXS",
+      "coingecko_id": "axie-infinity",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Axie Infinity",
+        "symbol": "axs"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
+      "symbol": "ALPHA",
+      "coingecko_id": "alpha-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stella",
+        "symbol": "alpha"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+      "symbol": "UNI",
+      "coingecko_id": "uniswap",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Uniswap",
+        "symbol": "uni"
+      }
+    },
+    {
+      "chain_id": "81457",
+      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena USDe",
+        "symbol": "usde"
+      }
+    },
+    {
+      "chain_id": "81457",
+      "asset": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "81457",
+      "asset": "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "symbol": "USDC",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "USDC",
+        "symbol": "usdc"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "symbol": "cbBTC",
+      "coingecko_id": "coinbase-wrapped-btc",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Coinbase Wrapped BTC",
+        "symbol": "cbbtc"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x67f0870BB897F5E1c369976b4A2962d527B9562c",
+      "symbol": "",
+      "coingecko_id": "department-of-government-efficiency",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Department Of Government Efficiency",
+        "symbol": "doge"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xCD6dDDa305955AcD6b94b934f057E8b0daaD58dE",
+      "symbol": "PERP",
+      "coingecko_id": "perpetual-protocol",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Perpetual Protocol",
+        "symbol": "perp"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena USDe",
+        "symbol": "usde"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "symbol": "WBTC",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
+      "symbol": "SNX",
+      "coingecko_id": "havven",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Synthetix Network",
+        "symbol": "snx"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x7D49a065D17d6d4a55dc13649901fdBB98B2AFBA",
+      "symbol": "SUSHI",
+      "coingecko_id": "sushi",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Sushi",
+        "symbol": "sushi"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+      "symbol": "RSR",
+      "coingecko_id": "reserve-rights-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Reserve Rights",
+        "symbol": "rsr"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x368181499736d0c0CC614DBB145E2EC1AC86b8c6",
+      "symbol": "LUSD",
+      "coingecko_id": "liquity-usd",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Liquity USD",
+        "symbol": "lusd"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x63706e401c06ac8513145b7687A14804d17f814b",
+      "symbol": "AAVE",
+      "coingecko_id": "aave",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aave",
+        "symbol": "aave"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+      "symbol": "USDT",
+      "coingecko_id": "tether",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Tether",
+        "symbol": "usdt"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
+      "symbol": "YFI",
+      "coingecko_id": "yearn-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "yearn.finance",
+        "symbol": "yfi"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415",
+      "symbol": "CRV",
+      "coingecko_id": "curve-dao-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Curve DAO",
+        "symbol": "crv"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xca73ed1815e5915489570014e024b7EbE65dE679",
+      "symbol": "ODOS",
+      "coingecko_id": "odos",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Odos",
+        "symbol": "odos"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xB4fDe59a779991bfB6a52253B51947828b982be3",
+      "symbol": "PEPE",
+      "coingecko_id": "pepe",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Pepe",
+        "symbol": "pepe"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
+      "symbol": "1INCH",
+      "coingecko_id": "1inch",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "1inch",
+        "symbol": "1inch"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+      "symbol": "COMP",
+      "coingecko_id": "compound-governance-token",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Compound",
+        "symbol": "comp"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "symbol": "DAI",
+      "coingecko_id": "dai",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Dai",
+        "symbol": "dai"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1",
+      "symbol": "GRT",
+      "coingecko_id": "the-graph",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Graph",
+        "symbol": "grt"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "symbol": "AERO",
+      "coingecko_id": "aerodrome-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Aerodrome Finance",
+        "symbol": "aero"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "symbol": "ENA",
+      "coingecko_id": "ethena",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Ethena",
+        "symbol": "ena"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
+      "symbol": "FRAX",
+      "coingecko_id": "frax",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Legacy Frax Dollar",
+        "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xac531Eb26Ca1d21b85126De8FB87E80E09002DcF",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "The Sandbox",
+        "symbol": "sand"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x4158734D47Fc9692176B5085E0F52ee0Da5d47F1",
+      "symbol": "BAL",
+      "coingecko_id": "balancer",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Balancer",
+        "symbol": "bal"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xc3De830EA07524a0761646a6a4e4be0e114a3C83",
+      "symbol": "UNI",
+      "coingecko_id": "uniswap",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Uniswap",
+        "symbol": "uni"
+      }
+    }
+  ]
+}
