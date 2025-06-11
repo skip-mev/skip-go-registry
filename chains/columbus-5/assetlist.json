@@ -19,7 +19,8 @@
             "symbol": "WBTC.wh",
             "denom": "cw20:terra1aa7upykmmqqc63l924l5qfap8mrmx5rfdm0v55",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png",
-            "recommended_symbol": "WBTC.wh"
+            "recommended_symbol": "WBTC.wh",
+            "coingecko_id": "wrapped-bitcoin"
         }
     ]
 }

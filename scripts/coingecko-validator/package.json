@@ -1,0 +1,17 @@
+{
+  "name": "coingecko-validator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Validation tools for CoinGecko IDs in Skip Go Registry",
+  "scripts": {
+    "validate": "tsx validate-pr-changes.ts",
+    "spot-check": "tsx spot-check-coingecko.ts",
+    "summary": "bash generate-pr-summary.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}

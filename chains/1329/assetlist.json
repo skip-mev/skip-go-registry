@@ -1,53 +1,63 @@
 {
-  "$schema": "../../assetlist.schema.json",
-  "chain_name": "sei",
-  "assets": [
-    {
-      "asset_type": "evm_native",
-      "evm_native_asset_name": "sei-native",
-      "symbol": "SEI",
-      "name": "Sei",
-      "decimals": 18,
-      "coingecko_id": "sei-network",
-      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
-    },
-    {
-      "asset_type": "erc20",
-      "name": "Wrapped Ether",
-      "decimals": 18,
-      "erc20_contract_address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
-      "symbol": "WETH",
-      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
-      "coingecko_id": "ethereum"
-    },
-    {
-      "asset_type": "erc20",
-      "name": "USDC",
-      "decimals": 6,
-      "erc20_contract_address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
-      "symbol": "USDC",
-      "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
-      "coingecko_id": "usd-coin"
-    },
-    {
-      "asset_type": "erc20",
-      "name": "Tether USD",
-      "decimals": 6,
-      "erc20_contract_address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
-      "symbol": "USDT.kava",
-      "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
-      "coingecko_id": "tether",
-      "recommended_symbol": "USDT.kava"
-    },
-    {
-      "asset_type": "erc20",
-      "name": "Tether USD",
-      "decimals": 6,
-      "erc20_contract_address": "0x9151434b16b9763660705744891fA906F660EcC5",
-      "symbol": "USDT",
-      "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
-      "coingecko_id": "tether",
-      "recommended_symbol": "USDT"
-    }
-  ]
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "sei",
+    "assets": [
+        {
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "sei-native",
+            "symbol": "SEI",
+            "name": "Sei",
+            "decimals": 18,
+            "coingecko_id": "sei-network",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "erc20_contract_address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+            "symbol": "WETH",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
+            "coingecko_id": "ethereum"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "USDC",
+            "decimals": 6,
+            "erc20_contract_address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+            "symbol": "USDC",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+            "coingecko_id": "usd-coin"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Tether USD",
+            "decimals": 6,
+            "erc20_contract_address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+            "symbol": "USDT.kava",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT.kava"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Tether USD",
+            "decimals": 6,
+            "erc20_contract_address": "0x9151434b16b9763660705744891fA906F660EcC5",
+            "symbol": "USDT",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+            "coingecko_id": "frax"
+        }
+    ]
 }

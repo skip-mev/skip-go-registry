@@ -47,6 +47,126 @@
             "symbol": "WETH",
             "coingecko_id": "weth",
             "recommended_symbol": "WETH"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+            "coingecko_id": "frax"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921",
+            "coingecko_id": "balancer"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xab7bAdEF82E9Fe11f6f33f87BC9bC2AA27F2fCB5",
+            "coingecko_id": "maker"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+            "coingecko_id": "perpetual-protocol"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xAd42D013ac31486B73b6b059e748172994736426",
+            "coingecko_id": "1inch"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
+            "coingecko_id": "yearn-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xC1c167CC44f7923cd0062c4370Df962f9DDB16f5",
+            "coingecko_id": "pepe"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+            "coingecko_id": "chainlink"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+            "coingecko_id": "ethena"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x65559aA14915a70190438eF90104769e5E890A00",
+            "coingecko_id": "ethereum-name-service"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
+            "coingecko_id": "liquity-usd"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+            "coingecko_id": "ethena-usde"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x3eaEb77b03dBc0F6321AE1b72b2E9aDb0F60112B",
+            "coingecko_id": "sushi"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x76FB31fb4af56892A25e32cFC43De717950c9278",
+            "coingecko_id": "aave"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6fd9d7AD17242c41f7131d257212c54A0e816691",
+            "coingecko_id": "uniswap"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xba1Cf949c382A32a09A17B2AdF3587fc7fA664f1",
+            "coingecko_id": "solana"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9560e827aF36c94D2Ac33a39bCE1Fe78631088Db",
+            "coingecko_id": "velodrome-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+            "coingecko_id": "curve-dao-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+            "coingecko_id": "havven"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+            "coingecko_id": "lido-dao"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+            "coingecko_id": "dai"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97",
+            "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+            "coingecko_id": "layerzero"
         }
     ]
 }

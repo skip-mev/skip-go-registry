@@ -13,6 +13,36 @@
             "decimals": 18,
             "coingecko_id": "fantom",
             "logo_uri": "https://github.com/cosmos/chain-registry/raw/master/_non-cosmos/fantom/images/ftm.svg"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xcc1b99dDAc1a33c201a742A1851662E87BC7f22C",
+            "coingecko_id": "tether"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
+            "coingecko_id": "usd-coin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01",
+            "coingecko_id": "curve-dao-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x695921034f0387eAc4e11620EE91b1b15A6A09fE",
+            "coingecko_id": "weth"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f",
+            "coingecko_id": "dai"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+            "coingecko_id": "stargate-finance"
         }
     ]
 }

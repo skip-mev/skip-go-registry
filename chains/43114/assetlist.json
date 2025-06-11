@@ -23,6 +23,121 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",
             "go_fast_enabled": true
-        }        
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
+            "coingecko_id": "sushi"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xa9004A5421372E1D83fB1f85b0fc986c912f91f3",
+            "coingecko_id": "wbnb"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+            "coingecko_id": "tether"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
+            "coingecko_id": "compound-governance-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2147EFFF675e4A4eE1C2f918d181cDBd7a8E208f",
+            "coingecko_id": "alpha-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
+            "coingecko_id": "yearn-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+            "coingecko_id": "frax"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
+            "coingecko_id": "1inch"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
+            "coingecko_id": "balancer"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
+            "coingecko_id": "maker"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xCE1bFFBD5374Dac86a2893119683F4911a2F7814",
+            "coingecko_id": "spell-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+            "coingecko_id": "weth"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+            "coingecko_id": "optimism"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFE6B19286885a4F7F55AdAD09C3Cd1f906D2478F",
+            "coingecko_id": "solana"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
+            "coingecko_id": "havven"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
+            "coingecko_id": "the-graph"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xceCB301c2e2A04dD631428C386DD21db70716F8a",
+            "coingecko_id": "metis-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
+            "coingecko_id": "aave"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x5947BB275c521040051D82396192181b413227A3",
+            "coingecko_id": "chainlink"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+            "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+            "coingecko_id": "layerzero"
+        }
     ]
 }

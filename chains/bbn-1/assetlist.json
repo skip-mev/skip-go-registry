@@ -18,7 +18,8 @@
             "name": "SolvBTC.union",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg",
             "decimals": 18,
-            "recommended_symbol": "SolvBTC.union"
+            "recommended_symbol": "SolvBTC.union",
+            "coingecko_id": "solvbtc"
         },
         {
             "asset_type": "cosmos",
@@ -45,7 +46,8 @@
             "name": "LBTC.union",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg",
             "decimals": 8,
-            "recommended_symbol": "LBTC.union"
+            "recommended_symbol": "LBTC.union",
+            "coingecko_id": "lbtc"
         },
         {
             "asset_type": "cosmos",
@@ -54,9 +56,10 @@
             "name": "WETH.union",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
             "decimals": 18,
-            "recommended_symbol": "WETH.union"
-          },
-          {
+            "recommended_symbol": "WETH.union",
+            "coingecko_id": "weth"
+        },
+        {
             "asset_type": "cosmos",
             "denom": "cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
             "symbol": "pumpBTC.union",
@@ -64,6 +67,6 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg",
             "decimals": 8,
             "recommended_symbol": "pumpBTC.union"
-          }
+        }
     ]
 }

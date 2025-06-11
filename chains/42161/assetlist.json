@@ -46,7 +46,7 @@
             "erc20_contract_address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
             "symbol": "USDC.e",
             "logo_uri": "https://assets-cdn.trustwallet.com/blockchains/arbitrum/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/logo.png",
-            "coingecko_id": "bridged-usdc-arbitrum"
+            "coingecko_id": "usd-coin-ethereum-bridged"
         },
         {
             "asset_type": "erc20",
@@ -69,8 +69,259 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x35E6A59F786d9266c7961eA28c7b768B33959cbB",
+            "coingecko_id": "pepe",
             "symbol": "PEPE.e",
             "recommended_symbol": "PEPE.e"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xCdc343ebf71e38F003eD6c80171F5B8D7cF58860",
+            "coingecko_id": "pancakeswap-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x354A6dA3fcde098F8389cad84b0182725c6C91dE",
+            "coingecko_id": "compound-governance-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
+            "coingecko_id": "liquity-usd"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+            "coingecko_id": "chainlink"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879",
+            "coingecko_id": "maker"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xCa5Ca9083702c56b481D1eec86F1776FDbd2e594",
+            "coingecko_id": "reserve-rights-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+            "coingecko_id": "ethena-usde"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+            "coingecko_id": "frax"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x7F728F3595db17B0B359f4FC47aE80FAd2e33769",
+            "coingecko_id": "metis-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
+            "coingecko_id": "badger-dao"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x4667cf53C4eDF659E402B733BEA42B18B68dd74c",
+            "coingecko_id": "defipulse-index"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9c1a1C7bA9c2602123FD7EF3eb41a769edf6C53A",
+            "coingecko_id": "mantle"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x7468a5d8E02245B00E8C0217fCE021C70Bc51305",
+            "coingecko_id": "frax"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+            "coingecko_id": "ethena"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x7fa9549791EFc9030e1Ed3F25D18014163806758",
+            "coingecko_id": "enjincoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x82e3A8F066a6989666b031d916c43672085b1582",
+            "coingecko_id": "yearn-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
+            "coingecko_id": "aave"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xBfAE6fecD8124ba33cbB2180aAb0Fe4c03914A5A",
+            "coingecko_id": "tribe-2"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x5033833c9fe8B9d3E09EEd2f73d2aaF7E3872fd1",
+            "coingecko_id": "shiba-inu"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
+            "coingecko_id": "pancakeswap-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
+            "coingecko_id": "uniswap"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8",
+            "coingecko_id": "balancer"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x3cFD99593a7F035F717142095a3898e3Fca7783e",
+            "coingecko_id": "immutable-x"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28",
+            "coingecko_id": "ethereum-name-service"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+            "coingecko_id": "pepe"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
+            "coingecko_id": "sushi"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x8ea3156f834A0dfC78F1A5304fAC2CdA676F354C",
+            "coingecko_id": "crypto-com-chain"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+            "coingecko_id": "lido-dao"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x442d24578A564EF628A65e6a7E3e7be2a165E231",
+            "coingecko_id": "decentraland"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x753D224bCf9AAFaCD81558c32341416df61D3DAC",
+            "coingecko_id": "perpetual-protocol"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xd42785D323e608B9E99fa542bd8b1000D4c2Df37",
+            "coingecko_id": "fantom"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x561877b6b3DD7651313794e5F2894B2F18bE0766",
+            "coingecko_id": "matic-network"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
+            "coingecko_id": "the-graph"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6314C31A7a1652cE482cffe247E9CB7c3f4BB9aF",
+            "coingecko_id": "1inch"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2A676eeAd159c4C8e8593471c6d666F02827FF8C",
+            "coingecko_id": "gala"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xa9004A5421372E1D83fB1f85b0fc986c912f91f3",
+            "coingecko_id": "wbnb"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xdf8F0c63D9335A0AbD89F9F752d293A98EA977d8",
+            "coingecko_id": "ethena"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xC9CBf102c73fb77Ec14f8B4C8bd88e050a6b2646",
+            "coingecko_id": "alpha-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xd1318eb19DBF2647743c720ed35174efd64e3DAC",
+            "coingecko_id": "the-sandbox"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+            "coingecko_id": "optimism"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xb74Da9FE2F96B9E0a5f4A3cf0b92dd2bEC617124",
+            "coingecko_id": "solana"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+            "coingecko_id": "curve-dao-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xaAFcFD42c9954C6689ef1901e03db742520829c5",
+            "coingecko_id": "convex-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF",
+            "coingecko_id": "spell-token"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xcBA56Cd8216FCBBF3fA6DF6137F3147cBcA37D60",
+            "coingecko_id": "havven"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xe88998Fb579266628aF6a03e3821d5983e5D0089",
+            "coingecko_id": "axie-infinity"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+            "coingecko_id": "layerzero"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xe018C7a3d175Fb0fE15D70Da2c874d3CA16313EC",
+            "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+            "coingecko_id": "stargate-finance"
         }
     ]
 }
