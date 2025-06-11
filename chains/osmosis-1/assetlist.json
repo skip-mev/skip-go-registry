@@ -3,7 +3,7 @@
     "chain_name": "osmosis",
     "assets": [
         {
-            "asset_type": "cosmos", 
+            "asset_type": "cosmos",
             "name": "Osmosis USDC",
             "decimals": 6,
             "symbol": "USDC",
@@ -41,8 +41,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
             "coingecko_id": "arbitrum",
             "recommended_symbol": "allARB"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "DYDX",
             "decimals": 12,
@@ -51,8 +51,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
             "coingecko_id": "dydx-chain",
             "recommended_symbol": "allDYDX"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "AIOZ",
             "decimals": 12,
@@ -61,8 +61,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png",
             "coingecko_id": "aioz-network",
             "recommended_symbol": "allAIOZ"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "BCH",
             "decimals": 8,
@@ -71,8 +71,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoincash/images/bch.png",
             "coingecko_id": "bitcoin-cash",
             "recommended_symbol": "allBCH"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "LTC",
             "decimals": 8,
@@ -81,8 +81,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/litecoin/images/ltc.png",
             "coingecko_id": "litecoin",
             "recommended_symbol": "allLTC"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "POL",
             "decimals": 12,
@@ -91,8 +91,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
             "coingecko_id": "matic-network",
             "recommended_symbol": "allPOL"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "LINK",
             "decimals": 12,
@@ -101,8 +101,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
             "coingecko_id": "chainlink",
             "recommended_symbol": "allLINK"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "PEPE",
             "decimals": 12,
@@ -111,8 +111,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
             "coingecko_id": "pepe",
             "recommended_symbol": "allPEPE"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "FIL",
             "decimals": 12,
@@ -121,8 +121,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/fil.png",
             "coingecko_id": "filecoin",
             "recommended_symbol": "allFIL"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "BTC",
             "decimals": 8,
@@ -131,8 +131,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
             "coingecko_id": "bitcoin",
             "recommended_symbol": "allBTC"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "BNB",
             "decimals": 12,
@@ -141,8 +141,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.png",
             "coingecko_id": "binancecoin",
             "recommended_symbol": "allBNB"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "APT",
             "decimals": 8,
@@ -151,8 +151,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg",
             "coingecko_id": "aptos",
             "recommended_symbol": "allAPT"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "TRX",
             "decimals": 6,
@@ -161,8 +161,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png",
             "coingecko_id": "tron",
             "recommended_symbol": "allTRX"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "ETH",
             "decimals": 18,
@@ -171,8 +171,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
             "coingecko_id": "ethereum",
             "recommended_symbol": "allETH"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "DYM",
             "decimals": 12,
@@ -181,8 +181,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
             "coingecko_id": "dymension",
             "recommended_symbol": "allDYM"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "TON",
             "decimals": 9,
@@ -191,8 +191,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.png",
             "coingecko_id": "the-open-network",
             "recommended_symbol": "allTON"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "DOGE",
             "decimals": 8,
@@ -201,8 +201,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png",
             "coingecko_id": "dogecoin",
             "recommended_symbol": "allDOGE"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "SHIB",
             "decimals": 12,
@@ -211,8 +211,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
             "coingecko_id": "shiba-inu",
             "recommended_symbol": "allSHIB"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "FET",
             "decimals": 12,
@@ -221,8 +221,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
             "coingecko_id": "fetch-ai",
             "recommended_symbol": "allFET"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "SOL",
             "decimals": 9,
@@ -231,8 +231,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
             "coingecko_id": "solana",
             "recommended_symbol": "allSOL"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "OP",
             "decimals": 12,
@@ -241,8 +241,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.png",
             "coingecko_id": "optimism",
             "recommended_symbol": "allOP"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "SUI",
             "decimals": 8,
@@ -251,8 +251,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
             "coingecko_id": "sui",
             "recommended_symbol": "allSUI"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "DOT",
             "decimals": 10,
@@ -261,8 +261,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
             "coingecko_id": "polkadot",
             "recommended_symbol": "allDOT"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "XRP",
             "decimals": 6,
@@ -271,8 +271,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
             "coingecko_id": "ripple",
             "recommended_symbol": "allXRP"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "MOVE",
             "decimals": 8,
@@ -281,8 +281,8 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png",
             "coingecko_id": "movement",
             "recommended_symbol": "allMOVE"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "UNI",
             "decimals": 12,
@@ -291,39 +291,39 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uni.svg",
             "coingecko_id": "uniswap",
             "recommended_symbol": "allUNI"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "LBTC",
             "symbol": "LBTC",
             "denom": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
             "coingecko_id": "lbtc",
             "recommended_symbol": "LBTC"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "SolvBTC",
             "symbol": "SolvBTC",
             "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
             "coingecko_id": "solvbtc",
             "recommended_symbol": "SolvBTC"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "WETH.terra",
             "symbol": "WETH.terra",
             "denom": "ibc/970A0AF27E9A18798C589F6A90F00E90393DCF951AC5637E88206B45123DDC40",
             "coingecko_id": "weth",
             "recommended_symbol": "WETH.terra"
-          },
-          {
+        },
+        {
             "asset_type": "cosmos",
             "name": "WBTC.wh",
             "symbol": "WBTC.wh",
             "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
             "coingecko_id": "wrapped-bitcoin",
             "recommended_symbol": "WBTC.wh"
-          },
+        },
         {
             "asset_type": "cosmos",
             "name": "WAVAX",
@@ -357,44 +357,44 @@
             "recommended_symbol": "WBNB.axl"
         },
         {
-          "asset_type": "cosmos",
-          "name": "cbBTC.base.axl",
-          "symbol": "cbBTC.base.axl",
-          "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
-          "coingecko_id": "coinbase-wrapped-btc",
-          "recommended_symbol": "cbBTC.base.axl"
+            "asset_type": "cosmos",
+            "name": "cbBTC.base.axl",
+            "symbol": "cbBTC.base.axl",
+            "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
+            "coingecko_id": "coinbase-wrapped-btc",
+            "recommended_symbol": "cbBTC.base.axl"
         },
         {
-          "asset_type": "cosmos",
-          "name": "USDT.axl",
-          "symbol": "USDT.axl",
-          "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
-          "coingecko_id": "tether",
-          "recommended_symbol": "USDT.axl"
+            "asset_type": "cosmos",
+            "name": "USDT.axl",
+            "symbol": "USDT.axl",
+            "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+            "coingecko_id": "tether",
+            "recommended_symbol": "USDT.axl"
         },
         {
-          "asset_type": "cosmos",
-          "name": "WBTC.axl",
-          "symbol": "WBTC.axl",
-          "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-          "coingecko_id": "wrapped-bitcoin",
-          "recommended_symbol": "WBTC.axl"
+            "asset_type": "cosmos",
+            "name": "WBTC.axl",
+            "symbol": "WBTC.axl",
+            "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+            "coingecko_id": "wrapped-bitcoin",
+            "recommended_symbol": "WBTC.axl"
         },
         {
-          "asset_type": "cosmos",
-          "name": "wstETH.axl",
-          "symbol": "wstETH.axl",
-          "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
-          "coingecko_id": "wrapped-steth",
-          "recommended_symbol": "wstETH.axl"
+            "asset_type": "cosmos",
+            "name": "wstETH.axl",
+            "symbol": "wstETH.axl",
+            "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
+            "coingecko_id": "wrapped-steth",
+            "recommended_symbol": "wstETH.axl"
         },
         {
-          "asset_type": "cosmos",
-          "name": "DOT.axl",
-          "symbol": "DOT.axl",
-          "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-          "coingecko_id": "polkadot",
-          "recommended_symbol": "DOT.axl"
+            "asset_type": "cosmos",
+            "name": "DOT.axl",
+            "symbol": "DOT.axl",
+            "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+            "coingecko_id": "polkadot",
+            "recommended_symbol": "DOT.axl"
         },
         {
             "asset_type": "cosmos",
@@ -403,6 +403,6 @@
             "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
             "coingecko_id": "the-open-network",
             "recommended_symbol": "TON.orai"
-          }
+        }
     ]
 }

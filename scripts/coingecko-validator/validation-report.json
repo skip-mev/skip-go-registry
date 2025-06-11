@@ -1,24 +1,12 @@
 {
-  "timestamp": "2025-06-11T01:15:40.667Z",
+  "timestamp": "2025-06-11T01:24:33.709Z",
   "summary": {
-    "total": 242,
-    "valid": 242,
+    "total": 241,
+    "valid": 241,
     "invalid": 0,
     "errors": 0
   },
   "results": [
-    {
-      "chain_id": "1",
-      "asset": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6",
-      "symbol": "tINIT",
-      "coingecko_id": "initia",
-      "status": "valid",
-      "message": "Valid (known symbol difference: CoinGecko \"init\" = our \"tINIT\")",
-      "coingecko_data": {
-        "name": "Initia",
-        "symbol": "init"
-      }
-    },
     {
       "chain_id": "1",
       "asset": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",

@@ -1,30 +1,30 @@
 {
-  "$schema": "../../assetlist.schema.json",
-  "chain_name": "celo",
-  "assets": [
-    {
-      "asset_type": "evm_native",
-      "evm_native_asset_name": "celo-native",
-      "symbol": "CELO",
-      "name": "CELO",
-      "decimals": 18,
-      "coingecko_id": "celo",
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/celo/info/logo.png"
-    },
-    {
-      "asset_type": "erc20",
-      "erc20_contract_address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
-      "coingecko_id": "usd-coin"
-    },
-    {
-      "asset_type": "erc20",
-      "erc20_contract_address": "0x2DEf4285787d58a2f811AF24755A8150622f4361",
-      "coingecko_id": "weth"
-    },
-    {
-      "asset_type": "erc20",
-      "erc20_contract_address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
-      "coingecko_id": "tether"
-    }
-  ]
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "celo",
+    "assets": [
+        {
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "celo-native",
+            "symbol": "CELO",
+            "name": "CELO",
+            "decimals": 18,
+            "coingecko_id": "celo",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/celo/info/logo.png"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+            "coingecko_id": "usd-coin"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x2DEf4285787d58a2f811AF24755A8150622f4361",
+            "coingecko_id": "weth"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+            "coingecko_id": "tether"
+        }
+    ]
 }

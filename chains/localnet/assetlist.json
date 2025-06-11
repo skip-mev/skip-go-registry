@@ -3,7 +3,7 @@
     "chain_name": "localnet",
     "assets": [
         {
-            "asset_type": "cosmos", 
+            "asset_type": "cosmos",
             "name": "LBTC",
             "decimals": 8,
             "symbol": "LBTC",
