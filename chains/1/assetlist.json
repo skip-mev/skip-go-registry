@@ -42,6 +42,9 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6",
+            "name": "tINIT",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png",
+            "decimals": 18,
             "symbol": "tINIT"
         },
         {
