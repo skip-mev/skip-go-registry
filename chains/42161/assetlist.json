@@ -69,7 +69,9 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x35E6A59F786d9266c7961eA28c7b768B33959cbB",
-            "coingecko_id": "pepe"
+            "coingecko_id": "pepe",
+            "symbol": "PEPE.e",
+            "recommended_symbol": "PEPE.e"
         },
         {
             "asset_type": "erc20",

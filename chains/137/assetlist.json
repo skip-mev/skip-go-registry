@@ -54,7 +54,9 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x101faD70f1eeaE030f18C6a55593984090862697",
-            "coingecko_id": "mantra-dao"
+            "coingecko_id": "mantra-dao",
+            "symbol": "axlOM",
+            "recommended_symbol": "axlOM"
         },
         {
             "asset_type": "erc20",

@@ -41,17 +41,22 @@
         },
         {
             "asset_type": "erc20",
-            "erc20_contract_address": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6"
+            "erc20_contract_address": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6",
+            "symbol": "tINIT"
         },
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",
-            "coingecko_id": "mantra-dao"
+            "coingecko_id": "mantra-dao",
+            "symbol": "axlOM",
+            "recommended_symbol": "axlOM"
         },
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
-            "coingecko_id": "cosmos"
+            "coingecko_id": "cosmos",
+            "symbol": "axlATOM",
+            "recommended_symbol": "axlATOM"
         },
         {
             "asset_type": "erc20",
@@ -344,7 +349,9 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x5e354e4f52D14FF07662CF0493d0d588d38a44A6",
-            "coingecko_id": "kujira"
+            "coingecko_id": "kujira",
+            "symbol": "KUJI.axl",
+            "recommended_symbol": "KUJI.axl"
         },
         {
             "asset_type": "erc20",
