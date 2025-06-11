@@ -51,23 +51,13 @@
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "wrapped-bitcoin",
       "erc20_contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/3717.png",
-      "recommended_symbol": "WBTC"
+      "coingecko_id": "wrapped-bitcoin"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "frax",
       "erc20_contract_address": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
-      "name": "FRAX",
-      "symbol": "FRAX",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/6952.png",
-      "recommended_symbol": "FRAX"
+      "coingecko_id": "frax"
     }
   ]
 }

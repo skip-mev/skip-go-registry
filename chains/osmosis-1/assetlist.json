@@ -89,6 +89,7 @@
             "symbol": "allPOL",
             "denom": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
+            "coingecko_id": "matic-network",
             "recommended_symbol": "allPOL"
           },
           {
@@ -178,6 +179,7 @@
             "symbol": "allDYM",
             "denom": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
+            "coingecko_id": "dymension",
             "recommended_symbol": "allDYM"
           },
           {
@@ -277,6 +279,7 @@
             "symbol": "allMOVE",
             "denom": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png",
+            "coingecko_id": "movement",
             "recommended_symbol": "allMOVE"
           },
           {
@@ -294,6 +297,7 @@
             "name": "LBTC",
             "symbol": "LBTC",
             "denom": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
+            "coingecko_id": "lbtc",
             "recommended_symbol": "LBTC"
           },
           {
@@ -301,6 +305,7 @@
             "name": "SolvBTC",
             "symbol": "SolvBTC",
             "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
+            "coingecko_id": "solvbtc",
             "recommended_symbol": "SolvBTC"
           },
           {
@@ -308,6 +313,7 @@
             "name": "WETH.terra",
             "symbol": "WETH.terra",
             "denom": "ibc/970A0AF27E9A18798C589F6A90F00E90393DCF951AC5637E88206B45123DDC40",
+            "coingecko_id": "weth",
             "recommended_symbol": "WETH.terra"
           },
           {
@@ -315,6 +321,7 @@
             "name": "WBTC.wh",
             "symbol": "WBTC.wh",
             "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
+            "coingecko_id": "wrapped-bitcoin",
             "recommended_symbol": "WBTC.wh"
           },
         {
@@ -322,6 +329,7 @@
             "name": "WAVAX",
             "symbol": "WAVAX",
             "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
+            "coingecko_id": "wrapped-avax",
             "recommended_symbol": "WAVAX.axl"
         },
         {
@@ -329,6 +337,7 @@
             "name": "WFTM",
             "symbol": "WFTM",
             "denom": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
+            "coingecko_id": "wrapped-fantom",
             "recommended_symbol": "WFTM.axl"
         },
         {
@@ -336,6 +345,7 @@
             "name": "WGLMR",
             "symbol": "WGLMR",
             "denom": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
+            "coingecko_id": "wrapped-moonbeam",
             "recommended_symbol": "WGLMR.axl"
         },
         {
@@ -343,6 +353,7 @@
             "name": "WBNB",
             "symbol": "WBNB",
             "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+            "coingecko_id": "wbnb",
             "recommended_symbol": "WBNB.axl"
         },
         {
@@ -350,6 +361,7 @@
           "name": "cbBTC.base.axl",
           "symbol": "cbBTC.base.axl",
           "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
+          "coingecko_id": "coinbase-wrapped-btc",
           "recommended_symbol": "cbBTC.base.axl"
         },
         {
@@ -357,6 +369,7 @@
           "name": "USDT.axl",
           "symbol": "USDT.axl",
           "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+          "coingecko_id": "tether",
           "recommended_symbol": "USDT.axl"
         },
         {
@@ -364,6 +377,7 @@
           "name": "WBTC.axl",
           "symbol": "WBTC.axl",
           "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+          "coingecko_id": "wrapped-bitcoin",
           "recommended_symbol": "WBTC.axl"
         },
         {
@@ -371,6 +385,7 @@
           "name": "wstETH.axl",
           "symbol": "wstETH.axl",
           "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
+          "coingecko_id": "wrapped-steth",
           "recommended_symbol": "wstETH.axl"
         },
         {
@@ -378,6 +393,7 @@
           "name": "DOT.axl",
           "symbol": "DOT.axl",
           "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+          "coingecko_id": "polkadot",
           "recommended_symbol": "DOT.axl"
         },
         {
@@ -385,6 +401,7 @@
             "name": "TON.orai",
             "symbol": "TON.orai",
             "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+            "coingecko_id": "the-open-network",
             "recommended_symbol": "TON.orai"
           }
     ]

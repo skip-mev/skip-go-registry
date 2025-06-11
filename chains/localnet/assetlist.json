@@ -3,13 +3,14 @@
     "chain_name": "localnet",
     "assets": [
         {
-            "asset_type": "cosmos", 
+            "asset_type": "cosmos",
             "name": "LBTC",
             "decimals": 8,
             "symbol": "LBTC",
             "recommended_symbol": "LBTC",
             "denom": "uclbtc",
-            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png"
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "lbtc"
         }
     ]
 }

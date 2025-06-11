@@ -27,7 +27,8 @@
             "name": "WETH.terra",
             "symbol": "WETH.terra",
             "denom": "cw20:terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
-            "recommended_symbol": "WETH.terra"
+            "recommended_symbol": "WETH.terra",
+            "coingecko_id": "weth"
         }
     ]
 }

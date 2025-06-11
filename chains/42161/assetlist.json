@@ -69,478 +69,257 @@
     {
       "asset_type": "erc20",
       "erc20_contract_address": "0x35E6A59F786d9266c7961eA28c7b768B33959cbB",
-      "symbol": "PEPE.e",
-      "recommended_symbol": "PEPE.e"
+      "coingecko_id": "pepe"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "pancakeswap-token",
       "erc20_contract_address": "0xCdc343ebf71e38F003eD6c80171F5B8D7cF58860",
-      "name": "PancakeSwap",
-      "symbol": "CAKE",
-      "decimals": 18,
-      "logo_uri": "https://coin-images.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_%281%29.png?1696512440",
-      "recommended_symbol": "CAKE"
+      "coingecko_id": "pancakeswap-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "compound-governance-token",
       "erc20_contract_address": "0x354A6dA3fcde098F8389cad84b0182725c6C91dE",
-      "name": "Compound",
-      "symbol": "COMP",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
-      "recommended_symbol": "COMP"
+      "coingecko_id": "compound-governance-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "liquity-usd",
       "erc20_contract_address": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
-      "name": "Liquity USD",
-      "symbol": "LUSD",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/14666/thumb/Group_3.png?1617631327",
-      "recommended_symbol": "LUSD"
+      "coingecko_id": "liquity-usd"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "chainlink",
       "erc20_contract_address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-      "recommended_symbol": "LINK"
+      "coingecko_id": "chainlink"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "maker",
       "erc20_contract_address": "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
-      "recommended_symbol": "MKR"
+      "coingecko_id": "maker"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "reserve-rights-token",
       "erc20_contract_address": "0xCa5Ca9083702c56b481D1eec86F1776FDbd2e594",
-      "name": "Reserve Rights",
-      "symbol": "RSR",
-      "decimals": 18,
-      "logo_uri": "https://coin-images.coingecko.com/coins/images/8365/large/RSR_Blue_Circle_1000.png?1721777856",
-      "recommended_symbol": "RSR"
+      "coingecko_id": "reserve-rights-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "ethena-usde",
       "erc20_contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-      "name": "USDe",
-      "symbol": "USDe",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/29470.png",
-      "recommended_symbol": "USDe"
+      "coingecko_id": "ethena-usde"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "frax",
       "erc20_contract_address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/6952.png",
-      "recommended_symbol": "FRAX"
+      "coingecko_id": "frax"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "metis-token",
       "erc20_contract_address": "0x7F728F3595db17B0B359f4FC47aE80FAd2e33769",
-      "name": "Metis",
-      "symbol": "METIS",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/15595/thumb/metis.jpeg?1660285312",
-      "recommended_symbol": "METIS"
+      "coingecko_id": "metis-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "badger-dao",
       "erc20_contract_address": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
-      "name": "Badger DAO",
-      "symbol": "BADGER",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13287/thumb/badger_dao_logo.jpg?1607054976",
-      "recommended_symbol": "BADGER"
+      "coingecko_id": "badger-dao"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "defipulse-index",
       "erc20_contract_address": "0x4667cf53C4eDF659E402B733BEA42B18B68dd74c",
-      "name": "DeFi Pulse Index",
-      "symbol": "DPI",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12465/thumb/defi_pulse_index_set.png?1600051053",
-      "recommended_symbol": "DPI"
+      "coingecko_id": "defipulse-index"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "mantle",
       "erc20_contract_address": "0x9c1a1C7bA9c2602123FD7EF3eb41a769edf6C53A",
-      "name": "Mantle",
-      "symbol": "MNT",
-      "decimals": 18,
-      "logo_uri": "https://coin-images.coingecko.com/coins/images/30980/large/Mantle-Logo-mark.png?1739213200",
-      "recommended_symbol": "MNT"
+      "coingecko_id": "mantle"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "frax",
       "erc20_contract_address": "0x7468a5d8E02245B00E8C0217fCE021C70Bc51305",
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13422/thumb/frax_logo.png?1608476506",
-      "recommended_symbol": "FRAX"
+      "coingecko_id": "frax"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "ethena",
       "erc20_contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-      "name": "ENA",
-      "symbol": "ENA",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/30171.png",
-      "recommended_symbol": "ENA"
+      "coingecko_id": "ethena"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "enjincoin",
       "erc20_contract_address": "0x7fa9549791EFc9030e1Ed3F25D18014163806758",
-      "name": "Enjin Coin",
-      "symbol": "ENJ",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/1102/thumb/enjin-coin-logo.png?1547035078",
-      "recommended_symbol": "ENJ"
+      "coingecko_id": "enjincoin"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "yearn-finance",
       "erc20_contract_address": "0x82e3A8F066a6989666b031d916c43672085b1582",
-      "name": "yearn finance",
-      "symbol": "YFI",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330",
-      "recommended_symbol": "YFI"
+      "coingecko_id": "yearn-finance"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "aave",
       "erc20_contract_address": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
-      "name": "Aave",
-      "symbol": "AAVE",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12645/thumb/AAVE.png?1601374110",
-      "recommended_symbol": "AAVE"
+      "coingecko_id": "aave"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "tribe-2",
       "erc20_contract_address": "0xBfAE6fecD8124ba33cbB2180aAb0Fe4c03914A5A",
-      "name": "Tribe",
-      "symbol": "TRIBE",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/14575/thumb/tribe.PNG?1617487954",
-      "recommended_symbol": "TRIBE"
+      "coingecko_id": "tribe-2"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "shiba-inu",
       "erc20_contract_address": "0x5033833c9fe8B9d3E09EEd2f73d2aaF7E3872fd1",
-      "name": "Shiba Inu",
-      "symbol": "SHIB",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/11939/thumb/shiba.png?1622619446",
-      "recommended_symbol": "SHIB"
+      "coingecko_id": "shiba-inu"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "pancakeswap-token",
       "erc20_contract_address": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
-      "name": "Cake",
-      "symbol": "Cake",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/7186.png",
-      "recommended_symbol": "Cake"
+      "coingecko_id": "pancakeswap-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "uniswap",
       "erc20_contract_address": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
-      "name": "Uniswap",
-      "symbol": "UNI",
-      "decimals": 18,
-      "logo_uri": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg",
-      "recommended_symbol": "UNI"
+      "coingecko_id": "uniswap"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "balancer",
       "erc20_contract_address": "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8",
-      "name": "Balancer",
-      "symbol": "BAL",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
-      "recommended_symbol": "BAL"
+      "coingecko_id": "balancer"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "immutable-x",
       "erc20_contract_address": "0x3cFD99593a7F035F717142095a3898e3Fca7783e",
-      "name": "Immutable X",
-      "symbol": "IMX",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/17233/thumb/imx.png?1636691817",
-      "recommended_symbol": "IMX"
+      "coingecko_id": "immutable-x"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "ethereum-name-service",
       "erc20_contract_address": "0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28",
-      "name": "Ethereum Name Service",
-      "symbol": "ENS",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/19785/thumb/acatxTm8_400x400.jpg?1635850140",
-      "recommended_symbol": "ENS"
+      "coingecko_id": "ethereum-name-service"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "pepe",
       "erc20_contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
-      "name": "PEPE",
-      "symbol": "PEPE",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/24478.png",
-      "recommended_symbol": "PEPE"
+      "coingecko_id": "pepe"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "sushi",
       "erc20_contract_address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
-      "name": "Sushi",
-      "symbol": "SUSHI",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12271/thumb/512x512_Logo_no_chop.png?1606986688",
-      "recommended_symbol": "SUSHI"
+      "coingecko_id": "sushi"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "crypto-com-chain",
       "erc20_contract_address": "0x8ea3156f834A0dfC78F1A5304fAC2CdA676F354C",
-      "name": "Cronos",
-      "symbol": "CRO",
-      "decimals": 8,
-      "logo_uri": "https://assets.coingecko.com/coins/images/7310/thumb/oCw2s3GI_400x400.jpeg?1645172042",
-      "recommended_symbol": "CRO"
+      "coingecko_id": "crypto-com-chain"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "lido-dao",
       "erc20_contract_address": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
-      "name": "Lido DAO",
-      "symbol": "LDO",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13573/thumb/Lido_DAO.png?1609873644",
-      "recommended_symbol": "LDO"
+      "coingecko_id": "lido-dao"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "decentraland",
       "erc20_contract_address": "0x442d24578A564EF628A65e6a7E3e7be2a165E231",
-      "name": "Decentraland",
-      "symbol": "MANA",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
-      "recommended_symbol": "MANA"
+      "coingecko_id": "decentraland"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "perpetual-protocol",
       "erc20_contract_address": "0x753D224bCf9AAFaCD81558c32341416df61D3DAC",
-      "name": "Perpetual Protocol",
-      "symbol": "PERP",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12381/thumb/60d18e06844a844ad75901a9_mark_only_03.png?1628674771",
-      "recommended_symbol": "PERP"
+      "coingecko_id": "perpetual-protocol"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "fantom",
       "erc20_contract_address": "0xd42785D323e608B9E99fa542bd8b1000D4c2Df37",
-      "name": "Fantom",
-      "symbol": "FTM",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/4001/thumb/Fantom.png?1558015016",
-      "recommended_symbol": "FTM"
+      "coingecko_id": "fantom"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "matic-network",
       "erc20_contract_address": "0x561877b6b3DD7651313794e5F2894B2F18bE0766",
-      "name": "Polygon",
-      "symbol": "MATIC",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912",
-      "recommended_symbol": "MATIC"
+      "coingecko_id": "matic-network"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "the-graph",
       "erc20_contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
-      "name": "The Graph",
-      "symbol": "GRT",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1608145566",
-      "recommended_symbol": "GRT"
+      "coingecko_id": "the-graph"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "1inch",
       "erc20_contract_address": "0x6314C31A7a1652cE482cffe247E9CB7c3f4BB9aF",
-      "name": "1inch",
-      "symbol": "1INCH",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13469/thumb/1inch-token.png?1608803028",
-      "recommended_symbol": "1INCH"
+      "coingecko_id": "1inch"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "gala",
       "erc20_contract_address": "0x2A676eeAd159c4C8e8593471c6d666F02827FF8C",
-      "name": "GALA",
-      "symbol": "GALA",
-      "decimals": 8,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12493/standard/GALA-COINGECKO.png?1696512310",
-      "recommended_symbol": "GALA"
+      "coingecko_id": "gala"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "wbnb",
       "erc20_contract_address": "0xa9004A5421372E1D83fB1f85b0fc986c912f91f3",
-      "name": "WBNB",
-      "symbol": "WBNB",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/7192.png",
-      "recommended_symbol": "WBNB"
+      "coingecko_id": "wbnb"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "ethena",
       "erc20_contract_address": "0xdf8F0c63D9335A0AbD89F9F752d293A98EA977d8",
-      "name": "Ethena",
-      "symbol": "ENA",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/36530/standard/ethena.png",
-      "recommended_symbol": "ENA"
+      "coingecko_id": "ethena"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "alpha-finance",
       "erc20_contract_address": "0xC9CBf102c73fb77Ec14f8B4C8bd88e050a6b2646",
-      "name": "Alpha Venture DAO",
-      "symbol": "ALPHA",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876",
-      "recommended_symbol": "ALPHA"
+      "coingecko_id": "alpha-finance"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "the-sandbox",
       "erc20_contract_address": "0xd1318eb19DBF2647743c720ed35174efd64e3DAC",
-      "name": "The Sandbox",
-      "symbol": "SAND",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12129/thumb/sandbox_logo.jpg?1597397942",
-      "recommended_symbol": "SAND"
+      "coingecko_id": "the-sandbox"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "optimism",
       "erc20_contract_address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
-      "name": "OP",
-      "symbol": "OP",
-      "decimals": 18,
-      "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/11840.png",
-      "recommended_symbol": "OP"
+      "coingecko_id": "optimism"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "wrapped-bitcoin",
       "erc20_contract_address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
-      "recommended_symbol": "WBTC"
+      "coingecko_id": "wrapped-bitcoin"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "solana",
       "erc20_contract_address": "0xb74Da9FE2F96B9E0a5f4A3cf0b92dd2bEC617124",
-      "name": "SOL Wormhole ",
-      "symbol": "SOL",
-      "decimals": 9,
-      "logo_uri": "https://assets.coingecko.com/coins/images/22876/thumb/SOL_wh_small.png?1644224316",
-      "recommended_symbol": "SOL"
+      "coingecko_id": "solana"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "curve-dao-token",
       "erc20_contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
-      "name": "Curve DAO Token",
-      "symbol": "CRV",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
-      "recommended_symbol": "CRV"
+      "coingecko_id": "curve-dao-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "convex-finance",
       "erc20_contract_address": "0xaAFcFD42c9954C6689ef1901e03db742520829c5",
-      "name": "Convex Finance",
-      "symbol": "CVX",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/15585/thumb/convex.png?1621256328",
-      "recommended_symbol": "CVX"
+      "coingecko_id": "convex-finance"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "spell-token",
       "erc20_contract_address": "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF",
-      "name": "Spell Token",
-      "symbol": "SPELL",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/15861/thumb/abracadabra-3.png?1622544862",
-      "recommended_symbol": "SPELL"
+      "coingecko_id": "spell-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "havven",
       "erc20_contract_address": "0xcBA56Cd8216FCBBF3fA6DF6137F3147cBcA37D60",
-      "name": "Synthetix Network Token",
-      "symbol": "SNX",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
-      "recommended_symbol": "SNX"
+      "coingecko_id": "havven"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "axie-infinity",
       "erc20_contract_address": "0xe88998Fb579266628aF6a03e3821d5983e5D0089",
-      "name": "Axie Infinity",
-      "symbol": "AXS",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
-      "recommended_symbol": "AXS"
+      "coingecko_id": "axie-infinity"
+    },
+    {
+      "asset_type": "erc20",
+      "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "coingecko_id": "layerzero"
+    },
+    {
+      "asset_type": "erc20",
+      "erc20_contract_address": "0xe018C7a3d175Fb0fE15D70Da2c874d3CA16313EC",
+      "coingecko_id": "stargate-finance"
+    },
+    {
+      "asset_type": "erc20",
+      "erc20_contract_address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+      "coingecko_id": "stargate-finance"
     }
   ]
 }

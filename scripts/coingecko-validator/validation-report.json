@@ -1,12 +1,60 @@
 {
-  "timestamp": "2025-06-10T22:49:16.900Z",
+  "timestamp": "2025-06-11T01:15:40.667Z",
   "summary": {
-    "total": 220,
-    "valid": 220,
+    "total": 242,
+    "valid": 242,
     "invalid": 0,
     "errors": 0
   },
   "results": [
+    {
+      "chain_id": "1",
+      "asset": "0x21d99c30a3a5c2aef53d1cdfc704c00fdafa1fb6",
+      "symbol": "tINIT",
+      "coingecko_id": "initia",
+      "status": "valid",
+      "message": "Valid (known symbol difference: CoinGecko \"init\" = our \"tINIT\")",
+      "coingecko_data": {
+        "name": "Initia",
+        "symbol": "init"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",
+      "symbol": "minimal",
+      "coingecko_id": "mantra-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
+      "coingecko_data": {
+        "name": "MANTRA",
+        "symbol": "om"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
+      "symbol": "axlATOM",
+      "coingecko_id": "cosmos",
+      "status": "valid",
+      "message": "Valid (multiple valid symbols: CoinGecko \"atom\" = our \"axlATOM\")",
+      "coingecko_data": {
+        "name": "Cosmos Hub",
+        "symbol": "atom"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0x5e354e4f52D14FF07662CF0493d0d588d38a44A6",
+      "symbol": "KUJI.axl",
+      "coingecko_id": "kujira",
+      "status": "valid",
+      "message": "Valid (multiple valid symbols: CoinGecko \"kuji\" = our \"KUJI.axl\")",
+      "coingecko_data": {
+        "name": "Kujira",
+        "symbol": "kuji"
+      }
+    },
     {
       "chain_id": "1",
       "asset": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
@@ -488,6 +536,30 @@
       }
     },
     {
+      "chain_id": "1",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "1",
+      "asset": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
       "chain_id": "10",
       "asset": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
       "symbol": "FRAX",
@@ -752,12 +824,36 @@
       }
     },
     {
-      "chain_id": "1329",
-      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-      "symbol": "WBTC",
-      "coingecko_id": "wrapped-bitcoin",
+      "chain_id": "10",
+      "asset": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
       "status": "valid",
       "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
+      "chain_id": "10",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "1329",
+      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "symbol": "minimal",
+      "coingecko_id": "wrapped-bitcoin",
+      "status": "valid",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Wrapped Bitcoin",
         "symbol": "wbtc"
@@ -766,13 +862,25 @@
     {
       "chain_id": "1329",
       "asset": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
-      "symbol": "FRAX",
+      "symbol": "minimal",
       "coingecko_id": "frax",
       "status": "valid",
-      "message": "CoinGecko ID verified",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Legacy Frax Dollar",
         "symbol": "frax"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x101faD70f1eeaE030f18C6a55593984090862697",
+      "symbol": "minimal",
+      "coingecko_id": "mantra-dao",
+      "status": "valid",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
+      "coingecko_data": {
+        "name": "MANTRA",
+        "symbol": "om"
       }
     },
     {
@@ -1232,6 +1340,30 @@
       }
     },
     {
+      "chain_id": "137",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "137",
+      "asset": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
       "chain_id": "250",
       "asset": "0xcc1b99dDAc1a33c201a742A1851662E87BC7f22C",
       "symbol": "USDT",
@@ -1292,6 +1424,18 @@
       }
     },
     {
+      "chain_id": "250",
+      "asset": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
       "chain_id": "42161",
       "asset": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
       "symbol": "USDC.e",
@@ -1301,6 +1445,18 @@
       "coingecko_data": {
         "name": "Arbitrum Bridged USDC (Arbitrum)",
         "symbol": "usdc.e"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x35E6A59F786d9266c7961eA28c7b768B33959cbB",
+      "symbol": "PEPE.e",
+      "coingecko_id": "pepe",
+      "status": "valid",
+      "message": "Valid (multiple valid symbols: CoinGecko \"pepe\" = our \"PEPE.e\")",
+      "coingecko_data": {
+        "name": "Pepe",
+        "symbol": "pepe"
       }
     },
     {
@@ -1868,12 +2024,48 @@
       }
     },
     {
-      "chain_id": "42220",
-      "asset": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
-      "symbol": "USDC",
-      "coingecko_id": "usd-coin",
+      "chain_id": "42161",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
       "status": "valid",
       "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0xe018C7a3d175Fb0fE15D70Da2c874d3CA16313EC",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
+      "chain_id": "42161",
+      "asset": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
+      "chain_id": "42220",
+      "asset": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "symbol": "minimal",
+      "coingecko_id": "usd-coin",
+      "status": "valid",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "USDC",
         "symbol": "usdc"
@@ -1882,10 +2074,10 @@
     {
       "chain_id": "42220",
       "asset": "0x2DEf4285787d58a2f811AF24755A8150622f4361",
-      "symbol": "WETH",
+      "symbol": "minimal",
       "coingecko_id": "weth",
       "status": "valid",
-      "message": "CoinGecko ID verified",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "WETH",
         "symbol": "weth"
@@ -1894,10 +2086,10 @@
     {
       "chain_id": "42220",
       "asset": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
-      "symbol": "USDT",
+      "symbol": "minimal",
       "coingecko_id": "tether",
       "status": "valid",
-      "message": "CoinGecko ID verified",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Tether",
         "symbol": "usdt"
@@ -2156,6 +2348,30 @@
       }
     },
     {
+      "chain_id": "43114",
+      "asset": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
+      "chain_id": "43114",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
       "chain_id": "56",
       "asset": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "symbol": "BUSD",
@@ -2336,12 +2552,36 @@
       }
     },
     {
-      "chain_id": "81457",
-      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-      "symbol": "USDe",
-      "coingecko_id": "ethena-usde",
+      "chain_id": "56",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
       "status": "valid",
       "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "56",
+      "asset": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
+      }
+    },
+    {
+      "chain_id": "81457",
+      "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "minimal",
+      "coingecko_id": "ethena-usde",
+      "status": "valid",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Ethena USDe",
         "symbol": "usde"
@@ -2350,10 +2590,10 @@
     {
       "chain_id": "81457",
       "asset": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-      "symbol": "ENA",
+      "symbol": "minimal",
       "coingecko_id": "ethena",
       "status": "valid",
-      "message": "CoinGecko ID verified",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Ethena",
         "symbol": "ena"
@@ -2362,10 +2602,10 @@
     {
       "chain_id": "81457",
       "asset": "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
-      "symbol": "FRAX",
+      "symbol": "minimal",
       "coingecko_id": "frax",
       "status": "valid",
-      "message": "CoinGecko ID verified",
+      "message": "CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)",
       "coingecko_data": {
         "name": "Legacy Frax Dollar",
         "symbol": "frax"
@@ -2645,6 +2885,30 @@
       "coingecko_data": {
         "name": "Uniswap",
         "symbol": "uni"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "coingecko_id": "layerzero",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "LayerZero",
+        "symbol": "zro"
+      }
+    },
+    {
+      "chain_id": "8453",
+      "asset": "0xE3B53AF74a4BF62Ae5511055290838050bf764Df",
+      "symbol": "STG",
+      "coingecko_id": "stargate-finance",
+      "status": "valid",
+      "message": "CoinGecko ID verified",
+      "coingecko_data": {
+        "name": "Stargate Finance",
+        "symbol": "stg"
       }
     }
   ]

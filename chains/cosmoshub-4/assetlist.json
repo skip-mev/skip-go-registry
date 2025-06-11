@@ -27,7 +27,8 @@
             "name": "TON.orai",
             "symbol": "TON.orai",
             "denom": "ibc/FFE1572627ECF442D6E2CA653000FACBA33824732012BCE63DFC25F1E813E5B3",
-            "recommended_symbol": "TON.orai"
+            "recommended_symbol": "TON.orai",
+            "coingecko_id": "the-open-network"
         }
     ]
 }

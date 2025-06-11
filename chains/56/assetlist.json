@@ -67,143 +67,83 @@
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "metis-token",
       "erc20_contract_address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
-      "name": "Metis",
-      "symbol": "METIS",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/15595/thumb/metis.jpeg?1660285312",
-      "recommended_symbol": "METIS"
+      "coingecko_id": "metis-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "perpetual-protocol",
       "erc20_contract_address": "0x4e7f408be2d4E9D60F49A64B89Bb619c84C7c6F5",
-      "name": "Perpetual Protocol",
-      "symbol": "PERP",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12381/thumb/60d18e06844a844ad75901a9_mark_only_03.png?1628674771",
-      "recommended_symbol": "PERP"
+      "coingecko_id": "perpetual-protocol"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "aave",
       "erc20_contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
-      "name": "Aave",
-      "symbol": "AAVE",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12645/thumb/AAVE.png?1601374110",
-      "recommended_symbol": "AAVE"
+      "coingecko_id": "aave"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "solana",
       "erc20_contract_address": "0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e",
-      "name": "SOL Wormhole ",
-      "symbol": "SOL",
-      "decimals": 9,
-      "logo_uri": "https://assets.coingecko.com/coins/images/22876/thumb/SOL_wh_small.png?1644224316",
-      "recommended_symbol": "SOL"
+      "coingecko_id": "solana"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "chainlink",
       "erc20_contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-      "recommended_symbol": "LINK"
+      "coingecko_id": "chainlink"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "fantom",
       "erc20_contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
-      "name": "Fantom",
-      "symbol": "FTM",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/4001/thumb/Fantom.png?1558015016",
-      "recommended_symbol": "FTM"
+      "coingecko_id": "fantom"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "frax",
       "erc20_contract_address": "0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40",
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13422/thumb/frax_logo.png?1608476506",
-      "recommended_symbol": "FRAX"
+      "coingecko_id": "frax"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "1inch",
       "erc20_contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
-      "name": "1inch",
-      "symbol": "1INCH",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13469/thumb/1inch-token.png?1608803028",
-      "recommended_symbol": "1INCH"
+      "coingecko_id": "1inch"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "axie-infinity",
       "erc20_contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
-      "name": "Axie Infinity",
-      "symbol": "AXS",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
-      "recommended_symbol": "AXS"
+      "coingecko_id": "axie-infinity"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "alpha-finance",
       "erc20_contract_address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
-      "name": "Alpha Venture DAO",
-      "symbol": "ALPHA",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876",
-      "recommended_symbol": "ALPHA"
+      "coingecko_id": "alpha-finance"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "sushi",
       "erc20_contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
-      "name": "Sushi",
-      "symbol": "SUSHI",
-      "decimals": 18,
-      "logo_uri": "https://assets.coingecko.com/coins/images/12271/thumb/512x512_Logo_no_chop.png?1606986688",
-      "recommended_symbol": "SUSHI"
+      "coingecko_id": "sushi"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "compound-governance-token",
       "erc20_contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
-      "name": "Compound",
-      "symbol": "COMP",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
-      "recommended_symbol": "COMP"
+      "coingecko_id": "compound-governance-token"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "dai",
       "erc20_contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-      "recommended_symbol": "DAI"
+      "coingecko_id": "dai"
     },
     {
       "asset_type": "erc20",
-      "coingecko_id": "uniswap",
       "erc20_contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
-      "name": "Uniswap",
-      "symbol": "UNI",
-      "decimals": 18,
-      "logo_uri": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg",
-      "recommended_symbol": "UNI"
+      "coingecko_id": "uniswap"
+    },
+    {
+      "asset_type": "erc20",
+      "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "coingecko_id": "layerzero"
+    },
+    {
+      "asset_type": "erc20",
+      "erc20_contract_address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+      "coingecko_id": "stargate-finance"
     }
   ]
 }

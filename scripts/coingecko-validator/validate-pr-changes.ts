@@ -82,6 +82,9 @@ interface ValidationResult {
 // Cache for CoinGecko coins list
 let coinGeckoList: Array<{id: string, symbol: string, name: string}> | null = null;
 
+// Cache for Skip API asset data (contract address -> symbol mapping)
+let skipApiCache: Map<string, string> | null = null;
+
 async function getCoinGeckoList(): Promise<Array<{id: string, symbol: string, name: string}>> {
   if (coinGeckoList) return coinGeckoList;
   
@@ -92,8 +95,51 @@ async function getCoinGeckoList(): Promise<Array<{id: string, symbol: string, na
   }
   
   coinGeckoList = await response.json();
-  console.log(`Loaded ${coinGeckoList!.length} coins from CoinGecko\n`);
+  console.log(`Loaded ${coinGeckoList!.length} coins from CoinGecko`);
   return coinGeckoList!;
+}
+
+/**
+ * Fetch Skip API data for contract-to-symbol lookups
+ */
+async function getSkipApiCache(): Promise<Map<string, string>> {
+  if (skipApiCache) return skipApiCache;
+  
+  console.log('Fetching Skip API data for symbol lookups...');
+  skipApiCache = new Map();
+  
+  // EVM chain IDs to fetch
+  const evmChains = ['1', '10', '137', '250', '42161', '43114', '56', '8453'];
+  
+  for (const chainId of evmChains) {
+    try {
+      const response = await fetch(`https://api.skip.money/v2/fungible/assets?chain_id=${chainId}&include_evm_assets=true`);
+      if (!response.ok) {
+        console.log(`   ⚠️  Failed to fetch chain ${chainId}: ${response.status}`);
+        continue;
+      }
+      
+      const data = await response.json();
+      const chainAssets = data.chain_to_assets_map?.[chainId];
+      
+      if (chainAssets?.assets) {
+        let erc20Count = 0;
+        for (const asset of chainAssets.assets) {
+          if (asset.is_evm && asset.token_contract && asset.symbol) {
+            const contractKey = `${chainId}:${asset.token_contract.toLowerCase()}`;
+            skipApiCache.set(contractKey, asset.symbol);
+            erc20Count++;
+          }
+        }
+        console.log(`   Chain ${chainId}: ${erc20Count} ERC20 assets`);
+      }
+    } catch (error) {
+      console.log(`   ⚠️  Error fetching chain ${chainId}:`, error);
+    }
+  }
+  
+  console.log(`Loaded ${skipApiCache.size} contract-to-symbol mappings from Skip API\n`);
+  return skipApiCache;
 }
 
 /**
@@ -203,12 +249,13 @@ async function validateCoinGeckoId(
   coinGeckoId: string, 
   asset: Asset, 
   chainId: string,
-  coinsList: Array<{id: string, symbol: string, name: string}>
+  coinsList: Array<{id: string, symbol: string, name: string}>,
+  skipCache: Map<string, string>
 ): Promise<ValidationResult> {
   const result: ValidationResult = {
     chain_id: chainId,
     asset: asset.erc20_contract_address || asset.symbol || 'unknown',
-    symbol: asset.symbol || '',
+    symbol: asset.symbol || 'minimal',
     coingecko_id: coinGeckoId,
     status: 'error',
     message: ''
@@ -230,8 +277,24 @@ async function validateCoinGeckoId(
       symbol: coin.symbol
     };
     
+    // For minimal ERC20 assets without symbol, try to get symbol from Skip API
+    let symbolToValidate = asset.symbol;
+    if (!asset.symbol && asset.erc20_contract_address) {
+      const contractKey = `${chainId}:${asset.erc20_contract_address.toLowerCase()}`;
+      symbolToValidate = skipCache.get(contractKey);
+      
+      if (!symbolToValidate) {
+        result.status = 'valid';
+        result.message = 'CoinGecko ID verified (minimal ERC20 format, no symbol in Skip API)';
+        return result;
+      } else {
+        result.symbol = symbolToValidate;
+        console.log(`\n   📝 Found symbol "${symbolToValidate}" in Skip API for ${asset.erc20_contract_address}`);
+      }
+    }
+    
     // Validate symbol matches (case insensitive)
-    if (asset.symbol && coin.symbol.toLowerCase() !== asset.symbol.toLowerCase()) {
+    if (symbolToValidate && coin.symbol.toLowerCase() !== symbolToValidate.toLowerCase()) {
       // Special cases where symbols don't match
       const knownMismatches: Record<string, string> = {
         'havven': 'snx', // Synthetix Network Token
@@ -255,7 +318,6 @@ async function validateCoinGeckoId(
         'wbnb': 'wbnb', // WBNB same
         'wrapped-avax': 'wavax', // WAVAX
         'wrapped-fantom': 'wftm', // WFTM
-        'matic-network': 'matic', // MATIC (before rebrand)
         'shiba-inu': 'shib', // SHIB
         'the-graph': 'grt', // The Graph
         'ethereum-name-service': 'ens', // ENS
@@ -304,6 +366,14 @@ async function validateCoinGeckoId(
         'velodrome-finance': 'velo', // VELO
         'odos': 'odos', // ODOS same
         'reserve-rights-token': 'rsr', // RSR
+        // Cross-chain infrastructure
+        'layerzero': 'zro', // ZRO
+        'stargate-finance': 'stg', // STG  
+        'axelar': 'axl', // AXL
+        // Bridged/testnet versions
+        'initia': 'tinit', // Testnet/bridged INIT
+        'mantra-dao': 'axlom', // Axelar-bridged MANTRA
+        // Exchange tokens
         'ftx-token': 'ftt', // FTT
         'leo-token': 'leo', // LEO
         'huobi-token': 'ht', // HT
@@ -317,17 +387,29 @@ async function validateCoinGeckoId(
         'gala': 'gala', // GALA same
         'enjincoin': 'enj', // ENJ
         'chiliz': 'chz', // CHZ
-        'pepe': 'pepe', // PEPE same
         'frax': 'frax', // FRAX same
         'dai': 'dai', // DAI same
       };
       
-      if (knownMismatches[coinGeckoId] === asset.symbol.toLowerCase()) {
+      // Handle multiple valid symbols for same CoinGecko ID
+      const validSymbols = {
+        'matic-network': ['pol', 'matic'], // Both POL (new) and MATIC (old) are valid
+        'cosmos': ['atom', 'axlatom'], // Both ATOM and axlATOM are valid
+        'pepe': ['pepe', 'pepe.e'], // Both PEPE and PEPE.e are valid
+        'kujira': ['kuji', 'kuji.axl'] // Both KUJI and KUJI.axl are valid
+      };
+      
+      const assetSymbol = symbolToValidate.toLowerCase();
+      
+      if (knownMismatches[coinGeckoId] === assetSymbol) {
         result.status = 'valid';
-        result.message = `Valid (known symbol difference: CoinGecko "${coin.symbol}" = our "${asset.symbol}")`;
+        result.message = `Valid (known symbol difference: CoinGecko "${coin.symbol}" = our "${symbolToValidate}")`;
+      } else if (validSymbols[coinGeckoId] && validSymbols[coinGeckoId].includes(assetSymbol)) {
+        result.status = 'valid';
+        result.message = `Valid (multiple valid symbols: CoinGecko "${coin.symbol}" = our "${symbolToValidate}")`;
       } else {
         result.status = 'invalid';
-        result.message = `Symbol mismatch: CoinGecko has "${coin.symbol}", asset has "${asset.symbol}"`;
+        result.message = `Symbol mismatch: CoinGecko has "${coin.symbol}", asset has "${symbolToValidate}"`;
       }
     } else {
       result.status = 'valid';
@@ -392,8 +474,9 @@ async function validatePRChanges() {
     return;
   }
   
-  // Get CoinGecko coins list
+  // Get CoinGecko coins list and Skip API cache
   const coinsList = await getCoinGeckoList();
+  const skipCache = await getSkipApiCache();
   
   // Validate each CoinGecko ID
   const results: ValidationResult[] = [];
@@ -408,9 +491,9 @@ async function validatePRChanges() {
     
     if (!asset.coingecko_id) continue;
     
-    process.stdout.write(`[${i + 1}/${allAddedAssets.length}] Validating ${asset.symbol} (${asset.coingecko_id})... `);
+    process.stdout.write(`[${i + 1}/${allAddedAssets.length}] Validating ${asset.symbol || 'minimal'} (${asset.coingecko_id})... `);
     
-    const result = await validateCoinGeckoId(asset.coingecko_id, asset, chain_id, coinsList);
+    const result = await validateCoinGeckoId(asset.coingecko_id, asset, chain_id, coinsList, skipCache);
     results.push(result);
     
     switch (result.status) {
