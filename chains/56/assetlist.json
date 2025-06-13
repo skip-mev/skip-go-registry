@@ -144,6 +144,11 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
             "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e",
+            "recommended_symbol": "SOL.wh"
         }
     ]
 }
