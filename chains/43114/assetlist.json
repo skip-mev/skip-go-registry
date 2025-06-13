@@ -138,6 +138,11 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
             "coingecko_id": "layerzero"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xFE6B19286885a4F7F55AdAD09C3Cd1f906D2478F",
+            "recommended_symbol": "SOL.wh"
         }
     ]
 }
