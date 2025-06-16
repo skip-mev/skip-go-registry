@@ -25,6 +25,11 @@ const SAMPLE_TOKENS: SampleCheck[] = [
   { symbol: 'FRAX', expected_id: 'frax', chain_id: '137' },
   { symbol: 'MKR', expected_id: 'maker', chain_id: '42161' },
   
+  // agETH on multiple chains
+  { symbol: 'agETH', expected_id: 'kelp-gain', chain_id: '1', contract: '0xe1B4d34E8754600962Cd944B535180Bd758E6c2e' },
+  { symbol: 'agETH', expected_id: 'kelp-gain', chain_id: '10', contract: '0x1bD0Fe8E92a157D3ef66C9FB9e38621252b407c2' },
+  { symbol: 'agETH', expected_id: 'kelp-gain', chain_id: '42161', contract: '0x1bD0Fe8E92a157D3ef66C9FB9e38621252b407c2' },
+  
   // Stablecoins
   { symbol: 'USDC', expected_id: 'usd-coin', chain_id: '1' },
   { symbol: 'DAI', expected_id: 'dai', chain_id: '10' },
@@ -65,7 +70,8 @@ async function checkCoinGeckoId(check: SampleCheck, coinsList: Array<{id: string
       (check.expected_id === 'usd-coin' && check.symbol === 'USDC') ||
       (check.expected_id === 'dai' && check.symbol === 'DAI') ||
       (check.expected_id === 'frax' && check.symbol === 'FRAX') ||
-      (check.expected_id === 'maker' && check.symbol === 'MKR');
+      (check.expected_id === 'maker' && check.symbol === 'MKR') ||
+      (check.expected_id === 'kelp-gain' && check.symbol === 'agETH');
     
     if (!symbolMatches) {
       console.log(`⚠️  ${check.symbol}: Symbol mismatch - CoinGecko has "${coin.symbol}"`);
@@ -121,7 +127,7 @@ async function generateStats() {
     console.log('\n📍 Breakdown by chain:');
     const chains = execSync('git diff --name-only HEAD~1 | grep assetlist.json | cut -d/ -f2 | sort | uniq', { encoding: 'utf8' });
     
-    for (const chain of chains.split('\n').filter(c => c)) {
+    for (const chain of chains.split('\n').filter((c: string) => c)) {
       const count = execSync(`git diff HEAD~1 -- chains/${chain}/assetlist.json | grep "^+" | grep "coingecko_id" | wc -l`, { encoding: 'utf8' }).trim();
       console.log(`   Chain ${chain}: ${count} assets`);
     }
