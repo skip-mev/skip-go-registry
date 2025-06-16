@@ -200,8 +200,11 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Frax USD",
             "erc20_contract_address": "0x104592a158490a9228070E0A8e5343B499e125D0",
-            "coingecko_id": "frax"
+            "symbol": "frxUSD",
+            "coingecko_id": "frax-usd",
+            "recommended_symbol": "frxUSD"
         },
         {
             "asset_type": "erc20",
@@ -257,6 +260,30 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
             "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x3e121107F6F22DA4911079845a470757aF4e1A1b",
+            "symbol": "FRAX",
+            "coingecko_id": "frax-share",
+            "recommended_symbol": "FRAX"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x64445f0aecC51E94aD52d8AC56b7190e764E561a",
+            "symbol": "FRAX.lz",
+            "coingecko_id": "wrapped-frax",
+            "recommended_symbol": "FRAX.lz"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x75b33EAA41DBc1Aae041d718AdfA4D446dD35ACC",
+            "symbol": "FRAX.axl",
+            "coingecko_id": "frax-share",
+            "recommended_symbol": "FRAX.axl"
         }
     ]
 }

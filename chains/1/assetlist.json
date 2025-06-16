@@ -566,6 +566,14 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
             "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+            "symbol": "FRAX",
+            "coingecko_id": "frax-share",
+            "recommended_symbol": "FRAX"
         }
     ]
 }

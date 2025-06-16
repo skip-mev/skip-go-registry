@@ -25,6 +25,14 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
             "coingecko_id": "tether"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x52dA31b925F571882D7F8f6a9C6fB39d80D2Fe20",
+            "symbol": "FRAX",
+            "coingecko_id": "frax-share",
+            "recommended_symbol": "FRAX"
         }
     ]
 }

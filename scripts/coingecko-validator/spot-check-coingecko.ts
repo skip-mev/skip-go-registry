@@ -22,7 +22,10 @@ const SAMPLE_TOKENS: SampleCheck[] = [
   
   // Cross-chain
   { symbol: 'WBTC', expected_id: 'wrapped-bitcoin', chain_id: '10' },
-  { symbol: 'FRAX', expected_id: 'frax', chain_id: '137' },
+  { symbol: 'frxUSD', expected_id: 'frax-usd', chain_id: '137' },
+  { symbol: 'FRAX', expected_id: 'frax-share', chain_id: '1', contract: '0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0' },
+  { symbol: 'FRAX', expected_id: 'frax-share', chain_id: '10', contract: '0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be' },
+  { symbol: 'FRAX', expected_id: 'frax-share', chain_id: '137', contract: '0x3e121107F6F22DA4911079845a470757aF4e1A1b' },
   { symbol: 'MKR', expected_id: 'maker', chain_id: '42161' },
   
   // Stablecoins
@@ -64,7 +67,8 @@ async function checkCoinGeckoId(check: SampleCheck, coinsList: Array<{id: string
       (check.expected_id === 'wrapped-bitcoin' && check.symbol === 'WBTC') ||
       (check.expected_id === 'usd-coin' && check.symbol === 'USDC') ||
       (check.expected_id === 'dai' && check.symbol === 'DAI') ||
-      (check.expected_id === 'frax' && check.symbol === 'FRAX') ||
+      (check.expected_id === 'frax-usd' && check.symbol === 'frxUSD') ||
+      (check.expected_id === 'frax-share' && check.symbol === 'FRAX') ||
       (check.expected_id === 'maker' && check.symbol === 'MKR');
     
     if (!symbolMatches) {
