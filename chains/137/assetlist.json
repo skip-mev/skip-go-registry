@@ -293,6 +293,11 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
             "coingecko_id": "kelp-gain",
             "recommended_symbol": "agETH"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x324b28d6565f784d596422B0F2E5aB6e9CFA1Dc7",
+            "coingecko_id": "kyber-network-crystal"
         }
     ]
 }
