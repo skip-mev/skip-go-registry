@@ -575,6 +575,18 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
             "coingecko_id": "kelp-gain",
             "recommended_symbol": "agETH"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Kyber Network Crystal (Legacy)",
+            "erc20_contract_address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+            "symbol": "KNC.old",
+            "recommended_symbol": "KNC.old"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+            "coingecko_id": "kyber-network-crystal"
         }
     ]
 }
