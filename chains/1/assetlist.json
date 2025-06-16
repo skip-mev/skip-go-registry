@@ -569,6 +569,14 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Frax",
+            "erc20_contract_address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+            "symbol": "FRAX",
+            "coingecko_id": "frax-share",
+            "recommended_symbol": "FRAX"
+        },
+        {
+            "asset_type": "erc20",
             "name": "Kelp Gain",
             "erc20_contract_address": "0xe1B4d34E8754600962Cd944B535180Bd758E6c2e",
             "symbol": "agETH",

@@ -61,8 +61,11 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Frax USD",
             "erc20_contract_address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
-            "coingecko_id": "frax"
+            "symbol": "frxUSD",
+            "coingecko_id": "frax-usd",
+            "recommended_symbol": "frxUSD"
         },
         {
             "asset_type": "erc20",
