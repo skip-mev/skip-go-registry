@@ -10,6 +10,15 @@
             "decimals": 18,
             "coingecko_id": "ethereum",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Kelp Gain",
+            "erc20_contract_address": "0x1bD0Fe8E92a157D3ef66C9FB9e38621252b407c2",
+            "symbol": "agETH",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
+            "coingecko_id": "kelp-gain",
+            "recommended_symbol": "agETH"
         }
     ]
 }

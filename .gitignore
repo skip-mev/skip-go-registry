@@ -6,3 +6,4 @@ scripts/config-validator/node_modules/
 CLAUDE.md
 .claude/settings.local.json
 .workspace/
+scripts/coingecko-validator/validation-report.json
