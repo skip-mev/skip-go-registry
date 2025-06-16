@@ -566,6 +566,15 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
             "coingecko_id": "stargate-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Kelp Gain",
+            "erc20_contract_address": "0xe1B4d34E8754600962Cd944B535180Bd758E6c2e",
+            "symbol": "agETH",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
+            "coingecko_id": "kelp-gain",
+            "recommended_symbol": "agETH"
         }
     ]
 }

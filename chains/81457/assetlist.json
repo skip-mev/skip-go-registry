@@ -25,6 +25,15 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
             "coingecko_id": "frax"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Kelp Gain",
+            "erc20_contract_address": "0x1bD0Fe8E92a157D3ef66C9FB9e38621252b407c2",
+            "symbol": "agETH",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
+            "coingecko_id": "kelp-gain",
+            "recommended_symbol": "agETH"
         }
     ]
 }
