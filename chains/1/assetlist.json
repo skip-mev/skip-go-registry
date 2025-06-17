@@ -595,6 +595,25 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
             "coingecko_id": "kyber-network-crystal"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Ondo Finance",
+            "decimals": 18,
+            "erc20_contract_address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+            "symbol": "ONDO",
+            "logo_uri": "https://assets.coingecko.com/coins/images/26580/standard/ONDO.png?1696525656",
+            "recommended_symbol": "ONDO"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ChainLink Token",
+            "decimals": 18,
+            "erc20_contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+            "symbol": "LINK",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/link.svg",
+            "coingecko_id": "chainlink",
+            "recommended_symbol": "LINK"
         }
     ]
 }
