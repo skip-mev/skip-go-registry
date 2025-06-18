@@ -1,0 +1,12 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "carbon",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "symbol": "USDC.bsc.carbon",
+            "denom": "usdc.1.6.53ff75",
+            "recommended_symbol": "USDC.bsc.carbon"
+        }
+    ]
+}

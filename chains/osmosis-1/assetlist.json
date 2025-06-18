@@ -318,14 +318,6 @@
         },
         {
             "asset_type": "cosmos",
-            "name": "WBTC.wh",
-            "symbol": "WBTC.wh",
-            "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
-            "coingecko_id": "wrapped-bitcoin",
-            "recommended_symbol": "WBTC.wh"
-        },
-        {
-            "asset_type": "cosmos",
             "name": "WAVAX",
             "symbol": "WAVAX",
             "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
@@ -403,6 +395,19 @@
             "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
             "coingecko_id": "the-open-network",
             "recommended_symbol": "TON.orai"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "WBTC.sei.wh",
+            "denom": "ibc/F287710FBC818A3F6C77312B1C6FA32785766E93CF7C052EA140219AEBA0878E",
+            "recommended_symbol": "WBTC.sei.wh",
+            "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "WOOF.neutron",
+            "denom": "ibc/2C23ACA91BE351D71D95ABA9EEFBCAC7B2E69A6A507148516A71B11DFDDA2169",
+            "recommended_symbol": "WOOF.neutron"
         }
     ]
 }
