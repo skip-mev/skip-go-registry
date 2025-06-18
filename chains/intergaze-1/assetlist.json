@@ -1,0 +1,11 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "intergaze",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "l2/db147f1ded7ffcc336f5f8d1eff83c4feb95fcfff5c84f1b9c135444b816e48e",
+            "recommended_symbol": "USDC.opinit"
+        }
+    ]
+}

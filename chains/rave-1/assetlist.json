@@ -1,0 +1,11 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "rave",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "evm/4f7566f67941283a30cf65de7b9c6fdf2c04FCA1",
+            "recommended_symbol": "INIT.opinit"
+        }
+    ]
+}
