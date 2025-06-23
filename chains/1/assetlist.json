@@ -230,6 +230,11 @@
         },
         {
             "asset_type": "erc20",
+            "erc20_contract_address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+            "coingecko_id": "tbtc"
+        },
+        {
+            "asset_type": "erc20",
             "erc20_contract_address": "0xFEC6a341F9B7e30E30Ef5B990158FA539B6bb057",
             "symbol": "axlBABY",
             "recommended_symbol": "axlBABY"
