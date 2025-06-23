@@ -77,7 +77,11 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Tether USD",
+            "decimals": 6,
             "erc20_contract_address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "symbol": "USDT",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether"
         },
         {
