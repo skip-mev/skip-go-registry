@@ -6,7 +6,7 @@
             "asset_type": "cosmos",
             "denom": "ibc/40A349DE356A91E8F58E7429541EE7A919F92C38AD256C09F91E82062810DAE7",
             "coingecko_id": "akash-network",
-            "recommended_symbol": "AKT.akash"
+            "recommended_symbol": "AKT.cosmos.osmosis"
         },
         {
             "asset_type": "cosmos",
