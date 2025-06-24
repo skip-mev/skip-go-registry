@@ -1,0 +1,11 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "cronosmainnet_25-1",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/6411AE2ADA1E73DB59DB151A8988F9B7D5E7E233D8414DB6817F8F1A01611F86",
+            "recommended_symbol": "CRO.cronos"
+        }
+    ]
+}

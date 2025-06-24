@@ -1,0 +1,13 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "yominet",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "symbol": "ETH",
+            "denom": "evm/E1Ff7038eAAAF027031688E1535a055B2Bac2546",
+            "recommended_symbol": "ETH.lz",
+            "coingecko_id": "ethereum"
+        }
+    ]
+}
