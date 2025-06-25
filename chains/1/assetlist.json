@@ -609,6 +609,11 @@
             "erc20_contract_address": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF",
             "symbol": "XAR",
             "coingecko_id": "arcana-network"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+            "coingecko_id": "ondo-finance"
         }
     ]
 }
