@@ -601,6 +601,14 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
             "coingecko_id": "kyber-network-crystal"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Arcana Network",
+            "decimals": 18,
+            "erc20_contract_address": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF",
+            "symbol": "XAR",
+            "coingecko_id": "arcana-network"
         }
     ]
 }
