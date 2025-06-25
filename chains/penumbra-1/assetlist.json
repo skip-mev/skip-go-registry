@@ -1,0 +1,11 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "penumbra",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "upenumbra",
+            "coingecko_id": "penumbra"
+        }
+    ]
+}
