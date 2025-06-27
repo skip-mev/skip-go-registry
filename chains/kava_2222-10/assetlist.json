@@ -11,6 +11,14 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "coingecko_id": "tether",
             "recommended_symbol": "USDT.kava"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Ripple",
+            "symbol": "XRP.coreum",
+            "denom": "ibc/A40A4C0280DF70A6E5117722F3204520793FC536C722861470AF5792CE7613AC",
+            "coingecko_id": "ripple",
+            "recommended_symbol": "XRP.coreum"
         }
     ]
 }

@@ -11,6 +11,14 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
             "coingecko_id": "secret",
             "recommended_symbol": "SCRT.juno"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Ripple",
+            "symbol": "XRP.coreum",
+            "denom": "ibc/178811A87188241F39138EB06BFE7B09BAE5A65E80A48B42F1DB23542C793D1E",
+            "coingecko_id": "ripple",
+            "recommended_symbol": "XRP.coreum"
         }
     ]
 }

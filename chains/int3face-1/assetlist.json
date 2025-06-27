@@ -1,0 +1,13 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "int3face",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "Ripple",
+      "symbol": "XRP.int",
+      "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
+      "recommended_symbol": "XRP.int"
+    }
+  ]
+}
