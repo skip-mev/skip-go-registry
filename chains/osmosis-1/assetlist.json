@@ -408,6 +408,13 @@
             "symbol": "WOOF.neutron",
             "denom": "ibc/2C23ACA91BE351D71D95ABA9EEFBCAC7B2E69A6A507148516A71B11DFDDA2169",
             "recommended_symbol": "WOOF.neutron"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "XRP.coreum",
+            "denom": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
+            "coingecko_id": "ripple",
+            "recommended_symbol": "XRP.coreum"
         }
     ]
 }
