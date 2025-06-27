@@ -4,5 +4,5 @@
     "is_testnet": false,
     "chain_name": "xrplevm",
     "chain_type": "cosmos",
-    "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png"
+    "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/refs/heads/main/chains/xrplevm_1440000-1/images/xrpl.svg"
 }
