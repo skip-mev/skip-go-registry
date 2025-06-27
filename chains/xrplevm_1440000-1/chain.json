@@ -1,0 +1,8 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "xrplevm_1440000-1",
+    "is_testnet": false,
+    "chain_name": "xrplevm",
+    "chain_type": "cosmos",
+    "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png"
+}
