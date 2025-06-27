@@ -29,6 +29,14 @@
             "denom": "ibc/FFE1572627ECF442D6E2CA653000FACBA33824732012BCE63DFC25F1E813E5B3",
             "recommended_symbol": "TON.orai",
             "coingecko_id": "the-open-network"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Ripple",
+            "symbol": "XRP.core",
+            "denom": "ibc/71E2B01CE910F64B3F1242AB02E0E86B8C9B584C4662BD9ED6EDB558E2A9C897",
+            "coingecko_id": "ripple",
+            "recommended_symbol": "XRP.core"
         }
     ]
 }

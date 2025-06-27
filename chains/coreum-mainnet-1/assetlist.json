@@ -1,0 +1,14 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "coreum",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "Ripple",
+      "symbol": "XRP.core",
+      "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+      "coingecko_id": "ripple",
+      "recommended_symbol": "XRP.core"
+    }
+  ]
+}

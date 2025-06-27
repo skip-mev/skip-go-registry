@@ -1,0 +1,14 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "evmos",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "Ripple",
+      "symbol": "XRP.core",
+      "denom": "ibc/1F2479B19F57032D4E294A2B84C7973E47C1D4F85B08577DBC659B4DC70B5590",
+      "coingecko_id": "ripple",
+      "recommended_symbol": "XRP.core"
+    }
+  ]
+}

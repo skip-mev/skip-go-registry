@@ -1,0 +1,14 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "composable",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "Ripple",
+      "symbol": "XRP.core",
+      "denom": "ibc/87CA89352E0CB2330F0D24C44AE3AE58295425784F6F3511AB888999CDD38D71",
+      "coingecko_id": "ripple",
+      "recommended_symbol": "XRP.core"
+    }
+  ]
+}
