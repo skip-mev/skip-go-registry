@@ -5,10 +5,10 @@
     {
       "asset_type": "cosmos",
       "name": "Ripple",
-      "symbol": "XRP.core",
+      "symbol": "XRP.coreum",
       "denom": "ibc/E901426A5E7A5251282345748F08CA91A3D8F35D074A9FE9B7BBFF7884E1E246",
       "coingecko_id": "ripple",
-      "recommended_symbol": "XRP.core"
+      "recommended_symbol": "XRP.coreum"
     }
   ]
 }
