@@ -21,6 +21,11 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png",
             "recommended_symbol": "WBTC.wh",
             "coingecko_id": "wrapped-bitcoin"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "cw20:terra12dfv3f0e6m22z6cnhfn3nxk2en3z3zeqy6ctym",
+            "recommended_symbol": "LINK.wh"
         }
     ]
 }
