@@ -24,6 +24,11 @@
         },
         {
             "asset_type": "cosmos",
+            "denom": "cw20:terra12dfv3f0e6m22z6cnhfn3nxk2en3z3zeqy6ctym",
+            "recommended_symbol": "LINK.wh"
+        },
+        {
+            "asset_type": "cosmos",
             "denom": "cw20:terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
             "recommended_symbol": "AVAX.wh"
         }
