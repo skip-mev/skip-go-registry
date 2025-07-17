@@ -50,7 +50,8 @@
             "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
             "symbol": "WEETH",
             "name": "WEETH",
-            "recommended_symbol": "WEETH",
+            "decimals": 18,
+            "recommended_symbol": "weETH",
             "coingecko_id": "wrapped-eeth"
         }
     ]
