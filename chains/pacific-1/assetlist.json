@@ -21,6 +21,12 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdt.svg",
             "coingecko_id": "tether",
             "recommended_symbol": "USDT.kava"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "USDC.n",
+            "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+            "recommended_symbol": "USDC.n"
         }
     ]
 }

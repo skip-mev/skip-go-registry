@@ -25,9 +25,10 @@
             "name": "USDC",
             "decimals": 6,
             "erc20_contract_address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
-            "symbol": "USDC",
+            "symbol": "USDC.n",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
-            "coingecko_id": "usd-coin"
+            "coingecko_id": "usd-coin",
+            "recommended_symbol": "USDC.n"
         },
         {
             "asset_type": "erc20",
