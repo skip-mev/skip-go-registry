@@ -24,12 +24,8 @@
         },
         {
             "asset_type": "cosmos",
-            "name": "USDC",
-            "decimals": 6,
             "symbol": "USDC.n",
             "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
-            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
-            "coingecko_id": "usd-coin",
             "recommended_symbol": "USDC.n"
         }
     ]
