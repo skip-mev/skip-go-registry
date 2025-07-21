@@ -52,6 +52,11 @@
             "name": "WEETH",
             "recommended_symbol": "WEETH",
             "coingecko_id": "wrapped-eeth"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png"
         }
     ]
 }
