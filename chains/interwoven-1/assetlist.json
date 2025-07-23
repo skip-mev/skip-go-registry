@@ -57,6 +57,11 @@
             "asset_type": "cosmos",
             "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
             "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/297A4DE88667929480EBE6659B264C5683838CF313C61FE889F6B8D8DC6E071D",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png"
         }
     ]
 }
