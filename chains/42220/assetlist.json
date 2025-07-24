@@ -33,6 +33,13 @@
             "symbol": "FRAX",
             "coingecko_id": "frax-share",
             "recommended_symbol": "FRAX"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/celo/info/logo.png",
+            "coingecko_id": "celo",
+            "recommended_symbol": "WCELO"
         }
     ]
 }
