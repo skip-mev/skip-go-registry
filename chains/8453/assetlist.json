@@ -175,6 +175,11 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
             "coingecko_id": "kelp-gain",
             "recommended_symbol": "agETH"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+            "coingecko_id": "ethena-staked-usde"
         }
     ]
 }
