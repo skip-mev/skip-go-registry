@@ -62,6 +62,15 @@
             "asset_type": "cosmos",
             "denom": "ibc/297A4DE88667929480EBE6659B264C5683838CF313C61FE889F6B8D8DC6E071D",
             "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/DA9AC2708B4DAA46D24E73241373CDCC850BC6446E8E0906A4062152B649DDD3",
+            "symbol": "TIA",
+            "name": "Celestia",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+            "coingecko_id": "celestia",
+            "recommended_symbol": "TIA"
         }
     ]
 }
