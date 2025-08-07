@@ -37,6 +37,12 @@
             "denom": "ibc/71E2B01CE910F64B3F1242AB02E0E86B8C9B584C4662BD9ED6EDB558E2A9C897",
             "coingecko_id": "ripple",
             "recommended_symbol": "XRP.coreum"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/3D0840AB3557CC2940D100C1633690143AB4F392AF969EB0660142A9A5B1FE74",
+            "symbol": "wstETH.neutron",
+            "recommended_symbol": "wstETH.neutron"
         }
     ]
 }
