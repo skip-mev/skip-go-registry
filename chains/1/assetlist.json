@@ -615,6 +615,11 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
             "coingecko_id": "ondo-finance"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+            "coingecko_id": "usdd"
         }
     ]
 }
