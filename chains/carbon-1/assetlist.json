@@ -7,6 +7,14 @@
             "symbol": "USDC.bsc.carbon",
             "denom": "usdc.1.6.53ff75",
             "recommended_symbol": "USDC.bsc.carbon"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Luna",
+            "symbol": "LUNA",
+            "denom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
+            "coingecko_id": "terra-luna-3",
+            "recommended_symbol": "LUNA"
         }
     ]
 }
