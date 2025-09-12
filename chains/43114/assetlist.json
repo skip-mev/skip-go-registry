@@ -117,8 +117,8 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
-            "coingecko_id": "wrapped-bitcoin"
-
+            "coingecko_id": "wrapped-bitcoin",
+            "recommended_symbol": "WBTC"
         },
         {
             "asset_type": "erc20",
