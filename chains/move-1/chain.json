@@ -8,21 +8,21 @@
     "initia_l1_chain_id": "initiation-2",
     "apis": {
         "tendermint_rpc_endpoint": {
-            "address": "https://rpc.move-1.initia.xyz",
+            "address": "https://rpc-move-1.anvil.asia-southeast.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
             "basic_auth_required": true,
             "index_for_skip": 0
         },
         "lcd_rest_endpoint": {
-            "address": "https://rest.move-1.initia.xyz",
+            "address": "https://rest-move-1.anvil.asia-southeast.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
             "basic_auth_required": true,
             "index_for_skip": 0
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "grpc.move-1.initia.xyz:443",
+            "address": "grpc-move-1.anvil.asia-southeast.initia.xyz:443",
             "provider": "Initia Labs",
             "backoff_delay": 0,
             "tls": true,

@@ -1,28 +1,28 @@
 {
     "$schema": "../../initia.chain.schema.json",
-    "chain_id": "minimove-2",
+    "chain_id": "wasm-1",
     "is_testnet": true,
-    "chain_name": "minimove",
+    "chain_name": "wasm",
     "chain_type": "initia",
     "is_initia_l1": false,
     "initia_l1_chain_id": "initiation-2",
     "apis": {
         "tendermint_rpc_endpoint": {
-            "address": "https://rpc.wasm-1.initia.xyz",
+            "address": "https://rpc-wasm-1.anvil.asia-southeast.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
             "basic_auth_required": true,
             "index_for_skip": 0
         },
         "lcd_rest_endpoint": {
-            "address": "https://rest.wasm-1.initia.xyz",
+            "address": "https://rest-wasm-1.anvil.asia-southeast.initia.xyz",
             "provider": "Initia Labs",
             "backoff_delay": 1000,
             "basic_auth_required": true,
             "index_for_skip": 0
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "grpc.wasm-1.initia.xyz:443",
+            "address": "grpc-wasm-1.anvil.asia-southeast.initia.xyz:443",
             "provider": "Initia Labs",
             "backoff_delay": 0,
             "tls": true,
