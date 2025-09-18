@@ -620,6 +620,16 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
             "coingecko_id": "usdd"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Sentinel",
+            "decimals": 6,
+            "erc20_contract_address": "0x7DCc0A436D819BB5c6BDe4f286e82d79e492EA98",
+            "symbol": "P2P",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
+            "coingecko_id": "sentinel",
+            "recommended_symbol": "P2P"
         }
     ]
 }
