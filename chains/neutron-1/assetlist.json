@@ -16,7 +16,7 @@
             "decimals": 6,
             "symbol": "NTRN",
             "denom": "untrn",
-            "logo_uri": "chains/neutron-1/images/NeutronRed(800x800).svg",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/refs/heads/main/chains/neutron-1/images/NeutronRed(800x800).svg",
             "coingecko_id": "neutron-3"
         },
         {
