@@ -12,6 +12,15 @@
         },
         {
             "asset_type": "cosmos",
+            "name": "Neutron",
+            "decimals": 6,
+            "symbol": "NTRN",
+            "denom": "untrn",
+            "logo_uri": "chains/neutron-1/images/NeutronRed(800x800).svg",
+            "coingecko_id": "neutron-3"
+        },
+        {
+            "asset_type": "cosmos",
             "name": "ETH",
             "symbol": "ETH",
             "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
