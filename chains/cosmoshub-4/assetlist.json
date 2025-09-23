@@ -43,6 +43,11 @@
             "denom": "ibc/3D0840AB3557CC2940D100C1633690143AB4F392AF969EB0660142A9A5B1FE74",
             "symbol": "wstETH.neutron",
             "recommended_symbol": "wstETH.neutron"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/A80B50FB9B688DA92501D3DEC51A5B64DBE962C604F5834CF6B1B6D4316C5E4B",
+            "recommended_symbol": "z"
         }
     ]
 }
