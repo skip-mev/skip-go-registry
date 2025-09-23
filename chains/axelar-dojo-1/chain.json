@@ -1,0 +1,7 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_id": "axelar-dojo-1",
+  "is_testnet": false,
+  "chain_name": "axelar",
+  "chain_type": "cosmos"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "axelar",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "ZIG",
+      "decimals": 18,
+      "symbol": "ZIG",
+      "denom": "unit-zig",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+      "coingecko_id": "zignaly",
+      "recommended_symbol": "ZIG"
+    }
+  ]
+}
