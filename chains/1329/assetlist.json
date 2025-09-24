@@ -53,7 +53,17 @@
         {
             "asset_type": "erc20",
             "erc20_contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-            "coingecko_id": "wrapped-bitcoin"
+            "coingecko_id": "wrapped-bitcoin",
+            "recommended_symbol": "WBTC"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Wrapped Bitcoin",
+            "erc20_contract_address": "0xe369ddC65Ec947FCB10262AA0E08C3fB9823001a",
+            "symbol": "WBTC.wh",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+            "coingecko_id": "wrapped-bitcoin",
+            "recommended_symbol": "WBTC.wh"
         },
         {
             "asset_type": "erc20",
