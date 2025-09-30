@@ -6,6 +6,7 @@
             "asset_type": "cosmos",
             "symbol": "ETH",
             "denom": "evm/E1Ff7038eAAAF027031688E1535a055B2Bac2546",
+            "decimals": 6,
             "recommended_symbol": "ETH.lz",
             "coingecko_id": "ethereum"
         }
