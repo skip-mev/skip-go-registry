@@ -187,6 +187,15 @@
         },
         {
             "asset_type": "erc20",
+            "name": "NIL",
+            "decimals": 18,
+            "erc20_contract_address": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47",
+            "symbol": "NIL",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png",
+            "coingecko_id": "nillion"
+        },
+        {
+            "asset_type": "erc20",
             "name": "ORAI",
             "decimals": 6,
             "erc20_contract_address": "0x214BF9f07684459aCD56324e3D247b2e5e67D277",
