@@ -17,7 +17,7 @@
             "decimals": 18,
             "erc20_contract_address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
             "symbol": "WETH",
-            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/eth.svg",
             "coingecko_id": "ethereum"
         },
         {
