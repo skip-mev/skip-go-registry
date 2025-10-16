@@ -22,6 +22,18 @@
             "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
             "recommended_symbol": "ETH",
             "coingecko_id": "ethereum"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "maxBTC",
+            "denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/maxbtc.svg"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "eclipASTRO",
+            "denom": "factory/neutron19lxlnqwzncg3dfty3umxvdxtgttnp3fefeqhmtg8xjrsz9vngnaq3yu8vn/eclipASTRO",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/eclip-astro.png"
         }
     ]
 }
