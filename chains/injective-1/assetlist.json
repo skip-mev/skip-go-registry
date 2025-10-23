@@ -6,7 +6,7 @@
             "asset_type": "cosmos",
             "name": "Injective",
             "denom": "inj",
-            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/injective-1/images/inj.svg"
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/injective-1/images/inj.png"
         },
         {
             "asset_type": "cosmos",
