@@ -48,6 +48,13 @@
             "asset_type": "cosmos",
             "denom": "ibc/A80B50FB9B688DA92501D3DEC51A5B64DBE962C604F5834CF6B1B6D4316C5E4B",
             "recommended_symbol": "z"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758",
+            "symbol": "NEIRO",
+            "recommended_symbol": "NEIRO",
+            "coingecko_id": "neiro-3"
         }
     ]
 }
