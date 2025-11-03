@@ -636,6 +636,14 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
             "coingecko_id": "sentinel",
             "recommended_symbol": "P2P"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Neiro",
+            "decimals": 9,
+            "erc20_contract_address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
+            "symbol": "Neiro",
+            "coingecko_id": "neiro-3"
         }
     ]
 }
