@@ -415,6 +415,14 @@
             "denom": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
             "coingecko_id": "ripple",
             "recommended_symbol": "XRP.coreum"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "GRDX",
+            "denom": "ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png",
+            "coingecko_id": "garudax",
+            "recommended_symbol": "GRDX"
         }
     ]
 }
