@@ -34,7 +34,7 @@
         },
         {
             "asset_type": "cosmos",
-            "name": "GRDDX",
+            "name": "GRDX",
             "decimals": 6,
             "symbol": "GRDX",
             "denom": "cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
