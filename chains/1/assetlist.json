@@ -644,6 +644,15 @@
             "erc20_contract_address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
             "symbol": "Neiro",
             "coingecko_id": "neiro-3"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Allora",
+            "decimals": 18,
+            "erc20_contract_address": "0x8408d45b61f5823298f19a09b53b7339c0280489",
+            "symbol": "ALLO",
+            "logo_uri": "https://assets.coingecko.com/coins/images/70609/standard/allora.png",
+            "coingecko_id": "allora"
         }
     ]
 }
