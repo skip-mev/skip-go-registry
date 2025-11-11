@@ -652,7 +652,8 @@
             "erc20_contract_address": "0x8408d45b61f5823298f19a09b53b7339c0280489",
             "symbol": "ALLO",
             "logo_uri": "https://assets.coingecko.com/coins/images/70609/standard/allora.png",
-            "coingecko_id": "allora"
+            "coingecko_id": "allora",
+            "recommended_symbol": "ALLO"
         }
     ]
 }
