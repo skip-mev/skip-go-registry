@@ -1,0 +1,7 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "allora-mainnet-1",
+    "is_testnet": false,
+    "chain_name": "allora",
+    "chain_type": "cosmos"
+}
