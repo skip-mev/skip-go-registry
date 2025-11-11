@@ -1,0 +1,16 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "allora",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "Allora Network",
+            "decimals": 18,
+            "symbol": "ALLO",
+            "denom": "uallo",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
+            "coingecko_id": "allora",
+            "recommended_symbol": "ALLO"
+        }
+    ]
+}
