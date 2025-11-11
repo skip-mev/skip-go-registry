@@ -55,6 +55,11 @@
             "symbol": "NEIRO",
             "recommended_symbol": "NEIRO",
             "coingecko_id": "neiro-3"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "ibc/D9E40E9047E09AAC6CDF9D133AC54C778B44A03690A91B9F5EDFF9F53C2A0977",
+            "coingecko_id": "allora"
         }
     ]
 }
