@@ -1,0 +1,13 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "zigchain",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "ETH",
+            "symbol": "ETH",
+            "denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+            "recommended_symbol": "ETH"
+        }
+    ]
+}
