@@ -654,6 +654,14 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
             "coingecko_id": "allora",
             "recommended_symbol": "ALLO"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "JPY Coin",
+            "decimals": 18,
+            "erc20_contract_address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
+            "symbol": "JPYC",
+            "coingecko_id": "jpy-coin"
         }
     ]
 }
