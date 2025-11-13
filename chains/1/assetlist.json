@@ -644,6 +644,7 @@
             "erc20_contract_address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
             "symbol": "Neiro",
             "coingecko_id": "neiro-3"
+            "recommended_symbol": "NEIRO"
         },
         {
             "asset_type": "erc20",
