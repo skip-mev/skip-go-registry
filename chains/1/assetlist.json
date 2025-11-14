@@ -661,7 +661,8 @@
             "decimals": 18,
             "erc20_contract_address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "symbol": "JPYC",
-            "coingecko_id": "jpy-coin"
+            "coingecko_id": "jpycoin"
+            "recommended_symbol": "JPY Coin"
         }
     ]
 }
