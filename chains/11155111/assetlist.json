@@ -73,6 +73,14 @@
             "symbol": "WETH",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/eth.svg",
             "coingecko_id": "ethereum"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "maxBTC",
+            "decimals": 18,
+            "erc20_contract_address": "0x7c71Ff2779C89F93378097664aA073D2ea7672f7",
+            "symbol": "maxBTC",
+            "coingecko_id": "maxbtc"
         }
     ]
 }
