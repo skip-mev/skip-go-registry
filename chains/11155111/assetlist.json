@@ -80,6 +80,7 @@
             "decimals": 18,
             "erc20_contract_address": "0x7c71Ff2779C89F93378097664aA073D2ea7672f7",
             "symbol": "maxBTC",
+            "logo_uri": "https://assets.coingecko.com/coins/images/69364/standard/Token_2x.png",
             "coingecko_id": "maxbtc"
         }
     ]
