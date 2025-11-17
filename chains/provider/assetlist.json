@@ -17,6 +17,7 @@
             "decimals": 18,
             "symbol": "maxBTC",
             "denom": "ibc/856B9680BF6CC45ADE33A7503F8F70EB4CA19594F22869748AAB44AABDA96C6E",
+            "logo_uri": "https://assets.coingecko.com/coins/images/69364/standard/Token_2x.png",
             "coingecko_id": "maxbtc"
         }
     ]
