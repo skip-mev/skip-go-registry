@@ -50,6 +50,15 @@
         },
         {
             "asset_type": "erc20",
+            "erc20_contract_address": "0xedBd0f9b4344fBCB9B6B747063bDfb9fE246498b",
+            "name": "maxBTC",
+            "symbol": "maxBTC",
+            "decimals": 8,
+            "coingecko_id": "maxbtc",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/maxbtc.svg"
+        },
+        {
+            "asset_type": "erc20",
             "erc20_contract_address": "0xb62f22148fB5C699f953a6B0Ff1cf167420857DF",
             "coingecko_id": "mantra-dao",
             "symbol": "axlOM",
