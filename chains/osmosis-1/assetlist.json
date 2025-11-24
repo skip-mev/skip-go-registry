@@ -419,7 +419,7 @@
         {
             "asset_type": "cosmos",
             "name": "GRDX",
-            "decimals": "6",
+            "decimals": 6,
             "symbol": "GRDX",
             "denom": "ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png",
