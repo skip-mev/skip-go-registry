@@ -10,7 +10,7 @@
             "axelar_symbol": "WETH",
             "axelar_name": "weth-wei",
             "axelar_denom": "weth-wei",
-            "decimals": 18,
+            "decimals": "18",
             "coingecko_id": "ethereum",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/eth.svg"
         },
