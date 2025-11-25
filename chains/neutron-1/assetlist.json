@@ -44,6 +44,16 @@
             "coingecko_id": "maxbtc",
             "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/maxbtc.svg",
             "recommended_symbol": "maxBTC.eureka"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "WBTC",
+            "symbol": "WBTC",
+            "denom": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
+            "decimals": 8,
+            "coingecko_id": "wrapped-bitcoin",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+            "recommended_symbol": "WBTC"
         }
     ]
 }
