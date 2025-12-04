@@ -8,6 +8,14 @@
             "denom": "evm/E1Ff7038eAAAF027031688E1535a055B2Bac2546",
             "recommended_symbol": "ETH.lz",
             "coingecko_id": "ethereum"
+        },
+        {
+            "asset_type": "cosmos",
+            "symbol": "ONYX",
+            "name": "ONYX",
+            "denom": "evm/44CFAaB1cF49996540A6B6A87d1f0a604267E6b0",
+            "recommended_symbol": "ONYX",
+            "coingecko_id": "kamigotchi-onyx"
         }
     ]
 }
