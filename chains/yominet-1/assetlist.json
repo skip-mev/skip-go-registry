@@ -13,6 +13,7 @@
             "asset_type": "cosmos",
             "symbol": "ONYX",
             "name": "ONYX",
+            "decimals": 18,
             "denom": "evm/44CFAaB1cF49996540A6B6A87d1f0a604267E6b0",
             "recommended_symbol": "ONYX",
             "coingecko_id": "kamigotchi-onyx"
