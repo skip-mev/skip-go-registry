@@ -13,8 +13,9 @@
             "asset_type": "cosmos",
             "symbol": "ONYX",
             "name": "ONYX",
-            "decimals": 18,
+            "decimals": 6,
             "denom": "evm/44CFAaB1cF49996540A6B6A87d1f0a604267E6b0",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
             "recommended_symbol": "ONYX",
             "coingecko_id": "kamigotchi-onyx"
         }
