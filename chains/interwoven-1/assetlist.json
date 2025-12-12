@@ -45,7 +45,7 @@
             "recommended_symbol": "ETH",
             "coingecko_id": "ethereum"
         },
-                {
+        {
             "asset_type": "cosmos",
             "denom": "move/d310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
             "symbol": "ONYX",
