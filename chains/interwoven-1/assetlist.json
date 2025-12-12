@@ -47,6 +47,14 @@
         },
         {
             "asset_type": "cosmos",
+            "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
+            "symbol": "WEETH",
+            "name": "WEETH",
+            "recommended_symbol": "WEETH",
+            "coingecko_id": "wrapped-eeth"
+        },
+        {
+            "asset_type": "cosmos",
             "denom": "move/d310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
             "symbol": "ONYX",
             "name": "ONYX",
@@ -55,11 +63,11 @@
         },
         {
             "asset_type": "cosmos",
-            "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
-            "symbol": "WEETH",
-            "name": "WEETH",
-            "recommended_symbol": "WEETH",
-            "coingecko_id": "wrapped-eeth"
+            "denom": "0xd310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
+            "symbol": "ONYX",
+            "name": "ONYX",
+            "recommended_symbol": "ONYX",
+            "coingecko_id": "kamigotchi-onyx"
         },
         {
             "asset_type": "cosmos",
