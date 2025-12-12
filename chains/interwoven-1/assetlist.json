@@ -55,6 +55,22 @@
         },
         {
             "asset_type": "cosmos",
+            "denom": "move/d310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
+            "symbol": "ONYX",
+            "name": "ONYX",
+            "recommended_symbol": "ONYX",
+            "coingecko_id": "kamigotchi-onyx"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "0xd310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
+            "symbol": "ONYX",
+            "name": "ONYX",
+            "recommended_symbol": "ONYX",
+            "coingecko_id": "kamigotchi-onyx"
+        },
+        {
+            "asset_type": "cosmos",
             "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
             "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png"
         },
