@@ -19,6 +19,14 @@
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/agETH.svg",
             "coingecko_id": "kelp-gain",
             "recommended_symbol": "agETH"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "wstETH.axl",
+            "erc20_contract_address": "0x9cfB13E6c11054ac9fcB92BA89644F30775436e4",
+            "symbol": "wstETH.axl",
+            "coingecko_id": "wrapped-steth",
+            "recommended_symbol": "wstETH.axl"
         }
     ]
 }
