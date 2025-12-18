@@ -298,6 +298,14 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0x324b28d6565f784d596422B0F2E5aB6e9CFA1Dc7",
             "coingecko_id": "kyber-network-crystal"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "wstETH.axl",
+            "erc20_contract_address": "0x9cfB13E6c11054ac9fcB92BA89644F30775436e4",
+            "symbol": "wstETH.axl",
+            "coingecko_id": "wrapped-steth",
+            "recommended_symbol": "wstETH.axl"
         }
     ]
 }
