@@ -6,6 +6,14 @@
       "asset_type": "cosmos",
       "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
       "recommended_symbol": "INIT.ibc"
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/B82A5B2051D2296EE838D076218D4F852A629C69B99E7430C4D388F37DB16A3A",
+      "symbol": "iUSD",
+      "name": "iUSD",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "recommended_symbol": "iUSD"
     }
   ]
 }
