@@ -18,6 +18,14 @@
             "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
             "recommended_symbol": "ONYX",
             "coingecko_id": "kamigotchi-onyx"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "evm/bDEC10C2eDa096b3b0C06cD8AF45865b82CfdEBA",
+            "symbol": "iUSD",
+            "name": "iUSD",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+            "recommended_symbol": "iUSD"
         }
     ]
 }

@@ -87,6 +87,14 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
             "coingecko_id": "celestia",
             "recommended_symbol": "TIA"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "move/6c69733a9e722f3660afb524f89fce957801fa7e4408b8ef8fe89db9627b570e",
+            "symbol": "iUSD",
+            "name": "iUSD",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+            "recommended_symbol": "iUSD"
         }
     ]
 }
