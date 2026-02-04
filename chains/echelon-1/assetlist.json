@@ -13,6 +13,7 @@
       "symbol": "iUSD",
       "name": "iUSD",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "decimals": 6,
       "recommended_symbol": "iUSD"
     }
   ]
