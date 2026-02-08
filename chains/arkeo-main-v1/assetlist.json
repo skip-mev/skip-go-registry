@@ -1,0 +1,12 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "arkeo",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "denom": "uarkeo",
+            "coingecko_id": "arkeo",
+            "recommended_symbol": "ARKEO"
+        }
+    ]
+}
