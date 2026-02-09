@@ -56,7 +56,7 @@
       "name": "Initia Native Token",
       "denom": "l2/8f73cfaf153520f511b4fc0bd71d60d64b4e19eff04a350e642718a3c1ab3b06",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.opinit",
+      "recommended_symbol": "INIT.op",
       "coingecko_id": "initia",
       "decimals": 6
     },

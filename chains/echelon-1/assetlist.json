@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "symbol": "INIT",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.opinit",
+      "recommended_symbol": "INIT.op",
       "coingecko_id": "initia",
       "decimals": 6
     },

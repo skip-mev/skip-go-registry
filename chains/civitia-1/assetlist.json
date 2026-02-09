@@ -8,7 +8,7 @@
       "denom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
       "name": "Initia Native Token",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.opinit",
+      "recommended_symbol": "INIT.op",
       "coingecko_id": "initia",
       "decimals": 6
     },
@@ -37,6 +37,7 @@
       "denom": "ibc/749ECC13174B58CB9BFED2C8608670DBD3AF3EFE767E8AE671C1AFFB97F75116",
       "name": "cINIT",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/cINIT.png",
+      "recommended_symbol": "cINIT.ibc",
       "decimals": 6
     }
   ]

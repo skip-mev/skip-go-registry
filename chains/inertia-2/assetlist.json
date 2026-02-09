@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "denom": "l2/c88b68df2060ba982a80d3001afcb2d354031f6901df2391acb4f0e2f545c770",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.opinit",
+      "recommended_symbol": "INIT.op",
       "coingecko_id": "initia",
       "decimals": 6
     },
@@ -18,7 +18,7 @@
       "name": "Celestia Native Token",
       "denom": "l2/1f79a9647aca83c63014709b7d4a69dd0f017b87ce9adf7417a2e2aa1c49044f",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/TIA.png",
-      "recommended_symbol": "TIA.opinit",
+      "recommended_symbol": "TIA.op",
       "coingecko_id": "celestia",
       "decimals": 6
     },
@@ -28,7 +28,7 @@
       "name": "USD Coin",
       "denom": "l2/93c226659c42299f98bdca46cf151a604a70be2e6391a61b67ae2311d556a46a",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
-      "recommended_symbol": "USDC.opinit",
+      "recommended_symbol": "USDC.op",
       "coingecko_id": "usd-coin",
       "decimals": 6
     },
@@ -38,7 +38,7 @@
       "name": "sINIT",
       "denom": "l2/6f04a5de88d7587507e4b93e03999bfabce6e8a4131d94d226ac3a020196bc3d",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sINIT.png",
-      "recommended_symbol": "sINIT.opinit",
+      "recommended_symbol": "sINIT.op",
       "decimals": 6
     },
     {
@@ -47,7 +47,7 @@
       "name": "nINIT",
       "denom": "l2/d2b5185c527f117629618249cfa95b8a90a70357bab21d750f15dc69c1c754bf",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/nINIT.png",
-      "recommended_symbol": "nINIT.opinit",
+      "recommended_symbol": "nINIT.op",
       "decimals": 6
     },
     {
