@@ -14,6 +14,16 @@
     },
     {
       "asset_type": "cosmos",
+      "symbol": "INIT",
+      "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
+      "name": "Initia Native Token",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
       "name": "MilkyWay's INIT LST",
       "symbol": "milkINIT",
       "denom": "ibc/D1FAD67CE0EF5A303EDC29F3730BF904B77817F4B8A515ABC3AD0FA21B6AA180",
