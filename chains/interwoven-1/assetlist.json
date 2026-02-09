@@ -315,41 +315,6 @@
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
       "recommended_symbol": "iUSD",
       "decimals": 6
-    },
-    {
-      "asset_type": "cosmos",
-      "symbol": "ONYX",
-      "name": "ONYX",
-      "denom": "evm/4BaDFb501Ab304fF11217C44702bb9E9732E7CF4",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
-      "recommended_symbol": "ONYX.erc20",
-      "decimals": 18
-    },
-    {
-      "asset_type": "cosmos",
-      "name": "INIT.inertia",
-      "symbol": "INIT.inertia",
-      "denom": "ibc/53E41F296D6A329EAE0288400B9270506B02DFE52C0831BD549BA8BAE4560552",
-      "recommended_symbol": "INIT.inertia",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/inertia.ibcopinit.png"
-    },
-    {
-      "asset_type": "cosmos",
-      "denom": "move/d310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
-      "symbol": "ONYX",
-      "name": "ONYX",
-      "recommended_symbol": "ONYX",
-      "coingecko_id": "kamigotchi-onyx",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png"
-    },
-    {
-      "asset_type": "cosmos",
-      "denom": "0xd310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
-      "symbol": "ONYX",
-      "name": "ONYX",
-      "recommended_symbol": "ONYX",
-      "coingecko_id": "kamigotchi-onyx",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png"
     }
   ]
 }
