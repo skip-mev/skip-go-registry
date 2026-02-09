@@ -1,42 +1,42 @@
 {
   "$schema": "../../assetlist.schema.json",
-  "chain_name": "cabal",
+  "chain_name": "civitia",
   "assets": [
     {
       "asset_type": "cosmos",
       "symbol": "INIT",
+      "denom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
       "name": "Initia Native Token",
-      "denom": "evm/df5A85F89731fEB77d7EEaaCe627EB135eDB46DB",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.erc20",
+      "recommended_symbol": "INIT.opinit",
       "coingecko_id": "initia",
-      "decimals": 18
+      "decimals": 6
     },
     {
       "asset_type": "cosmos",
+      "symbol": "INIT",
       "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
       "name": "Initia Native Token",
-      "symbol": "INIT",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
       "recommended_symbol": "INIT.ibc",
+      "coingecko_id": "initia",
       "decimals": 6
     },
     {
       "asset_type": "cosmos",
       "symbol": "iUSD",
+      "denom": "ibc/B82A5B2051D2296EE838D076218D4F852A629C69B99E7430C4D388F37DB16A3A",
       "name": "iUSD",
-      "denom": "evm/58918f9E58662058Cb36Cc60d7E124C90872C7C0",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
-      "decimals": 18
+      "recommended_symbol": "iUSD.ibc",
+      "decimals": 6
     },
     {
       "asset_type": "cosmos",
-      "symbol": "iUSD",
-      "name": "iUSD",
-      "denom": "ibc/B82A5B2051D2296EE838D076218D4F852A629C69B99E7430C4D388F37DB16A3A",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
-      "recommended_symbol": "iUSD.ibc",
+      "symbol": "cINIT",
+      "denom": "ibc/749ECC13174B58CB9BFED2C8608670DBD3AF3EFE767E8AE671C1AFFB97F75116",
+      "name": "cINIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/cINIT.png",
       "decimals": 6
     }
   ]

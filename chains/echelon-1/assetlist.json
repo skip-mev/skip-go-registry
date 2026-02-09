@@ -4,8 +4,98 @@
   "assets": [
     {
       "asset_type": "cosmos",
-      "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
-      "recommended_symbol": "INIT.ibc"
+      "denom": "l2/23c8396041db74441f4268d0c7e0533177dc3e028a47a8e584318f2d0c46fbe9",
+      "name": "Initia Native Token",
+      "symbol": "INIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.opinit",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "MilkyWay's INIT LST",
+      "symbol": "milkINIT",
+      "denom": "ibc/D1FAD67CE0EF5A303EDC29F3730BF904B77817F4B8A515ABC3AD0FA21B6AA180",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkINIT.png",
+      "recommended_symbol": "milkINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "milkTIA",
+      "symbol": "milkTIA",
+      "denom": "ibc/405E48C8163CB9AB41A00CAEA19BB8D33D5C5818D3F3CCF3B1967C3A06D17206",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png",
+      "recommended_symbol": "milkTIA.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "denom": "ibc/AA4E7DF065DC4D4B29B8662A919295F525B19251FB2618C41C0DED3BD1128FEE",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.ibc",
+      "coingecko_id": "usd-coin",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "TIA",
+      "name": "Celestia Native Token",
+      "denom": "ibc/05060A29687D6CA94E2CCD17A9C57AA0F2086DEC0964D677509DC2EBFE324D9E",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/TIA.png",
+      "recommended_symbol": "TIA.ibc",
+      "coingecko_id": "celestia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/39026A3BC5B3135CAC7FA5551C286A05E215FDA2C3C79195EB73F6699696F4FF",
+      "symbol": "ETH",
+      "name": "Ethereum Native Token",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/ETH.png",
+      "recommended_symbol": "ETH.ibc",
+      "coingecko_id": "ethereum",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/BAF588B34262B74DEE24652CA2C78C1A2C14B3124381D3C4AB16902A86F759B0",
+      "symbol": "WEETH",
+      "name": "Ether.Fi Wrapped eETH LRT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/WEETH.png",
+      "recommended_symbol": "WEETH.ibc",
+      "coingecko_id": "wrapped-eeth",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/2BFE577D4A154A360D7BEC8D5FECC433ACAE6EF44A460F2D36A61410D9ADE6ED",
+      "symbol": "deINIT",
+      "name": "Drop Staked INIT-USDC LPT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/deINIT.png",
+      "recommended_symbol": "deINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/8CF7B9771291D1596B6A6A7F812BC043A5E1A903E6E6D4D41CE9C7486B338AC6",
+      "symbol": "sxINIT",
+      "name": "sxINIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sxINIT.png",
+      "recommended_symbol": "sxINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/749ECC13174B58CB9BFED2C8608670DBD3AF3EFE767E8AE671C1AFFB97F75116",
+      "symbol": "eINIT",
+      "name": "eINIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/eINIT.png",
+      "recommended_symbol": "eINIT.ibc",
+      "decimals": 6
     },
     {
       "asset_type": "cosmos",
@@ -13,7 +103,8 @@
       "symbol": "iUSD",
       "name": "iUSD",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
-      "recommended_symbol": "iUSD"
+      "recommended_symbol": "iUSD.ibc",
+      "decimals": 6
     }
   ]
 }

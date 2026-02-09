@@ -4,8 +4,42 @@
   "assets": [
     {
       "asset_type": "cosmos",
+      "symbol": "INIT",
+      "name": "Initia Native Token",
+      "denom": "l2/fb936ffef4eb4019d82941992cc09ae2788ce7197fcb08cb00c4fe6f5e79184e",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.opinit",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "denom": "l2/db147f1ded7ffcc336f5f8d1eff83c4feb95fcfff5c84f1b9c135444b816e48e",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.opinit",
+      "coingecko_id": "usd-coin",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "iUSD",
+      "name": "iUSD",
+      "denom": "ibc/B82A5B2051D2296EE838D076218D4F852A629C69B99E7430C4D388F37DB16A3A",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "recommended_symbol": "iUSD.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT",
+      "name": "Initia Native Token",
       "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
-      "recommended_symbol": "INIT.ibc"
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
     }
   ]
 }
