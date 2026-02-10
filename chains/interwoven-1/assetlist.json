@@ -1,100 +1,321 @@
 {
-    "$schema": "../../assetlist.schema.json",
-    "chain_name": "initia",
-    "assets": [
-        {
-            "asset_type": "cosmos",
-            "name": "INIT.inertia",
-            "symbol": "INIT.inertia",
-            "denom": "ibc/53E41F296D6A329EAE0288400B9270506B02DFE52C0831BD549BA8BAE4560552",
-            "recommended_symbol": "INIT.inertia"
-        },
-        {
-            "asset_type": "cosmos",
-            "name": "INIT.civitia",
-            "symbol": "INIT.civitia",
-            "denom": "ibc/9055D784E46926951D1FF95AA41245B291FA9AAFFAE5C9D0D515877F647D5226",
-            "recommended_symbol": "INIT.civitia"
-        },
-        {
-            "asset_type": "cosmos",
-            "name": "INIT.echelon",
-            "symbol": "INIT.echelon",
-            "denom": "ibc/EE8CC845631408C84289BA2CA423DAD0B43E22E07524248F20DCB93D04FF9839",
-            "recommended_symbol": "INIT.echelon"
-        },
-        {
-            "asset_type": "cosmos",
-            "name": "INIT.intergaze",
-            "symbol": "INIT.intergaze",
-            "denom": "ibc/F0B8D6CA62D884AA1DAB0DC07190A40B55CF50FBDFBB37BE84036BBBCC283836",
-            "recommended_symbol": "INIT.intergaze"
-        },
-        {
-            "asset_type": "cosmos",
-            "name": "INIT.inertia",
-            "symbol": "INIT.inertia",
-            "denom": "ibc/AE001D9DB0EA8B0A892DEBF1E1FDC9E82C3F685E82B774009A21D5DA33C712C5",
-            "recommended_symbol": "INIT.inertia"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "move/edfcddacac79ab86737a1e9e65805066d8be286a37cb94f4884b892b0e39f954",
-            "symbol": "ETH",
-            "name": "ETH",
-            "recommended_symbol": "ETH",
-            "coingecko_id": "ethereum"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
-            "symbol": "WEETH",
-            "name": "WEETH",
-            "recommended_symbol": "WEETH",
-            "coingecko_id": "wrapped-eeth"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "move/d310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
-            "symbol": "ONYX",
-            "name": "ONYX",
-            "recommended_symbol": "ONYX",
-            "coingecko_id": "kamigotchi-onyx"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "0xd310d6ebd7c9ffb6d63bdc5d3e3227a767149411e5ab711b483635adb2f4c85f",
-            "symbol": "ONYX",
-            "name": "ONYX",
-            "recommended_symbol": "ONYX",
-            "coingecko_id": "kamigotchi-onyx"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
-            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "ibc/297A4DE88667929480EBE6659B264C5683838CF313C61FE889F6B8D8DC6E071D",
-            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "ibc/DA9AC2708B4DAA46D24E73241373CDCC850BC6446E8E0906A4062152B649DDD3",
-            "symbol": "TIA",
-            "name": "Celestia",
-            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-            "coingecko_id": "celestia",
-            "recommended_symbol": "TIA"
-        },
-        {
-            "asset_type": "cosmos",
-            "denom": "move/6c69733a9e722f3660afb524f89fce957801fa7e4408b8ef8fe89db9627b570e",
-            "symbol": "iUSD",
-            "name": "iUSD",
-            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
-            "recommended_symbol": "iUSD"
-        }
-    ]
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "initia",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT",
+      "name": "Initia Native Token",
+      "denom": "uinit",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.ibc",
+      "coingecko_id": "usd-coin",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "milkTIA",
+      "name": "milkTIA",
+      "denom": "ibc/297A4DE88667929480EBE6659B264C5683838CF313C61FE889F6B8D8DC6E071D",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png",
+      "recommended_symbol": "milkTIA.ibc",
+      "coingecko_id": "milkyway-staked-tia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "milkINIT",
+      "name": "MilkyWay's INIT LST",
+      "denom": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkINIT.png",
+      "recommended_symbol": "milkINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "TIA",
+      "name": "Celestia Native Token",
+      "denom": "ibc/DA9AC2708B4DAA46D24E73241373CDCC850BC6446E8E0906A4062152B649DDD3",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/TIA.png",
+      "recommended_symbol": "TIA.ibc",
+      "coingecko_id": "celestia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "ETH",
+      "name": "Ethereum Native Token",
+      "denom": "move/edfcddacac79ab86737a1e9e65805066d8be286a37cb94f4884b892b0e39f954",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/ETH.png",
+      "recommended_symbol": "ETH",
+      "coingecko_id": "ethereum",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "sINIT",
+      "name": "sINIT",
+      "denom": "move/d08cf4d36d8a70cc6efe8791dc5b3d4f928df4fe41468bc138439d55ed132c3e",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sINIT.png",
+      "recommended_symbol": "sINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "nINIT",
+      "name": "nINIT",
+      "denom": "move/b4fd0119fa43bb5a208256e92977d6552fef31191fe24299fe45f6e64dd5c6f3",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/nINIT.png",
+      "recommended_symbol": "nINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "oINIT",
+      "name": "omniINIT",
+      "denom": "uoinit",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/omniINIT.png",
+      "recommended_symbol": "oINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "WEETH",
+      "name": "Ether.Fi Wrapped eETH LRT",
+      "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/WEETH.png",
+      "recommended_symbol": "WEETH",
+      "coingecko_id": "wrapped-eeth",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDC-INIT LP",
+      "name": "USDC-INIT LP",
+      "denom": "move/543b35a39cfadad3da3c23249c474455d15efd2f94f849473226dee8a3c7a9e1",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC-INIT.png",
+      "recommended_symbol": "USDC-INIT LP",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "deINIT",
+      "name": "Drop Staked INIT-USDC LPT",
+      "denom": "ibc/6190D58F741F1313A7B8F07E34E5603B03C1CC4490F54474986BC97A55EADE92",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/deINIT.png",
+      "recommended_symbol": "deINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDe",
+      "name": "Ethena USDe",
+      "denom": "move/495824d57a4f31ca1c05af6c3fccdcb5c1681749ae49a0715797e1168eef3294",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDe.png",
+      "recommended_symbol": "USDe",
+      "coingecko_id": "ethena-usde",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "ONYX",
+      "name": "ONYX",
+      "denom": "ibc/74CDBCE5F520CD29B32692645382E168032121F7DC3B3FDC79B0D37FB4E0916D",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
+      "recommended_symbol": "ONYX.ibc",
+      "coingecko_id": "kamigotchi-onyx",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "sUSDe",
+      "name": "Ethena Staked USD",
+      "denom": "move/568c845ab36c54a0ea1e75cacfd6addadfa6c7241aa7774bb5263ef701f8f70e",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sUSDe.png",
+      "recommended_symbol": "sUSDe",
+      "coingecko_id": "ethena-staked-usde",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.civitia",
+      "name": "INIT.civitia",
+      "denom": "ibc/9055D784E46926951D1FF95AA41245B291FA9AAFFAE5C9D0D515877F647D5226",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/civitia.ibcopinit.png",
+      "recommended_symbol": "INIT.civitia.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.echelon",
+      "name": "INIT.echelon",
+      "denom": "ibc/EE8CC845631408C84289BA2CA423DAD0B43E22E07524248F20DCB93D04FF9839",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/echelon.ibcopinit.png",
+      "recommended_symbol": "INIT.echelon.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.embr",
+      "name": "INIT.embr",
+      "denom": "ibc/DD8FC719EAD3D69D116D64281DD9AB03ECA90105204AD4F5BF87D23807FE8BF6",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/embr.ibcopinit.png",
+      "recommended_symbol": "INIT.embr.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.ingnetwork",
+      "name": "INIT.ingnetwork",
+      "denom": "ibc/68C9D3FE5D7FAC95A435D49C448432AD9CB35FC4062758943DFBD4D3A53C6FDF",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/ing.ibcopinit.png",
+      "recommended_symbol": "INIT.ingnetwork.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.inertia",
+      "name": "INIT.inertia",
+      "denom": "ibc/AE001D9DB0EA8B0A892DEBF1E1FDC9E82C3F685E82B774009A21D5DA33C712C5",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/inertia.ibcopinit.png",
+      "recommended_symbol": "INIT.inertia.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.intergaze",
+      "name": "INIT.intergaze",
+      "denom": "ibc/F0B8D6CA62D884AA1DAB0DC07190A40B55CF50FBDFBB37BE84036BBBCC283836",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/intergaze.ibcopinit.png",
+      "recommended_symbol": "INIT.intergaze.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.rave",
+      "name": "INIT.rave",
+      "denom": "ibc/8AA222DB08C98AB83CD791EDFC4899079CD5AD2E300435184C6FC1F5CC77E3A7",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/rave.ibcopinit.png",
+      "recommended_symbol": "INIT.rave.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT.yominet",
+      "name": "INIT.yominet",
+      "denom": "ibc/07FFEEEE36370551554531FF7189EB2D3353B187CB6CE715DA1291C3A4B4EAC2",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/yominet.ibcopinit.png",
+      "recommended_symbol": "INIT.yominet.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "cabalINIT",
+      "name": "cabalINIT",
+      "denom": "move/2fe94c664cbbe8093203e887b6fb9b9462c56917c34bd9f8fd14a3b40d0044cb",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/cabalINIT.png",
+      "recommended_symbol": "cabalINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "xINIT",
+      "name": "xINIT",
+      "denom": "move/979ee341ad65efb486ed1b68b060e6a97cdd6bec9014c62aa1fc3563933daa4a",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/xINIT.png",
+      "recommended_symbol": "xINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "sxINIT",
+      "name": "sxINIT",
+      "denom": "move/08e72bfc8d55d9705e4cea82ddb68ad84e5b7a16ec4ef4bb0d3c95bf729569fb",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sxINIT.png",
+      "recommended_symbol": "sxINIT",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "xINIT-INIT LP",
+      "name": "xINIT-INIT LP",
+      "denom": "move/c71aa9c25976a1070ccf16b6b74ec611912212d805a2575cddff875d49872151",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/xINIT-INIT.png",
+      "recommended_symbol": "xINIT-INIT LP",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "cbl USDC-INIT LP",
+      "name": "cbl USDC-INIT LP",
+      "denom": "move/a335e0ffb9c3a5ed0d0fb33f0faa0caed9091128d4ea3f93c452446f6f7ad73b",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/cbl-USDC-INIT.png",
+      "recommended_symbol": "cbl USDC-INIT LP",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "MILK",
+      "name": "MilkyWay Native Token",
+      "denom": "ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/MILK.png",
+      "recommended_symbol": "MILK.ibc",
+      "coingecko_id": "milkyway-2",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT sLP",
+      "name": "INIT sLP",
+      "denom": "move/18a6cfe6562ccddd9dd2043364d3fc1a4f5991470abeb77e83f0640e6e6138ec",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC_INIT_SLP.png",
+      "recommended_symbol": "INIT sLP",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "INIT nLP",
+      "name": "INIT nLP",
+      "denom": "move/e49a30a322f0ea6e6847fa19536abe2a0bcc729b7666c0d7d6c90b1fedfe4744",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC_INIT_NLP.png",
+      "recommended_symbol": "INIT nLP",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "AUSD0",
+      "name": "AUSD0",
+      "denom": "move/8078cf9fee50e15069402e9d1d9db70b28fc0d5197d79e8a2b41e2ade432efef",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/AUSD0.png",
+      "recommended_symbol": "AUSD0",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "iUSD",
+      "name": "iUSD",
+      "denom": "move/6c69733a9e722f3660afb524f89fce957801fa7e4408b8ef8fe89db9627b570e",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "recommended_symbol": "iUSD",
+      "decimals": 6
+    }
+  ]
 }

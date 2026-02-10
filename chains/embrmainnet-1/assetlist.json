@@ -4,8 +4,80 @@
   "assets": [
     {
       "asset_type": "cosmos",
+      "denom": "evm/4f7566f67941283a30cf65de7b9c6fdf2c04FCA1",
+      "name": "Initia Native Token",
+      "symbol": "INIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.erc20",
+      "coingecko_id": "initia",
+      "decimals": 18
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "l2/5c7570d305b2d43f6cf33b41043d9429daa5d2a1038095a894febdc308966ff3",
+      "name": "Initia Native Token",
+      "symbol": "INIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.op",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
       "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
-      "recommended_symbol": "INIT.ibc"
+      "name": "Initia Native Token",
+      "symbol": "INIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
+      "recommended_symbol": "INIT.ibc",
+      "coingecko_id": "initia",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "evm/c5F4CD7e4fedB80b0BCEe61d30fBCBF59743AD89",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.erc20",
+      "coingecko_id": "usd-coin",
+      "decimals": 18
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/AA4E7DF065DC4D4B29B8662A919295F525B19251FB2618C41C0DED3BD1128FEE",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.ibc",
+      "coingecko_id": "usd-coin",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/749ECC13174B58CB9BFED2C8608670DBD3AF3EFE767E8AE671C1AFFB97F75116",
+      "symbol": "embrINIT",
+      "name": "embrINIT",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/embrINIT.png",
+      "recommended_symbol": "embrINIT.ibc",
+      "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "evm/bDEC10C2eDa096b3b0C06cD8AF45865b82CfdEBA",
+      "symbol": "iUSD",
+      "name": "iUSD",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "recommended_symbol": "iUSD.erc20",
+      "decimals": 18
+    },
+    {
+      "asset_type": "cosmos",
+      "denom": "ibc/B82A5B2051D2296EE838D076218D4F852A629C69B99E7430C4D388F37DB16A3A",
+      "symbol": "iUSD",
+      "name": "iUSD",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "recommended_symbol": "iUSD.ibc",
+      "decimals": 6
     }
   ]
 }
