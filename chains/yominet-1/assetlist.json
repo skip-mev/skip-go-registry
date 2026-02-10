@@ -19,6 +19,7 @@
       "denom": "evm/4BaDFb501Ab304fF11217C44702bb9E9732E7CF4",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
       "recommended_symbol": "ONYX.erc20",
+      "coingecko_id": "kamigotchi-onyx",
       "decimals": 18
     },
     {
