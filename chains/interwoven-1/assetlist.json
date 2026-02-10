@@ -133,6 +133,7 @@
       "denom": "ibc/74CDBCE5F520CD29B32692645382E168032121F7DC3B3FDC79B0D37FB4E0916D",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
       "recommended_symbol": "ONYX.ibc",
+      "coingecko_id": "kamigotchi-onyx",
       "decimals": 6
     },
     {
