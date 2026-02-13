@@ -425,6 +425,16 @@
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png",
             "coingecko_id": "garudax",
             "recommended_symbol": "GRDX"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "maxBTC",
+            "decimals": 8,
+            "symbol": "maxBTC",
+            "denom": "ibc/59A4A5CC7201CDDD3E9A6033E0345959B025577C10C224563B720F720895DB72",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg",
+            "coingecko_id": "maxbtc",
+            "recommended_symbol": "maxBTC"
         }
     ]
 }
