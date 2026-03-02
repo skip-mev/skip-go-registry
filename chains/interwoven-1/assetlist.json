@@ -313,7 +313,7 @@
       "symbol": "iUSD",
       "name": "iUSD",
       "denom": "move/6c69733a9e722f3660afb524f89fce957801fa7e4408b8ef8fe89db9627b570e",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
+      "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
       "recommended_symbol": "iUSD",
       "decimals": 6
     }
