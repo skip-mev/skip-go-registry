@@ -24,6 +24,15 @@
             "symbol": "aUSD.aeroscraper",
             "name": "Aeroscraper aUSD",
             "recommended_symbol": "aUSD.aeroscraper"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "factory/inj1l7u9lv8dfqkjnc7antm5lk7lmskh8zldh9yg05/iUSD",
+            "symbol": "iUSD",
+            "name": "iUSD",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
+            "recommended_symbol": "iUSD",
+            "decimals": 18
         }
     ]
 }
