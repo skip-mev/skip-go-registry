@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "denom": "evm/df5A85F89731fEB77d7EEaaCe627EB135eDB46DB",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.erc20",
+      "recommended_symbol": "INIT",
       "coingecko_id": "initia",
       "decimals": 18
     },
@@ -27,7 +27,7 @@
       "name": "iUSD",
       "denom": "evm/58918f9E58662058Cb36Cc60d7E124C90872C7C0",
       "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
+      "recommended_symbol": "iUSD",
       "decimals": 18
     },
     {
@@ -45,7 +45,7 @@
       "name": "USD Coin",
       "denom": "evm/A1Bc0977Bab93D507A89C108fa21820809e6869D",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
-      "recommended_symbol": "USDC.erc20",
+      "recommended_symbol": "USDC",
       "coingecko_id": "usd-coin",
       "decimals": 18
     },

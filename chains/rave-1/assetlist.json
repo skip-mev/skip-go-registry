@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "denom": "evm/4f7566f67941283a30cf65de7b9c6fdf2c04FCA1",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.erc20",
+      "recommended_symbol": "INIT",
       "coingecko_id": "initia",
       "decimals": 18
     },
@@ -18,7 +18,7 @@
       "name": "USD Coin",
       "denom": "evm/4E5f559ff873D84834e4338950d4Bb05121f8EFc",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
-      "recommended_symbol": "USDC.erc20",
+      "recommended_symbol": "USDC",
       "coingecko_id": "usd-coin",
       "decimals": 18
     },
@@ -28,7 +28,7 @@
       "name": "MilkyWay's INIT LST",
       "denom": "evm/f0c644D9636b83E7491404d8D826321e44E23d15",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkINIT.png",
-      "recommended_symbol": "milkINIT.erc20",
+      "recommended_symbol": "milkINIT",
       "decimals": 18
     },
     {
@@ -37,7 +37,7 @@
       "name": "milkTIA",
       "denom": "evm/c8b9427c116Dc51FeDA4c59c3E05C465609F6f4a",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/milkTIA.png",
-      "recommended_symbol": "milkTIA.erc20",
+      "recommended_symbol": "milkTIA",
       "decimals": 18
     },
     {
@@ -46,7 +46,7 @@
       "name": "sINIT",
       "denom": "evm/52cc0C83EcE8C806a3482520b61BC4e933eF64b9",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sINIT.png",
-      "recommended_symbol": "sINIT.erc20",
+      "recommended_symbol": "sINIT",
       "decimals": 18
     },
     {
@@ -55,7 +55,7 @@
       "name": "Drop Staked INIT-USDC LPT",
       "denom": "evm/Aa350de597Ac4eE3e0a165DBe0aab8154f5a1fbE",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/deINIT.png",
-      "recommended_symbol": "deINIT.erc20",
+      "recommended_symbol": "deINIT",
       "decimals": 18
     },
     {
@@ -64,7 +64,7 @@
       "name": "sxINIT",
       "denom": "evm/4e7BA895aB19615ee63831615679B5F0a22740B3",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/sxINIT.png",
-      "recommended_symbol": "sxINIT.erc20",
+      "recommended_symbol": "sxINIT",
       "decimals": 18
     },
     {
@@ -73,7 +73,7 @@
       "name": "iUSD",
       "denom": "evm/bDEC10C2eDa096b3b0C06cD8AF45865b82CfdEBA",
       "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
+      "recommended_symbol": "iUSD",
       "decimals": 18
     },
     {

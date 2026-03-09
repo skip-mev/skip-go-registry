@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "symbol": "INIT",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.erc20",
+      "recommended_symbol": "INIT",
       "coingecko_id": "initia",
       "decimals": 18
     },
@@ -38,7 +38,7 @@
       "symbol": "USDC",
       "name": "USD Coin",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
-      "recommended_symbol": "USDC.erc20",
+      "recommended_symbol": "USDC",
       "coingecko_id": "usd-coin",
       "decimals": 18
     },
@@ -58,7 +58,7 @@
       "symbol": "embrINIT",
       "name": "embrINIT",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/embrINIT.png",
-      "recommended_symbol": "embrINIT.ibc",
+      "recommended_symbol": "embrINIT",
       "decimals": 6
     },
     {
@@ -67,7 +67,7 @@
       "symbol": "iUSD",
       "name": "iUSD",
       "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
+      "recommended_symbol": "iUSD",
       "decimals": 18
     },
     {

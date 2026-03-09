@@ -8,7 +8,7 @@
       "name": "Initia Native Token",
       "denom": "evm/856aB2c9F35B9187aB3eB0Fcd11DCc6160427e96",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
-      "recommended_symbol": "INIT.erc20",
+      "recommended_symbol": "INIT",
       "coingecko_id": "initia",
       "decimals": 18
     },
@@ -18,7 +18,7 @@
       "name": "ONYX",
       "denom": "evm/4BaDFb501Ab304fF11217C44702bb9E9732E7CF4",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/onyx.png",
-      "recommended_symbol": "ONYX.erc20",
+      "recommended_symbol": "ONYX",
       "coingecko_id": "kamigotchi-onyx",
       "decimals": 18
     },
@@ -28,7 +28,7 @@
       "name": "Ethereum Native Token",
       "denom": "evm/E1Ff7038eAAAF027031688E1535a055B2Bac2546",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/ETH.png",
-      "recommended_symbol": "ETH.erc20",
+      "recommended_symbol": "ETH",
       "coingecko_id": "ethereum",
       "decimals": 18
     },
@@ -38,7 +38,7 @@
       "name": "Celestia Native Token",
       "denom": "evm/f0c644D9636b83E7491404d8D826321e44E23d15",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/TIA.png",
-      "recommended_symbol": "TIA.erc20",
+      "recommended_symbol": "TIA",
       "coingecko_id": "celestia",
       "decimals": 18
     },
@@ -48,7 +48,7 @@
       "name": "iUSD",
       "denom": "evm/bDEC10C2eDa096b3b0C06cD8AF45865b82CfdEBA",
       "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
+      "recommended_symbol": "iUSD",
       "decimals": 18
     },
     {
