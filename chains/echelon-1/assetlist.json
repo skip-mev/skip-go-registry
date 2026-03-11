@@ -14,7 +14,7 @@
     },
     {
       "asset_type": "cosmos",
-      "symbol": "INIT",
+      "symbol": "INIT.ibc",
       "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
       "name": "Initia Native Token",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/INIT.png",
