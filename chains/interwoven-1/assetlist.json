@@ -277,7 +277,7 @@
       "name": "MilkyWay Native Token",
       "denom": "ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/MILK.png",
-      "recommended_symbol": "MILK.ibc",
+      "recommended_symbol": "MILK",
       "coingecko_id": "milkyway-2",
       "decimals": 6
     },
