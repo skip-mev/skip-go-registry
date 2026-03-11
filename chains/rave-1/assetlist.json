@@ -78,15 +78,6 @@
     },
     {
       "asset_type": "cosmos",
-      "symbol": "iUSD",
-      "name": "iUSD",
-      "denom": "evm/bDEC10C2eDa096b3b0C06cD8AF45865b82CfdEBA",
-      "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
-      "recommended_symbol": "iUSD",
-      "decimals": 18
-    },
-    {
-      "asset_type": "cosmos",
       "symbol": "INIT.op",
       "name": "Initia Native Token",
       "denom": "l2/ffea49d63cbadcfd749b4f635eca198b2f3b44cb1f6b580f5d201d58f3bf7aea",
