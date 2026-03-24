@@ -16,7 +16,7 @@
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "grpc-strat-1.anvil.asia-northeast.initia.xyz:443",
+      "address": "sequencer-grpc-strat-1.anvil.asia-northeast.initia.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }
