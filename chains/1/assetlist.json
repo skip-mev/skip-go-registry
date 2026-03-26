@@ -687,6 +687,14 @@
             "symbol": "ONYX",
             "logo_uri": "https://assets.coingecko.com/coins/images/55571/standard/onyx_200x200.png",
             "coingecko_id": "kamigotchi-onyx"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "The yield bearing LST of ETH",
+            "decimals": 18,
+            "erc20_contract_address": "0xf9bf4b8bd40bc82269841769350c8eeeb7184759",
+            "symbol": "roETH",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png"
         }
     ]
 }
