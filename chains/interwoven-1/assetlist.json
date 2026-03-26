@@ -316,6 +316,15 @@
       "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/interwoven-1/images/iUSD.png",
       "recommended_symbol": "iUSD",
       "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "roETH",
+      "name": "The yield bearing LST of ETH",
+      "denom": "move/1382178672d3d13de3665c4e94d3181fdf0feedcc217a44b57e79dc34c42e926",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png",
+      "recommended_symbol": "roETH",
+      "decimals": 6
     }
   ]
 }
