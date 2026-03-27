@@ -83,7 +83,6 @@
       "name": "The yield bearing LST of ETH",
       "denom": "ibc/7E77C01AD8A90099B391F9EE0976A341ECA500D68D7F44849B57C08D7A9249B1",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png",
-      "recommended_symbol": "roETH.ibc",
       "decimals": 6
     }
   ]
