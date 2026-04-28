@@ -301,11 +301,11 @@
     },
     {
       "asset_type": "cosmos",
-      "symbol": "AUSD0",
-      "name": "AUSD0",
+      "symbol": "AUSD",
+      "name": "AUSD",
       "denom": "move/8078cf9fee50e15069402e9d1d9db70b28fc0d5197d79e8a2b41e2ade432efef",
-      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/AUSD0.png",
-      "recommended_symbol": "AUSD0",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/AUSD.png",
+      "recommended_symbol": "AUSD",
       "decimals": 6
     },
     {
