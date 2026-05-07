@@ -24,6 +24,16 @@
         },
         {
             "asset_type": "cosmos",
+            "name": "Euro Coin",
+            "decimals": 6,
+            "symbol": "EURC",
+            "denom": "ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
+            "coingecko_id": "euro-coin",
+            "recommended_symbol": "EURC"
+        },
+        {
+            "asset_type": "cosmos",
             "name": "TON.orai",
             "symbol": "TON.orai",
             "denom": "ibc/FFE1572627ECF442D6E2CA653000FACBA33824732012BCE63DFC25F1E813E5B3",
