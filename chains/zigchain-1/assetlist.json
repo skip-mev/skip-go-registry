@@ -8,6 +8,16 @@
             "symbol": "ETH",
             "denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
             "recommended_symbol": "ETH"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Euro Coin",
+            "decimals": 6,
+            "symbol": "EURC",
+            "denom": "ibc/CC5268F89C752A4BDCBDAA574AF0A381786FCC839104E077DA9A9145176BF8ED",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
+            "coingecko_id": "euro-coin",
+            "recommended_symbol": "EURC"
         }
     ]
 }
