@@ -84,6 +84,16 @@
       "denom": "ibc/7E77C01AD8A90099B391F9EE0976A341ECA500D68D7F44849B57C08D7A9249B1",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png",
       "decimals": 6
+    },
+    {
+      "asset_type": "cosmos",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "denom": "ibc/AA4E7DF065DC4D4B29B8662A919295F525B19251FB2618C41C0DED3BD1128FEE",
+      "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
+      "recommended_symbol": "USDC.ibc",
+      "coingecko_id": "usd-coin",
+      "decimals": 6
     }
   ]
 }
