@@ -8,7 +8,7 @@
       "name": "iUSD",
       "denom": "evm/58918f9E58662058Cb36Cc60d7E124C90872C7C0",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/iUSD.png",
-      "recommended_symbol": "iUSD.erc20",
+      "recommended_symbol": "iUSD",
       "decimals": 18
     },
     {
