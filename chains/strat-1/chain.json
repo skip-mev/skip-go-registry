@@ -1,22 +1,22 @@
 {
   "$schema": "../../initia.chain.schema.json",
-  "chain_id": "embr-1",
-  "is_testnet": true,
-  "chain_name": "embr_old",
+  "chain_id": "strat-1",
+  "is_testnet": false,
+  "chain_name": "strat",
   "chain_type": "initia",
   "is_initia_l1": false,
-  "initia_l1_chain_id": "initiation-2",
+  "initia_l1_chain_id": "interwoven-1",
   "apis": {
     "tendermint_rpc_endpoint": {
-      "address": "https://rpc-embr-1.anvil.asia-southeast.initia.xyz",
+      "address": "https://rpc-strat-1.anvil.asia-northeast.initia.xyz",
       "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
-      "address": "https://rest-embr-1.anvil.asia-southeast.initia.xyz",
+      "address": "https://rest-strat-1.anvil.asia-northeast.initia.xyz",
       "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
-      "address": "grpc-embr-1.anvil.asia-southeast.initia.xyz:443",
+      "address": "grpc-strat-1.anvil.asia-northeast.initia.xyz:443",
       "backoff_delay": 0,
       "tls": true
     }

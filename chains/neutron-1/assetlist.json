@@ -27,7 +27,11 @@
             "asset_type": "cosmos",
             "name": "maxBTC",
             "denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
-            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/maxbtc.svg"
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/neutron-1/images/maxbtc.svg",
+            "symbol": "maxBTC",
+            "decimals": 8,
+            "coingecko_id": "maxbtc",
+            "recommended_symbol": "maxBTC"
         },
         {
             "asset_type": "cosmos",

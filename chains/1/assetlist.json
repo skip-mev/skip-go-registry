@@ -16,6 +16,36 @@
         },
         {
             "asset_type": "erc20",
+            "name": "Lido Staked Ether",
+            "decimals": 18,
+            "erc20_contract_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "symbol": "stETH",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84/logo.png",
+            "coingecko_id": "staked-ether",
+            "recommended_symbol": "stETH"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Wrapped stETH",
+            "decimals": 18,
+            "erc20_contract_address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+            "symbol": "wstETH",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0/logo.png",
+            "coingecko_id": "wrapped-steth",
+            "recommended_symbol": "wstETH"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Euro Coin",
+            "decimals": 6,
+            "erc20_contract_address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+            "symbol": "EURC",
+            "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
+            "coingecko_id": "euro-coin",
+            "recommended_symbol": "EURC"
+        },
+        {
+            "asset_type": "erc20",
             "name": "weETH",
             "decimals": 18,
             "erc20_contract_address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
@@ -687,6 +717,14 @@
             "symbol": "ONYX",
             "logo_uri": "https://assets.coingecko.com/coins/images/55571/standard/onyx_200x200.png",
             "coingecko_id": "kamigotchi-onyx"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "The yield bearing LST of ETH",
+            "decimals": 18,
+            "erc20_contract_address": "0xf9bf4b8bd40bc82269841769350c8eeeb7184759",
+            "symbol": "roETH",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png"
         }
     ]
 }
