@@ -23,11 +23,12 @@
     {
       "denom": "cw20:secret14e0dnsfjfhv6ppz4nxggu3lzs2v8evpadju220",
       "symbol": "OBS",
+      "address": "secret14e0dnsfjfhv6ppz4nxggu3lzs2v8evpadju220",
       "name": "OBSCURA",
       "decimals": 18,
       "coingecko_id": "",
       "logo_uri": "ipfs://QmPiQBbf3E8tPDKbNpJFFfLnrgMfGZp9NxUdXga1PaaJ9K",
-      "code_hash": "667be56910757d590ebcd19f7e4a13cbdfb0e27db9aa2c8fa074b17c80775cb5",
+      "code_hash": "c77a89913acf6d0bfec3dbca28589db27b97208d38b7b4aa6e477aac7b7bb3c3",
       "token_type": "snip20"
     }
   ]
