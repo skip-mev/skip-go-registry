@@ -21,7 +21,8 @@
         "png": "https://ipfs.io/ipfs/QmPiQBbf3E8tPDKbNpJFFfLnrgMfGZp9NxUdXga1PaaJ9K"
       },
       "type_asset": "snip20",
-      "address": "secret1w8kh3xk2dvx6zjs5krs68m5hqsseuqg8jwt8uj"
+      "address": "secret1w8kh3xk2dvx6zjs5krs68m5hqsseuqg8jwt8uj",
+      "code_hash": "12d18aa9164daebd349c6d67cb8db10dd60aa1235ea46f12593cf195559849f7"
     }
   ]
 }
