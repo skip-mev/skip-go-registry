@@ -1,28 +1,19 @@
 {
-  "chain_name": "secret-4",
-  "assets": [
-    {
-      "description": "The official OBSCURA token",
-      "denom_units": [
-        {
-          "denom": "snip20:secret1w8kh3xk2dvx6zjs5krs68m5hqsseuqg8jwt8uj",
-          "exponent": 0
-        },
-        {
-          "denom": "obs",
-          "exponent": 6
-        }
-      ],
-      "base": "snip20:secret1w8kh3xk2dvx6zjs5krs68m5hqsseuqg8jwt8uj",
-      "name": "OBSCURA",
-      "display": "obs",
-      "symbol": "OBS",
-      "logo_URIs": {
-        "png": "https://ipfs.io/ipfs/QmPiQBbf3E8tPDKbNpJFFfLnrgMfGZp9NxUdXga1PaaJ9K"
-      },
-      "type_asset": "snip20",
-      "address": "secret1w8kh3xk2dvx6zjs5krs68m5hqsseuqg8jwt8uj",
-      "code_hash": "12d18aa9164daebd349c6d67cb8db10dd60aa1235ea46f12593cf195559849f7"
-    }
-  ]
+  "denom": "snip20:secret1v5zau94cv8h287dvk2fdxyrt0h5ldsmec37up6",
+  "exponent": 0
+},
+{
+  "denom": "obs",
+  "exponent": 6
 }
+],
+"base": "snip20:secret1v5zau94cv8h287dvk2fdxyrt0h5ldsmec37up6",
+"name": "OBSCURA",
+"display": "obs",
+"symbol": "OBS",
+"logo_URIs": {
+  "png": "https://ipfs.io/ipfs/QmPiQBbf3E8tPDKbNpJFFfLnrgMfGZp9NxUdXga1PaaJ9K"
+},
+"type_asset": "snip20",
+"address": "secret1v5zau94cv8h287dvk2fdxyrt0h5ldsmec37up6",
+"code_hash": "fb8a99ada95de07976bf82605012c3072965c1a48b0a779c2d3f8e368b6cefd3"
