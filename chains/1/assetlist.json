@@ -728,12 +728,11 @@
         },
         {
             "asset_type": "erc20",
-            "name": "Haqq",
+            "name": "HAQQ",
             "decimals": 18,
             "erc20_contract_address": "0xAFb74983668ff5cBE7340cb0DA014D7221c7947e",
             "symbol": "HAQQ",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png",
-            "coingecko_id": "",
             "recommended_symbol": "HAQQ"
         }
     ]
