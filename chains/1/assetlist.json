@@ -725,6 +725,16 @@
             "erc20_contract_address": "0xf9bf4b8bd40bc82269841769350c8eeeb7184759",
             "symbol": "roETH",
             "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/roETH.png"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Haqq",
+            "decimals": 18,
+            "erc20_contract_address": "0xAFb74983668ff5cBE7340cb0DA014D7221c7947e",
+            "symbol": "HAQQ",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png",
+            "coingecko_id": "",
+            "recommended_symbol": "HAQQ"
         }
     ]
 }
