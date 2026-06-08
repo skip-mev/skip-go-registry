@@ -82,6 +82,15 @@
             "symbol": "maxBTC",
             "logo_uri": "https://assets.coingecko.com/coins/images/69364/standard/Token_2x.png",
             "coingecko_id": "maxbtc"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "ToroToken",
+            "decimals": 6,
+            "erc20_contract_address": "0x41844fd9aDC8E8821A1289c984D79260474b43ec",
+            "symbol": "TORO",
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "recommended_symbol": "TORO"
         }
     ]
 }
