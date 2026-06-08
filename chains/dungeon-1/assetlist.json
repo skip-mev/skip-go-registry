@@ -1,0 +1,66 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "dungeon",
+  "assets": [
+    {
+      "asset_type": "cosmos",
+      "name": "Dragon Coin",
+      "decimals": 6,
+      "symbol": "DGN",
+      "denom": "udgn",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+      "coingecko_id": "dragon-coin-2",
+      "recommended_symbol": "DGN"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "USD Coin",
+      "decimals": 6,
+      "symbol": "USDC",
+      "denom": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+      "coingecko_id": "usd-coin",
+      "recommended_symbol": "USDC"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "Cosmos Hub Atom",
+      "decimals": 6,
+      "symbol": "ATOM",
+      "denom": "ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+      "coingecko_id": "cosmos",
+      "recommended_symbol": "ATOM"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "Osmosis",
+      "decimals": 6,
+      "symbol": "OSMO",
+      "denom": "ibc/AC72F1D0BF72A358CD9D7E3AC8F868F96EDA9042DE00A72DB4AEA859065B7EB5",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+      "coingecko_id": "osmosis",
+      "recommended_symbol": "OSMO"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "Atone",
+      "decimals": 6,
+      "symbol": "ATONE",
+      "denom": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+      "coingecko_id": "atomone",
+      "recommended_symbol": "ATONE"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "Photon",
+      "decimals": 6,
+      "symbol": "PHOTON",
+      "denom": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
+      "coingecko_id": "photon-2",
+      "recommended_symbol": "PHOTON"
+    }
+  ]
+}
