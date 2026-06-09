@@ -86,7 +86,7 @@
         {
             "asset_type": "erc20",
             "name": "ToroToken",
-            "decimals": 6,
+            "decimals": 18,
             "erc20_contract_address": "0x41844fd9aDC8E8821A1289c984D79260474b43ec",
             "symbol": "TORO",
             "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
