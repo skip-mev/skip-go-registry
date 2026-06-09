@@ -19,6 +19,15 @@
             "denom": "ibc/856B9680BF6CC45ADE33A7503F8F70EB4CA19594F22869748AAB44AABDA96C6E",
             "logo_uri": "https://assets.coingecko.com/coins/images/69364/standard/Token_2x.png",
             "coingecko_id": "maxbtc"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "ToroToken",
+            "decimals": 18,
+            "symbol": "TORO",
+            "denom": "ibc/8FDA9C2D9403132B575AD7DF99DFC2FB5A0833FC0B091396BCC100CE3AAF961C",
+            "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
+            "coingecko_id": "usd-coin"
         }
     ]
 }
