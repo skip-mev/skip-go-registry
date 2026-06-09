@@ -90,7 +90,8 @@
             "erc20_contract_address": "0x41844fd9aDC8E8821A1289c984D79260474b43ec",
             "symbol": "TORO",
             "logo_uri": "https://sepolia.etherscan.io/images/main/empty-token.png",
-            "recommended_symbol": "TORO"
+            "recommended_symbol": "TORO",
+            "coingecko_id": "usd-coin"
         }
     ]
 }
