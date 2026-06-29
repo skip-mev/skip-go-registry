@@ -87,6 +87,16 @@
             "name": "JPY Coin",
             "symbol": "JPYC",
             "recommended_symbol": "JPYC"
+        },
+        {
+            "asset_type": "cosmos",
+            "denom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "decimals": 6,
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/cosmoshub-4/images/stars.png",
+            "coingecko_id": "stargaze",
+            "recommended_symbol": "STARS"
         }
     ]
 }
