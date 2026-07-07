@@ -3,6 +3,15 @@
     "chain_name": "ethereum-sepolia-tesetnet",
     "assets": [
         {
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "ethereum-sepolia-testnet-native",
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "decimals": 18,
+            "coingecko_id": "ethereum",
+            "logo_uri": "https://raw.githubusercontent.com/skip-mev/skip-go-registry/main/chains/1/images/eth.svg"
+        },
+        {
             "asset_type": "erc20",
             "name": "Sepolia USDC",
             "decimals": 6,

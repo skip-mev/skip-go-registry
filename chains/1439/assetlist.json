@@ -1,0 +1,24 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "injective-evm-testnet",
+    "assets": [
+        {
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "injective-evm-testnet-native",
+            "symbol": "INJ",
+            "name": "Injective",
+            "decimals": 18,
+            "coingecko_id": "injective-protocol",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "Injective USDC",
+            "decimals": 6,
+            "erc20_contract_address": "0x0C382e685bbeeFE5d3d9C29e29E341fEE8E84C5d",
+            "symbol": "USDC",
+            "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+            "coingecko_id": "usd-coin"
+        }
+    ]
+}
