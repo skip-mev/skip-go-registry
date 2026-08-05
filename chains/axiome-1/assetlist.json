@@ -1,0 +1,30 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "axiome",
+    "assets": [
+        {
+            "asset_type": "cosmos",
+            "name": "Axiome",
+            "decimals": 6,
+            "symbol": "AXM",
+            "denom": "uaxm",
+            "logo_uri": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uaxm.png",
+            "coingecko_id": "axiome"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "RIP",
+            "decimals": 6,
+            "symbol": "RIP",
+            "denom": "cw20:axm1sj7zrll8n6rh07hgzqtjemeeane53a68fzqzsmnyntw95w4h7z6s24683a",
+            "coingecko_id": "rip"
+        },
+        {
+            "asset_type": "cosmos",
+            "name": "Collexium",
+            "decimals": 6,
+            "symbol": "CLX",
+            "denom": "cw20:axm1hfaf96lt2y2dx2cr04svej0s0srqydhncxga5lh6zlrzw77d8qzqxday46"
+        }
+    ]
+}
