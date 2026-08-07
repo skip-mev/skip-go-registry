@@ -13,10 +13,19 @@
         },
         {
             "asset_type": "cosmos",
+            "name": "Referral Energy Token",
+            "decimals": 6,
+            "symbol": "RET",
+            "denom": "uret",
+            "logo_uri": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uret.png"
+        },
+        {
+            "asset_type": "cosmos",
             "name": "RIP",
             "decimals": 6,
             "symbol": "RIP",
             "denom": "cw20:axm1sj7zrll8n6rh07hgzqtjemeeane53a68fzqzsmnyntw95w4h7z6s24683a",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axiome/images/rip.png",
             "coingecko_id": "rip"
         },
         {
@@ -24,7 +33,8 @@
             "name": "Collexium",
             "decimals": 6,
             "symbol": "CLX",
-            "denom": "cw20:axm1hfaf96lt2y2dx2cr04svej0s0srqydhncxga5lh6zlrzw77d8qzqxday46"
+            "denom": "cw20:axm1hfaf96lt2y2dx2cr04svej0s0srqydhncxga5lh6zlrzw77d8qzqxday46",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axiome/images/clx.png"
         }
     ]
 }
