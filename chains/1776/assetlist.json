@@ -1,6 +1,6 @@
 {
     "$schema": "../../assetlist.schema.json",
-    "chain_name": "injective-evm-testnet",
+    "chain_name": "injective-evm-mainnet",
     "assets": [
         {
             "asset_type": "evm_native",
