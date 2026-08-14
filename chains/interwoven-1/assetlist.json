@@ -90,11 +90,11 @@
     },
     {
       "asset_type": "cosmos",
-      "symbol": "WEETH",
+      "symbol": "weETH",
       "name": "Ether.Fi Wrapped eETH LRT",
       "denom": "move/0eba36d73e4f8d0c10b36323fbd28ab8b3783b003ba7b86c0f3ead32a1caf7f7",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/WEETH.png",
-      "recommended_symbol": "WEETH",
+      "recommended_symbol": "weETH",
       "coingecko_id": "wrapped-eeth",
       "decimals": 6
     },
