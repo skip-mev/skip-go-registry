@@ -301,10 +301,10 @@
         },
         {
             "asset_type": "erc20",
-            "name": "COREUM",
+            "name": "TX",
             "decimals": 6,
             "erc20_contract_address": "0x176B2c8bAD684dA318fC7F417EEFd97D9a705a7D",
-            "symbol": "COREUM",
+            "symbol": "TX",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png",
             "coingecko_id": "coreum"
         },
