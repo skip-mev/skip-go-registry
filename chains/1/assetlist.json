@@ -734,6 +734,15 @@
             "symbol": "HAQQ",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png",
             "recommended_symbol": "HAQQ"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "InfiniFi USD",
+            "decimals": 18,
+            "erc20_contract_address": "0x48f9e38f3070AD8945DFEae3FA70987722E3D89c",
+            "symbol": "InfiniFi USD",
+            "logo_uri": "https://icons-ckg.pages.dev/stargate-light/tokens/iusd.svg",
+            "recommended_symbol": "InfiniFi USD"
         }
     ]
 }
