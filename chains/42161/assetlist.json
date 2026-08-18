@@ -383,6 +383,15 @@
             "symbol": "wstETH.axl",
             "coingecko_id": "wrapped-steth",
             "recommended_symbol": "wstETH.axl"
+        },
+        {
+            "asset_type": "erc20",
+            "name": "InfiniFi USD",
+            "decimals": 18,
+            "erc20_contract_address": "0x5D81113b4e6A34256aa08bC44D17Bf101E811afa",
+            "symbol": "InfiniFi USD",
+            "logo_uri": "https://icons-ckg.pages.dev/stargate-light/tokens/iusd.svg",
+            "recommended_symbol": "InfiniFi USD"
         }
     ]
 }
