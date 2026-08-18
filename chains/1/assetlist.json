@@ -50,7 +50,7 @@
             "decimals": 18,
             "erc20_contract_address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
             "symbol": "weETH",
-            "logo_uri": "https://s2.coinmarketcap.com/static/img/coins/128x128/28568.png",
+            "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/WEETH.png",
             "coingecko_id": "wrapped-eeth",
             "recommended_symbol": "weETH"
         },
