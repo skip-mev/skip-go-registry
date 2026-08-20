@@ -16,7 +16,7 @@
             "name": "Injective USDC",
             "decimals": 6,
             "erc20_contract_address": "0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
-            "symbol": "USDC",
+            "symbol": "USDC.inj",
             "logo_uri": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
             "coingecko_id": "usd-coin",
             "recommended_symbol": "USDC.inj"
