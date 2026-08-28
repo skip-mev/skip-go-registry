@@ -6,10 +6,11 @@
             "asset_type": "cosmos",
             "name": "Osmosis USDC",
             "decimals": 6,
-            "symbol": "USDC",
+            "symbol": "USDC.n",
             "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
             "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
             "coingecko_id": "usd-coin",
+            "recommended_symbol": "USDC.n",
             "go_fast_enabled": true
         },
         {
