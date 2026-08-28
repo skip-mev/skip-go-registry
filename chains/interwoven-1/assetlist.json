@@ -14,11 +14,11 @@
     },
     {
       "asset_type": "cosmos",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "name": "USD Coin",
       "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
       "logo_uri": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/images/USDC.png",
-      "recommended_symbol": "USDC",
+      "recommended_symbol": "USDC.n",
       "coingecko_id": "usd-coin",
       "decimals": 6
     },
