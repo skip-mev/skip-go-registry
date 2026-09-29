@@ -1,0 +1,19 @@
+{
+    "$schema": "../../chain.schema.json",
+    "chain_id": "axiome-1",
+    "is_testnet": false,
+    "chain_name": "axiome",
+    "pretty_name": "Axiome",
+    "chain_type": "cosmos",
+    "logo_uri": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/chain.png",
+    "apis": {
+        "tendermint_rpc_endpoint": {
+            "address": "https://api-chain.axiomechain.org",
+            "provider": "Axiome"
+        },
+        "lcd_rest_endpoint": {
+            "address": "https://axm-lcd.trickle.pro",
+            "provider": "Trickle"
+        }
+    }
+}
