@@ -743,6 +743,11 @@
             "symbol": "InfiniFi USD",
             "logo_uri": "https://icons-ckg.pages.dev/stargate-light/tokens/iusd.svg",
             "recommended_symbol": "InfiniFi USD"
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+            "coingecko_id": "zignaly"
         }
     ]
 }
