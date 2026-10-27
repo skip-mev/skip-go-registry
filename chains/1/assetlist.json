@@ -748,6 +748,11 @@
             "asset_type": "erc20",
             "erc20_contract_address": "0xb2617246d0c6c0087f18703d576831899ca94f01",
             "coingecko_id": "zignaly"
-        }
+        },
+        {
+            "asset_type": "erc20",
+            "erc20_contract_address": "0x8F08B70456eb22f6109F57b8fafE862ED28E6040",
+            "coingecko_id": "lrt-squared"
+        }        
     ]
 }
