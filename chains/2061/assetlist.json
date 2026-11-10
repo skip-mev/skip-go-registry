@@ -1,0 +1,15 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "zigchain-evm-testnet",
+    "assets": [
+        {
+            "asset_type": "evm_native",
+            "evm_native_asset_name": "zigchain-evm-testnet-native",
+            "symbol": "ZIG",
+            "name": "Zigchain",
+            "decimals": 18,
+            "coingecko_id": "zignaly",
+            "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png"
+        }
+    ]
+}
