@@ -9,6 +9,16 @@
       "denom": "ibc/E901426A5E7A5251282345748F08CA91A3D8F35D074A9FE9B7BBFF7884E1E246",
       "coingecko_id": "ripple",
       "recommended_symbol": "XRP.coreum"
+    },
+    {
+      "asset_type": "cosmos",
+      "name": "USD Coin",
+      "decimals": 6,
+      "symbol": "USDC",
+      "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+      "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+      "coingecko_id": "usd-coin",
+      "recommended_symbol": "USDC"
     }
   ]
 }
