@@ -7,23 +7,20 @@
     "is_initia_l1": true,
     "apis": {
         "tendermint_rpc_endpoint": {
-            "address": "https://rpc-skip.initiation-2.initia.xyz",
-            "provider": "Initia Labs",
-            "backoff_delay": 1000,
-            "basic_auth_required": true
+            "address": "https://rpc-initia.testnet.cosmoslabs.kr",
+            "provider": "Cosmos Labs",
+            "backoff_delay": 1000
         },
         "lcd_rest_endpoint": {
-            "address": "https://rest-skip.initiation-2.initia.xyz",
-            "provider": "Initia Labs",
-            "backoff_delay": 1000,
-            "basic_auth_required": true
+            "address": "https://lcd-initia.testnet.cosmoslabs.kr",
+            "provider": "Cosmos Labs",
+            "backoff_delay": 1000
         },
         "cosmos_sdk_grpc_endpoint": {
-            "address": "grpc-skip.testnet.initia.xyz:443",
-            "provider": "Initia Labs",
+            "address": "grpc-initia.testnet.cosmoslabs.kr:443",
+            "provider": "Cosmos Labs",
             "backoff_delay": 0,
-            "tls": true,
-            "basic_auth_required": true
+            "tls": true
         }
     }
 }
