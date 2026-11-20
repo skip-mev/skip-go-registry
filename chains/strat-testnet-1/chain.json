@@ -10,24 +10,18 @@
     "tendermint_rpc_endpoint": {
       "address": "https://rpc-strat-testnet-1.anvil.asia-southeast.initia.xyz",
       "provider": "Initia Labs",
-      "backoff_delay": 1000,
-      "basic_auth_required": true,
-      "index_for_skip": 0
+      "backoff_delay": 1000
     },
     "lcd_rest_endpoint": {
       "address": "https://rest-strat-testnet-1.anvil.asia-southeast.initia.xyz",
       "provider": "Initia Labs",
-      "backoff_delay": 1000,
-      "basic_auth_required": true,
-      "index_for_skip": 0
+      "backoff_delay": 1000
     },
     "cosmos_sdk_grpc_endpoint": {
       "address": "grpc-strat-testnet-1.anvil.asia-southeast.initia.xyz:443",
       "provider": "Initia Labs",
       "backoff_delay": 0,
-      "tls": true,
-      "basic_auth_required": true,
-      "index_for_skip": 0
+      "tls": true
     }
   }
 }
